@@ -1,0 +1,212 @@
+// 定义栅格系统的列数
+$grid-columns: 24;
+
+// 定义响应式断点
+$screen-xs: 480px;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1600px;
+
+.col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+}
+
+// 生成基础列样式
+@for $i from 1 through $grid-columns {
+    .span-#{$i} {
+        display: block;
+        flex: 0 0 percentage($i / $grid-columns);
+        max-width: percentage($i / $grid-columns);
+    }
+}
+
+// 生成列偏移样式
+@for $i from 1 through $grid-columns {
+    .offset-#{$i} {
+        margin-left: percentage($i / $grid-columns);
+    }
+}
+
+// 生成列排序样式
+@for $i from 1 through $grid-columns {
+    .order-#{$i} {
+        order: $i;
+    }
+}
+
+// 生成列推拉样式
+@for $i from 1 through $grid-columns {
+    .pull-#{$i} {
+        right: percentage($i / $grid-columns);
+    }
+
+    .push-#{$i} {
+        left: percentage($i / $grid-columns);
+    }
+}
+
+// 响应式样式 - xs
+@media (max-width: $screen-sm - 1px) {
+    @for $i from 1 through $grid-columns {
+        .xs-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .xs-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .xs-order-#{$i} {
+            order: $i;
+        }
+
+        .xs-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .xs-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}
+
+// 响应式样式 - sm
+@media (min-width: $screen-sm) {
+    @for $i from 1 through $grid-columns {
+        .sm-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .sm-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .sm-order-#{$i} {
+            order: $i;
+        }
+
+        .sm-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .sm-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}
+
+// 响应式样式 - md
+@media (min-width: $screen-md) {
+    @for $i from 1 through $grid-columns {
+        .md-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .md-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .md-order-#{$i} {
+            order: $i;
+        }
+
+        .md-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .md-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}
+
+// 响应式样式 - lg
+@media (min-width: $screen-lg) {
+    @for $i from 1 through $grid-columns {
+        .lg-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .lg-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .lg-order-#{$i} {
+            order: $i;
+        }
+
+        .lg-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .lg-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}
+
+// 响应式样式 - xl
+@media (min-width: $screen-xl) {
+    @for $i from 1 through $grid-columns {
+        .xl-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .xl-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .xl-order-#{$i} {
+            order: $i;
+        }
+
+        .xl-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .xl-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}
+
+// 响应式样式 - xxl
+@media (min-width: $screen-xxl) {
+    @for $i from 1 through $grid-columns {
+        .xxl-#{$i} {
+            display: block;
+            flex: 0 0 percentage($i / $grid-columns);
+            max-width: percentage($i / $grid-columns);
+        }
+
+        .xxl-offset-#{$i} {
+            margin-left: percentage($i / $grid-columns);
+        }
+
+        .xxl-order-#{$i} {
+            order: $i;
+        }
+
+        .xxl-pull-#{$i} {
+            right: percentage($i / $grid-columns);
+        }
+
+        .xxl-push-#{$i} {
+            left: percentage($i / $grid-columns);
+        }
+    }
+}

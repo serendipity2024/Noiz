@@ -1,0 +1,14 @@
+{
+  "EN": {
+    "label": {
+      "advertId": "Advert ID",
+      "advertPlayEnded": "Actions after ad play ended"
+    }
+  },
+  "ZH": {
+    "label": {
+      "advertId": "广告ID",
+      "advertPlayEnded": "广告播放结束后的操作"
+    }
+  }
+}

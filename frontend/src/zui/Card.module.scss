@@ -1,0 +1,195 @@
+.card {
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.bordered {
+    border: 1px solid #e8e8e8;
+}
+
+.hoverable {
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+        border-color: rgba(0, 0, 0, 0.09);
+    }
+}
+
+.small {
+    .head {
+        min-height: 36px;
+        padding: 0 12px;
+        font-size: 14px;
+    }
+
+    .body {
+        padding: 12px;
+    }
+}
+
+.head {
+    min-height: 48px;
+    margin-bottom: -1px;
+    padding: 0 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: inline-block;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.extra {
+    float: right;
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.body {
+    padding: 24px;
+}
+
+.cover {
+    img {
+        width: 100%;
+        border-radius: 4px 4px 0 0;
+    }
+}
+
+.actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fafafa;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+
+    &>li {
+        margin: 12px 0;
+        color: rgba(0, 0, 0, 0.45);
+        text-align: center;
+        flex: 1;
+
+        &:not(:last-child) {
+            border-right: 1px solid #e8e8e8;
+        }
+    }
+}
+
+.loading {
+
+    .head,
+    .body {
+        user-select: none;
+    }
+
+    .body {
+        padding: 0;
+    }
+}
+
+.loadingBlock {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+}
+
+.loadingContent {
+    width: 100%;
+}
+
+.loadingRow {
+    height: 16px;
+    margin: 12px 0;
+    background: linear-gradient(90deg, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));
+    animation: loadingAnimation 1.4s ease infinite;
+    background-size: 600% 600%;
+    border-radius: 2px;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.meta {
+    margin: -4px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    padding-right: 16px;
+}
+
+.metaDetail {
+    overflow: hidden;
+    flex: 1;
+}
+
+.metaTitle {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.metaDescription {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.grid {
+    width: 33.33%;
+    padding: 24px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 0 0 0 #e8e8e8, 0 1px 0 0 #e8e8e8, 1px 1px 0 0 #e8e8e8, 1px 0 0 0 #e8e8e8 inset, 0 1px 0 0 #e8e8e8 inset;
+    transition: all 0.3s;
+    float: left;
+    width: 33.33%;
+}
+
+.gridHoverable {
+    &:hover {
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+}

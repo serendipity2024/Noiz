@@ -1,0 +1,58 @@
+.empty {
+    margin: 0 8px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.image {
+    height: 100px;
+    margin-bottom: 8px;
+
+    img {
+        height: 100%;
+    }
+
+    svg {
+        height: 100%;
+        margin: auto;
+    }
+}
+
+.description {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.footer {
+    margin-top: 16px;
+}
+
+// 普通尺寸的空状态
+.normal {
+    margin: 32px 0;
+    color: rgba(0, 0, 0, 0.25);
+
+    .image {
+        height: 40px;
+    }
+}
+
+// 小尺寸的空状态
+.small {
+    margin: 8px 0;
+    color: rgba(0, 0, 0, 0.25);
+
+    .image {
+        height: 35px;
+    }
+}
+
+// 暗色主题
+.dark {
+    color: rgba(255, 255, 255, 0.65);
+
+    .description {
+        color: rgba(255, 255, 255, 0.45);
+    }
+}

@@ -1,0 +1,94 @@
+.divider {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    background: #e8e8e8;
+}
+
+// 垂直分割线
+.vertical {
+    position: relative;
+    top: -0.06em;
+    display: inline-block;
+    width: 1px;
+    height: 0.9em;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+// 水平分割线
+.horizontal {
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin: 24px 0;
+}
+
+// 带文字的水平分割线
+.withText {
+    display: table;
+    margin: 16px 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    text-align: center;
+    background: transparent;
+
+    &::before,
+    &::after {
+        position: relative;
+        top: 50%;
+        display: table-cell;
+        width: 50%;
+        border-top: 1px solid #e8e8e8;
+        transform: translateY(50%);
+        content: '';
+    }
+}
+
+// 文字居左的水平分割线
+.withTextLeft {
+    &::before {
+        width: 5%;
+    }
+
+    &::after {
+        width: 95%;
+    }
+}
+
+// 文字居右的水平分割线
+.withTextRight {
+    &::before {
+        width: 95%;
+    }
+
+    &::after {
+        width: 5%;
+    }
+}
+
+// 虚线样式
+.dashed {
+    background: none;
+    border-top: 1px dashed #e8e8e8;
+
+    &.vertical {
+        border-top: 0;
+        border-left: 1px dashed #e8e8e8;
+    }
+}
+
+// 分割线中的文字
+.innerText {
+    display: inline-block;
+    padding: 0 1em;
+}

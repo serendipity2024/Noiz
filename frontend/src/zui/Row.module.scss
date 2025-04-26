@@ -1,0 +1,62 @@
+.row {
+    display: block;
+    box-sizing: border-box;
+
+    &::before,
+    &::after {
+        display: table;
+        content: '';
+    }
+
+    &::after {
+        clear: both;
+    }
+}
+
+.rowFlex {
+    display: flex;
+    flex-flow: row wrap;
+
+    &::before,
+    &::after {
+        display: flex;
+    }
+}
+
+// 水平对齐方式
+.start {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+// 垂直对齐方式
+.top {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.stretch {
+    align-items: stretch;
+}

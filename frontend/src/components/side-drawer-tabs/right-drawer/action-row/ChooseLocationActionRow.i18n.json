@@ -1,0 +1,18 @@
+{
+  "EN": {
+    "label": {
+      "afterSelection": "After location is selected, assign the following:",
+      "assignGeoPoint": "Assign to GeoPoint field",
+      "assignAddress": "Assign to Address field",
+      "assignName": "Assign to Name field"
+    }
+  },
+  "ZH": {
+    "label": {
+      "afterSelection": "选址后，将以下内容赋值：",
+      "assignGeoPoint": "赋值到地理坐标字段",
+      "assignAddress": "赋值到地址字段",
+      "assignName": "赋值到名称字段"
+    }
+  }
+}

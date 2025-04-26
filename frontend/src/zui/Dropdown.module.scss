@@ -1,0 +1,119 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownWrap {
+    position: relative;
+
+    &.open {
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.dropdownContent {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    z-index: 1050;
+    display: block;
+    min-width: 120px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    &::before {
+        position: absolute;
+        top: -7px;
+        right: 0;
+        bottom: -7px;
+        left: -7px;
+        z-index: -9999;
+        opacity: 0.0001;
+        content: ' ';
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: -1;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        content: '';
+        transform: translateY(-50%) rotate(45deg);
+    }
+}
+
+// 下拉菜单位置
+.placementTopLeft {
+    .arrow {
+        bottom: -5px;
+        left: 16px;
+    }
+}
+
+.placementTopCenter {
+    .arrow {
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.placementTopRight {
+    .arrow {
+        bottom: -5px;
+        right: 16px;
+    }
+}
+
+.placementBottomLeft {
+    .arrow {
+        top: -5px;
+        left: 16px;
+    }
+}
+
+.placementBottomCenter {
+    .arrow {
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.placementBottomRight {
+    .arrow {
+        top: -5px;
+        right: 16px;
+    }
+}
+
+// 触发器
+.trigger {
+    cursor: pointer;
+}
+
+// 图标
+.icon {
+    margin-left: 4px;
+    font-size: 12px;
+    transition: transform 0.3s;
+}

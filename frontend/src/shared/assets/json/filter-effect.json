@@ -1,0 +1,76 @@
+{
+  "blur": {
+    "radius": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "brightness": {
+    "value": {
+      "type": "number",
+      "default": 1.2
+    }
+  },
+  "contrast": {
+    "value": {
+      "type": "number",
+      "default": 1.2
+    }
+  },
+  "grayscale": {
+    "value": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "hue-rotate": {
+    "value": {
+      "type": "number",
+      "default": 90
+    }
+  },
+  "invert": {
+    "value": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "opacity": {
+    "value": {
+      "type": "number",
+      "default": 0.8
+    }
+  },
+  "saturate": {
+    "value": {
+      "type": "number",
+      "default": 1.5
+    }
+  },
+  "sepia": {
+    "value": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "drop-shadow": [
+    {
+      "offsetX": {
+        "type": "number",
+        "default": 0
+      },
+      "offsetY": {
+        "type": "number",
+        "default": 2
+      },
+      "blur": {
+        "type": "number",
+        "default": 4
+      },
+      "color": {
+        "type": "string",
+        "default": "rgba(0, 0, 0, 0.5)"
+      }
+    }
+  ]
+}

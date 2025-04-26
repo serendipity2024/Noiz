@@ -1,0 +1,22 @@
+{
+  "EN": {
+    "title1": "Welcome to",
+    "title2a": "Your",
+    "title2Accent": "Invitation",
+    "title2b": "Code",
+    "title3": "NULL",
+    "buttonSubtitle": "Click to copy",
+    "url": "Go to homepage",
+    "footer": "Share this code with your team members"
+  },
+  "ZH": {
+    "title1": "欢迎来到",
+    "title2a": "您的",
+    "title2Accent": "邀请",
+    "title2b": "码",
+    "title3": "NULL",
+    "buttonSubtitle": "点击复制",
+    "url": "前往首页",
+    "footer": "将此邀请码分享给您的团队成员"
+  }
+}

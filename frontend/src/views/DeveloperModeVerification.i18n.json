@@ -1,0 +1,14 @@
+{
+  "EN": {
+    "title": "Developer Mode Verification",
+    "placeholder": "Enter developer password",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "ZH": {
+    "title": "开发者模式验证",
+    "placeholder": "请输入开发者密码",
+    "cancel": "取消",
+    "submit": "提交"
+  }
+}

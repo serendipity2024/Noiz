@@ -1,0 +1,24 @@
+{
+  "EN": {
+    "title": "Register",
+    "email": "Email",
+    "phone": "Phone",
+    "username": "Username",
+    "password": "Password",
+    "emailError": "Please input a valid email address",
+    "phoneError": "Please input a valid phone number",
+    "usernameError": "Please input your username",
+    "passwordError": "Please input your password"
+  },
+  "ZH": {
+    "title": "注册",
+    "email": "邮箱",
+    "phone": "手机",
+    "username": "用户名",
+    "password": "密码",
+    "emailError": "请输入有效的邮箱地址",
+    "phoneError": "请输入有效的手机号码",
+    "usernameError": "请输入用户名",
+    "passwordError": "请输入密码"
+  }
+}

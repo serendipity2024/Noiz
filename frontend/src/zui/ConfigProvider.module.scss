@@ -1,0 +1,28 @@
+// ConfigProvider 组件本身不需要太多样式
+// 这里主要是为了保持一致性，创建一个空的样式文件
+
+.configProvider {
+    // 全局样式变量可以在这里定义
+    // 但实际上 ConfigProvider 更多是通过 Context 传递配置
+}
+
+// 空状态组件的样式
+.empty {
+    margin: 0 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.emptyImage {
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.emptyDescription {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.emptyFooter {
+    margin-top: 16px;
+}

@@ -1,0 +1,10 @@
+{
+  "EN": {
+    "enterUsername": "Enter your username",
+    "login": "Login"
+  },
+  "ZH": {
+    "enterUsername": "请输入用户名",
+    "login": "登录"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "EN": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "usernameError": "Please input your username",
+    "passwordError": "Please input your password",
+    "wechatLogin": "Login with WeChat",
+    "noAccount": "Don't have an account? ",
+    "register": "Register now",
+    "forgetPassword": "Forgot your password? ",
+    "resetPassword": "Reset it"
+  },
+  "ZH": {
+    "title": "登录",
+    "username": "用户名",
+    "password": "密码",
+    "usernameError": "请输入用户名",
+    "passwordError": "请输入密码",
+    "wechatLogin": "使用微信登录",
+    "noAccount": "还没有账号？",
+    "register": "立即注册",
+    "forgetPassword": "忘记密码？",
+    "resetPassword": "重置密码"
+  }
+}

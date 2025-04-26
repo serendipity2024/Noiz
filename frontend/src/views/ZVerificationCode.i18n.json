@@ -1,0 +1,14 @@
+{
+  "EN": {
+    "verificationCode": "Verification Code",
+    "verificationCodeError": "Please input the verification code",
+    "getVerificationCode": "Get Code",
+    "tryAgain": "s try again"
+  },
+  "ZH": {
+    "verificationCode": "验证码",
+    "verificationCodeError": "请输入验证码",
+    "getVerificationCode": "获取验证码",
+    "tryAgain": "秒后重试"
+  }
+}

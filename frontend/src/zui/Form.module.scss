@@ -1,0 +1,173 @@
+.form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.form legend {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 16px;
+    line-height: inherit;
+    border: 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.form label {
+    font-size: 14px;
+}
+
+.formItem {
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+
+.formItemLabel {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 39.9999px;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.formItemLabelLeft {
+    text-align: left;
+}
+
+.formItemLabelRequired::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+}
+
+.formItemControl {
+    position: relative;
+    line-height: 39.9999px;
+}
+
+.formItemControlWrapper {
+    position: relative;
+}
+
+.formItemExplain {
+    clear: both;
+    min-height: 24px;
+    margin-top: -2px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.5;
+    transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.formItemExtra {
+    clear: both;
+    min-height: 24px;
+    margin-top: -2px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.5;
+    transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.formItemHasError .formItemExplain {
+    color: #f5222d;
+}
+
+.formItemHasWarning .formItemExplain {
+    color: #faad14;
+}
+
+.formItemFeedbackIcon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    visibility: visible;
+    animation: zoomIn 0.3s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+    pointer-events: none;
+}
+
+.formItemFeedbackIconSuccess {
+    color: #52c41a;
+}
+
+.formItemFeedbackIconValidating {
+    color: #1890ff;
+}
+
+.formItemFeedbackIconWarning {
+    color: #faad14;
+}
+
+.formItemFeedbackIconError {
+    color: #f5222d;
+}
+
+// 水平布局
+.horizontal .formItem {
+    display: flex;
+}
+
+.horizontal .formItemLabel {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+
+.horizontal .formItemControl {
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+
+// 垂直布局
+.vertical .formItemLabel {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+// 内联布局
+.inline .formItem {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 0;
+}
+
+.inline .formItemLabel {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.inline .formItemControl {
+    display: inline-block;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

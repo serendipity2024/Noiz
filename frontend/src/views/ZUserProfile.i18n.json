@@ -1,0 +1,60 @@
+{
+  "EN": {
+    "title": "Complete Your Profile",
+    "quesition": {
+      "industry": "What industry are you in?",
+      "ageRange": "What is your age range?"
+    },
+    "answers": {
+      "industry": {
+        "designer": "Designer",
+        "productManager": "Product Manager",
+        "entrepreneur": "Entrepreneur",
+        "engineer": "Engineer",
+        "others": "Others"
+      },
+      "ageRange": {
+        "bwlow_18": "Below 18",
+        "arg20_24": "20-24",
+        "arg25_34": "25-34",
+        "arg35_44": "35-44",
+        "above_45": "Above 45"
+      }
+    },
+    "inputPlaceholder": "Please specify your industry",
+    "next": "Next",
+    "previous": "Previous",
+    "later": "Later",
+    "feedbackTitle": "Profile Completed",
+    "complete": "Complete"
+  },
+  "ZH": {
+    "title": "完善个人资料",
+    "quesition": {
+      "industry": "您从事什么行业？",
+      "ageRange": "您的年龄范围是？"
+    },
+    "answers": {
+      "industry": {
+        "designer": "设计师",
+        "productManager": "产品经理",
+        "entrepreneur": "创业者",
+        "engineer": "工程师",
+        "others": "其他"
+      },
+      "ageRange": {
+        "bwlow_18": "18岁以下",
+        "arg20_24": "20-24岁",
+        "arg25_34": "25-34岁",
+        "arg35_44": "35-44岁",
+        "above_45": "45岁以上"
+      }
+    },
+    "inputPlaceholder": "请指定您的行业",
+    "next": "下一步",
+    "previous": "上一步",
+    "later": "稍后",
+    "feedbackTitle": "资料完善完成",
+    "complete": "完成"
+  }
+}

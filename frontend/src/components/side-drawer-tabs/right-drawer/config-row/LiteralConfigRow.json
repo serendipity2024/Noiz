@@ -1,0 +1,16 @@
+{
+  "EN": {
+    "type": {
+      "integer": "Integer",
+      "text": "Text",
+      "richText": "Rich Text"
+    }
+  },
+  "ZH": {
+    "type": {
+      "integer": "整数",
+      "text": "文本",
+      "richText": "富文本"
+    }
+  }
+}

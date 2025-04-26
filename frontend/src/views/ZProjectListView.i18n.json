@@ -1,0 +1,36 @@
+{
+  "EN": {
+    "pageTitle": "Projects",
+    "createNewProject": "Create New Project",
+    "projectName": "Project Name",
+    "projectOwner": "Project Owner",
+    "role": "Role",
+    "lastSavedAt": "Last Saved At",
+    "collaboratorType": {
+      "owner": "Owner",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "time": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    }
+  },
+  "ZH": {
+    "pageTitle": "项目列表",
+    "createNewProject": "创建新项目",
+    "projectName": "项目名称",
+    "projectOwner": "项目所有者",
+    "role": "角色",
+    "lastSavedAt": "最后保存时间",
+    "collaboratorType": {
+      "owner": "所有者",
+      "editor": "编辑者",
+      "viewer": "查看者"
+    },
+    "time": {
+      "today": "今天",
+      "yesterday": "昨天"
+    }
+  }
+}
