@@ -1,0 +1,9 @@
+.container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+
+    >*+* {
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "en": {
+    "column": "Column",
+    "permission": "Permission",
+    "row": "Row"
+  },
+  "zh": {
+    "column": "列",
+    "permission": "权限",
+    "row": "行"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "en": {
+    "addColumn": "Add Column",
+    "editColumn": "Edit Column",
+    "name": "Name",
+    "type": "Type",
+    "required": "Required",
+    "unique": "Unique"
+  },
+  "zh": {
+    "addColumn": "添加列",
+    "editColumn": "编辑列",
+    "name": "名称",
+    "type": "类型",
+    "required": "必填",
+    "unique": "唯一"
+  }
+}

@@ -1,0 +1,51 @@
+.container {
+    display: block;
+    isolation: isolate;
+    height: 36px;
+
+    >input {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 36px;
+        background-color: #202020;
+        color: #f8f8f8;
+        padding: 0 4px 0 12px;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        height: 100%;
+        width: 100%;
+        display: block;
+        transition: border-color 0.2s;
+    }
+
+    ::-webkit-input-placeholder,
+    :-ms-input-placeholder,
+    ::placeholder {
+        color: #8f8f8f;
+    }
+
+    :focus {
+        border: 1px solid #ffa522;
+    }
+
+    &.sizeLarge {
+        height: 48px;
+
+        input {
+            font-size: 16px;
+            line-height: 48px;
+        }
+    }
+
+    &.lightBackground {
+        background-color: #333;
+    }
+
+    &.disabled input {
+        cursor: not-allowed;
+    }
+
+    &.bordered>input {
+        border: 1px solid #ffa522;
+    }
+}

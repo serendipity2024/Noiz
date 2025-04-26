@@ -1,0 +1,14 @@
+{
+  "en": {
+    "title": "Project Templates",
+    "detail": "View Details",
+    "cancel": "Cancel",
+    "useBlank": "Use Blank Template"
+  },
+  "zh": {
+    "title": "项目模板",
+    "detail": "查看详情",
+    "cancel": "取消",
+    "useBlank": "使用空白模板"
+  }
+}

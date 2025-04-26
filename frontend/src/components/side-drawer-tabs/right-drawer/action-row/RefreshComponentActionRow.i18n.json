@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "add": "Add Component to Refresh"
+    },
+    "placeholder": "Select Component"
+  },
+  "zh": {
+    "label": {
+      "add": "添加要刷新的组件"
+    },
+    "placeholder": "选择组件"
+  }
+}

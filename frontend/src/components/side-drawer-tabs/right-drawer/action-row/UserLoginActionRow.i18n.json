@@ -1,0 +1,44 @@
+{
+  "en": {
+    "label": {
+      "idType": "Identity Type",
+      "credentialType": "Credential Type",
+      "createAccountOnLogin": "Create Account If Not Exists"
+    },
+    "id": {
+      "email": "Email",
+      "phone": "Phone Number",
+      "username": "Username"
+    },
+    "credential": {
+      "password": "Password",
+      "verificationCode": "Verification Code"
+    },
+    "action": {
+      "LOGIN": "Login",
+      "WECHAT_LOGIN": "WeChat Login",
+      "WECHAT_PHONE_NUMBER_LOGIN": "WeChat Phone Login"
+    }
+  },
+  "zh": {
+    "label": {
+      "idType": "身份类型",
+      "credentialType": "凭证类型",
+      "createAccountOnLogin": "账号不存在时自动创建"
+    },
+    "id": {
+      "email": "邮箱",
+      "phone": "手机号",
+      "username": "用户名"
+    },
+    "credential": {
+      "password": "密码",
+      "verificationCode": "验证码"
+    },
+    "action": {
+      "LOGIN": "登录",
+      "WECHAT_LOGIN": "微信登录",
+      "WECHAT_PHONE_NUMBER_LOGIN": "微信手机号登录"
+    }
+  }
+}

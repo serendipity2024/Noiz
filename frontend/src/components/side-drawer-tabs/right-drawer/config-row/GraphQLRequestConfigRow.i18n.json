@@ -1,0 +1,34 @@
+{
+  "en": {
+    "label": {
+      "requestType": "Request Type",
+      "role": "Role",
+      "distanceFrom": "Distance From",
+      "onRequestStatusChange": "On Request Status Change"
+    },
+    "request": {
+      "query": "Query",
+      "subscription": "Subscription"
+    },
+    "role": {
+      "user": "User",
+      "self": "Self"
+    }
+  },
+  "zh": {
+    "label": {
+      "requestType": "请求类型",
+      "role": "角色",
+      "distanceFrom": "距离计算起点",
+      "onRequestStatusChange": "请求状态变更时"
+    },
+    "request": {
+      "query": "查询",
+      "subscription": "订阅"
+    },
+    "role": {
+      "user": "用户",
+      "self": "自身"
+    }
+  }
+}

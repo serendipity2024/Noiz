@@ -1,0 +1,20 @@
+{
+  "en": {
+    "account": "Account",
+    "password": "Password",
+    "goToNewMc": "Go to New MC",
+    "goToOldMc": "Go to Old MC",
+    "title": "Management Console",
+    "dataModel": "Data Model",
+    "tabs": "Tabs"
+  },
+  "zh": {
+    "account": "账号",
+    "password": "密码",
+    "goToNewMc": "前往新版管理控制台",
+    "goToOldMc": "前往旧版管理控制台",
+    "title": "管理控制台",
+    "dataModel": "数据模型",
+    "tabs": "标签页"
+  }
+}

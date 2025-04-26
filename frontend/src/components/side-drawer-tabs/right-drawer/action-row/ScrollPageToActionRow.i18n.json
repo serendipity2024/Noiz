@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "mode": "Scroll Mode",
+      "target": "Target Component"
+    },
+    "mode": {
+      "TOP": "Scroll to Top",
+      "COMPONENT": "Scroll to Component"
+    },
+    "placeholder": "Select a component"
+  },
+  "zh": {
+    "label": {
+      "mode": "滚动模式",
+      "target": "目标组件"
+    },
+    "mode": {
+      "TOP": "滚动到顶部",
+      "COMPONENT": "滚动到组件"
+    },
+    "placeholder": "选择组件"
+  }
+}

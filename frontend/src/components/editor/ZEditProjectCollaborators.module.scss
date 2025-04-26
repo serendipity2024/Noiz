@@ -1,0 +1,77 @@
+.editTableContainer {
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #202020;
+    padding: 0 32px;
+
+    .ant-col {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+}
+
+.modalContainer {
+    .ant-modal-confirm-content {
+        display: grid;
+    }
+
+    .ant-modal-body,
+    .ant-modal-content {
+        border: hidden;
+        border-radius: 10px;
+    }
+
+    .ant-btn {
+        height: 36px;
+        background-color: transparent;
+        border: 1px solid #ffa522;
+        border-radius: 6px;
+    }
+
+    :globalhover {
+        background-color: transparent;
+        border: hidden;
+    }
+
+    .ant-btn.ant-btn-primary {
+        background-color: #ffa522;
+    }
+
+    :globalhover {
+        border: 1px solid #ffa522;
+        border-radius: 6px;
+        background-color: #ffa522;
+    }
+
+    span {
+        color: #fff;
+    }
+}
+
+.editHeader {
+    height: 56px;
+    color: #8f8f8f;
+}
+
+.deleteIcon {
+    font-size: 150%;
+
+    :hover {
+        color: #ffa522;
+        transition: color 0.3s;
+    }
+}
+
+.editRow {
+    border-bottom: 1px solid #555;
+    height: 84px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.title__1n6S1 {
+    color: #fff;
+}

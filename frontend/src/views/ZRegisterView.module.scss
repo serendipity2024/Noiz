@@ -1,0 +1,21 @@
+.ZRegisterView .ant-form-item-has-error {
+    .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+        border: none;
+    }
+
+    .ant-input {
+        background-color: transparent;
+    }
+
+    .ant-input-affix-wrapper {
+        background-color: transparent;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .ant-input:hover {
+        background-color: transparent;
+    }
+}

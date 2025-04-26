@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "image": "Source Image",
+      "assignTo": "Save Bitmap To"
+    },
+    "placeholder": {
+      "image": "Select image source...",
+      "assignTo": "Select target bitmap variable..."
+    }
+  },
+  "zh": {
+    "label": {
+      "image": "源图片",
+      "assignTo": "保存位图至"
+    },
+    "placeholder": {
+      "image": "选择图片源...",
+      "assignTo": "选择目标位图变量..."
+    }
+  }
+}

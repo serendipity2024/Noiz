@@ -1,0 +1,65 @@
+.container {
+    background-color: #202020;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.relationMetadata {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+
+.relationContanier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.relationInfo {
+    display: flex;
+}
+
+.relationIcon {
+    width: 12px;
+    margin-right: 20px;
+}
+
+.relationContent {
+    overflow: hidden;
+}
+
+.relationTitle {
+    font-size: 12px;
+    color: #f8f8f8;
+    margin-right: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.relationTable {
+    font-size: 12px;
+    color: #8f8f8f;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.deleteIcon {
+    margin-left: 16px;
+    width: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "focus": {
+      "title": "Focus Mode",
+      "subtitle": "Press ESC to exit"
+    }
+  },
+  "zh": {
+    "focus": {
+      "title": "聚焦模式",
+      "subtitle": "按 ESC 退出"
+    }
+  }
+}

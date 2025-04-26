@@ -1,0 +1,20 @@
+{
+  "en": {
+    "label": {
+      "source": "Image Source"
+    },
+    "source": {
+      "upload": "Upload Image",
+      "image": "Image Data"
+    }
+  },
+  "zh": {
+    "label": {
+      "source": "图片来源"
+    },
+    "source": {
+      "upload": "上传图片",
+      "image": "图片数据"
+    }
+  }
+}

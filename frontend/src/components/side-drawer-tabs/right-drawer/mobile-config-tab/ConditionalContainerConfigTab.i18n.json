@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "cases": "Cases",
+      "addNewCase": "Add New Case",
+      "rerun": "Rerun Condition On Update"
+    },
+    "placeholder": {
+      "case": "Enter case name"
+    }
+  },
+  "zh": {
+    "label": {
+      "cases": "条件分支",
+      "addNewCase": "添加新分支",
+      "rerun": "更新时重新运行条件"
+    },
+    "placeholder": {
+      "case": "输入分支名称"
+    }
+  }
+}

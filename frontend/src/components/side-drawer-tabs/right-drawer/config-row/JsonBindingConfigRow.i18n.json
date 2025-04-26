@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "noData": "No Data",
+      "addData": "Add Data"
+    },
+    "parameter": {
+      "name": "Name",
+      "type": "Type",
+      "value": "Value"
+    }
+  },
+  "zh": {
+    "label": {
+      "noData": "暂无数据",
+      "addData": "添加数据"
+    },
+    "parameter": {
+      "name": "名称",
+      "type": "类型",
+      "value": "值"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+.input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 32px;
+}
+
+.inputControl {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.inputControl:hover {
+  border-color: #40a9ff;
+}
+
+.inputControl:focus {
+  border-color: #40a9ff;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.inputControlDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.inputControlDisabled:hover {
+  border-color: #d9d9d9;
+}
+
+.inputAffix {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.inputPrefix {
+  margin-right: 4px;
+}
+
+.inputSuffix {
+  margin-left: 4px;
+}
+
+.inputClear {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: 4px;
+}
+
+.inputClear:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.inputGroup {
+  position: relative;
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.inputGroupAddon {
+  position: relative;
+  padding: 0 11px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s;
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.inputGroupAddonBefore {
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.inputGroupAddonAfter {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.inputWithAddonBefore {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.inputWithAddonAfter {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.inputLarge {
+  padding: 6px 11px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.inputSmall {
+  padding: 1px 7px;
+  height: 24px;
+}
+
+.inputTextarea {
+  max-width: 100%;
+  height: auto;
+  min-height: 32px;
+  line-height: 1.5;
+  vertical-align: bottom;
+  transition: all 0.3s, height 0s;
+  resize: vertical;
+}
+
+.inputSearch {
+  padding-right: 28px;
+}
+
+.inputSearchButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.inputSearchButton:hover {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.inputPassword {
+  padding-right: 28px;
+}
+
+.inputPasswordIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.inputPasswordIcon:hover {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+// Dark theme
+.dark {
+  .inputControl {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #141414;
+    border-color: #434343;
+  }
+
+  .inputControl:hover {
+    border-color: #ffa522;
+  }
+
+  .inputControl:focus {
+    border-color: #ffa522;
+    box-shadow: 0 0 0 2px rgba(255, 165, 34, 0.2);
+  }
+
+  .inputControlDisabled {
+    color: rgba(255, 255, 255, 0.25);
+    background-color: #303030;
+    border-color: #434343;
+  }
+
+  .inputControlDisabled:hover {
+    border-color: #434343;
+  }
+
+  .inputClear {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .inputClear:hover {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .inputGroupAddon {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #1f1f1f;
+    border-color: #434343;
+  }
+
+  .inputSearchButton {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .inputSearchButton:hover {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .inputPasswordIcon {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .inputPasswordIcon:hover {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}

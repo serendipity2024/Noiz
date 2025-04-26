@@ -1,0 +1,30 @@
+{
+  "tableMetadata": [
+    {
+      "name": "fz_audit_record",
+      "columnMetadata": [
+        {
+          "name": "id",
+          "type": "BIGINT"
+        },
+        {
+          "name": "query_string",
+          "type": "TEXT"
+        },
+        {
+          "name": "variables",
+          "type": "JSONB"
+        },
+        {
+          "name": "account_id",
+          "type": "BIGINT"
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMP"
+        }
+      ]
+    }
+  ],
+  "relationMetadata": []
+}

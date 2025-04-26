@@ -1,0 +1,16 @@
+{
+  "en": {
+    "title": "WeChat Domain Whitelist",
+    "label": {
+      "url": "WeChat Official Account",
+      "addDomain": "Add Domain"
+    }
+  },
+  "zh": {
+    "title": "微信域名白名单",
+    "label": {
+      "url": "微信公众号",
+      "addDomain": "添加域名"
+    }
+  }
+}

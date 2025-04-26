@@ -1,0 +1,28 @@
+{
+  "en": {
+    "username": "Username",
+    "role": "Role",
+    "roleType": {
+      "OWNER": "Owner",
+      "EDITOR": "Editor",
+      "VIEWER": "Viewer"
+    },
+    "action": {
+      "deleteTextFirst": "Are you sure you want to remove ",
+      "deleteTextSecond": " from this project?"
+    }
+  },
+  "zh": {
+    "username": "用户名",
+    "role": "角色",
+    "roleType": {
+      "OWNER": "所有者",
+      "EDITOR": "编辑者",
+      "VIEWER": "查看者"
+    },
+    "action": {
+      "deleteTextFirst": "确定要移除 ",
+      "deleteTextSecond": " 吗？"
+    }
+  }
+}

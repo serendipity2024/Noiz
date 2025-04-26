@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "itemBackgroundColor": "Item Background Color",
+      "previewImageCount": "Preview Image Count",
+      "maxImageCount": "Max Image Count",
+      "horizontalPadding": "Horizontal Padding",
+      "verticalPadding": "Vertical Padding",
+      "itemBorderRadius": "Item Border Radius",
+      "imageList": "Image List",
+      "itemClickActions": "Item Click Actions",
+      "defaultImageList": "Default Image List",
+      "uploadLoadingEnabled": "Upload Loading Enabled"
+    }
+  },
+  "zh": {
+    "label": {
+      "itemBackgroundColor": "项目背景颜色",
+      "previewImageCount": "预览图片数量",
+      "maxImageCount": "最大图片数量",
+      "horizontalPadding": "水平间距",
+      "verticalPadding": "垂直间距",
+      "itemBorderRadius": "项目圆角",
+      "imageList": "图片列表",
+      "itemClickActions": "项目点击事件",
+      "defaultImageList": "默认图片列表",
+      "uploadLoadingEnabled": "启用上传加载"
+    }
+  }
+}

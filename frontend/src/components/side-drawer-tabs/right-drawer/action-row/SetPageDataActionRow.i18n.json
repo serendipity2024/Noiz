@@ -1,0 +1,36 @@
+{
+  "en": {
+    "label": {
+      "target": "Target Variable",
+      "action": "Action",
+      "value": "Value",
+      "unique": "Unique"
+    },
+    "placeholder": {
+      "target": "Select target variable",
+      "action": "Select action type"
+    },
+    "action": {
+      "ASSIGN": "Assign",
+      "APPEND": "Append",
+      "REMOVE": "Remove"
+    }
+  },
+  "zh": {
+    "label": {
+      "target": "目标变量",
+      "action": "操作",
+      "value": "值",
+      "unique": "唯一"
+    },
+    "placeholder": {
+      "target": "选择目标变量",
+      "action": "选择操作类型"
+    },
+    "action": {
+      "ASSIGN": "赋值",
+      "APPEND": "追加",
+      "REMOVE": "移除"
+    }
+  }
+}

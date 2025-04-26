@@ -1,0 +1,18 @@
+{
+  "en": {
+    "label": {
+      "title": "Toast Content"
+    },
+    "placeholder": {
+      "title": "Enter toast content..."
+    }
+  },
+  "zh": {
+    "label": {
+      "title": "提示内容"
+    },
+    "placeholder": {
+      "title": "请输入提示内容..."
+    }
+  }
+}

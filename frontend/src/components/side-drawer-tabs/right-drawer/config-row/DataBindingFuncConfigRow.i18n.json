@@ -1,0 +1,54 @@
+{
+  "en": {
+    "operation": {
+      "addVerification": "Add Verification",
+      "delete": "Delete",
+      "switch": "Switch to Array Element Mapping"
+    },
+    "modal": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "inputCondition": "Input Condition",
+      "conditionRegex": "Regular Expression",
+      "errorMessage": "Error Message",
+      "placeholder": "Please input...",
+      "noPrompt": "No verification conditions",
+      "condition": {
+        "REGEX": "Regular Expression",
+        "REQUIRED": "Required",
+        "EMAIL": "Email Format",
+        "URL": "URL Format",
+        "PHONE": "Phone Number Format",
+        "NUMBER": "Number Format",
+        "INTEGER": "Integer Format",
+        "DECIMAL": "Decimal Format"
+      }
+    }
+  },
+  "zh": {
+    "operation": {
+      "addVerification": "添加验证",
+      "delete": "删除",
+      "switch": "切换到数组元素映射"
+    },
+    "modal": {
+      "ok": "确定",
+      "cancel": "取消",
+      "inputCondition": "输入条件",
+      "conditionRegex": "正则表达式",
+      "errorMessage": "错误信息",
+      "placeholder": "请输入...",
+      "noPrompt": "暂无验证条件",
+      "condition": {
+        "REGEX": "正则表达式",
+        "REQUIRED": "必填",
+        "EMAIL": "邮箱格式",
+        "URL": "网址格式",
+        "PHONE": "手机号格式",
+        "NUMBER": "数字格式",
+        "INTEGER": "整数格式",
+        "DECIMAL": "小数格式"
+      }
+    }
+  }
+}

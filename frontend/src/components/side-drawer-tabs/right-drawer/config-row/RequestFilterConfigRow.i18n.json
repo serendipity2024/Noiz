@@ -1,0 +1,28 @@
+{
+  "en": {
+    "label": {
+      "filterType": "Filter Type",
+      "filter": "Filter",
+      "noFilter": "No Filter",
+      "and": "AND",
+      "or": "OR",
+      "not": "NOT"
+    },
+    "message": {
+      "alwaysTrue": "Always True"
+    }
+  },
+  "zh": {
+    "label": {
+      "filterType": "过滤类型",
+      "filter": "过滤条件",
+      "noFilter": "暂无过滤条件",
+      "and": "与",
+      "or": "或",
+      "not": "非"
+    },
+    "message": {
+      "alwaysTrue": "始终为真"
+    }
+  }
+}

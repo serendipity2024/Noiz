@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "sortField": "Sort Field",
+      "sortType": "Sort Type",
+      "none": "None"
+    },
+    "placeholder": {
+      "selectSortType": "Please select sort type..."
+    },
+    "sort": {
+      "ASCENDING": "Ascending",
+      "DESCENDING": "Descending"
+    }
+  },
+  "zh": {
+    "label": {
+      "sortField": "排序字段",
+      "sortType": "排序方式",
+      "none": "无"
+    },
+    "placeholder": {
+      "selectSortType": "请选择排序方式..."
+    },
+    "sort": {
+      "ASCENDING": "升序",
+      "DESCENDING": "降序"
+    }
+  }
+}

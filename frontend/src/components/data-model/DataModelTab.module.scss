@@ -1,0 +1,145 @@
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    left: 116px;
+    right: 116px;
+    top: 96px;
+    bottom: 96px;
+    border-radius: 6px;
+    padding: 40px;
+
+    .ant-list-item {
+        padding: 0;
+    }
+
+    .title {
+        color: #ffa522;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        display: flex;
+        flex: 1 1;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .configContainer {
+            margin-left: 20px;
+            background-color: #202020;
+            border-radius: 6px;
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .tableList {
+                width: 230px;
+                display: flex;
+                flex-direction: column;
+                margin-right: 20px;
+                border-radius: 6px;
+
+                .header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    .dataSetting {
+                        color: #ffa522;
+                        font-size: 16px;
+                    }
+
+                    .addModel {
+                        width: 80px;
+                        height: 28px;
+                        border-radius: 4px;
+                        background-color: #ffa522;
+                        color: #f8f8f8;
+                        font-size: 12px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                .objectButtonList {
+                    flex: 1 1;
+                    width: 100%;
+                    overflow: scroll;
+                }
+
+                .objectButton {
+                    width: 100%;
+                    height: 36px;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: all .3s;
+                    padding: 0 10px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .selectedObjectButton {
+                    height: 36px;
+                    background: rgba(255, 165, 34, 0.2);
+                    border-color: #ffa522;
+                }
+
+                .buttonContent {
+                    color: #f8f8f8;
+                    font-size: 10px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+
+                .moreIcon {
+                    color: #ffa522;
+                    font-size: 16px;
+                }
+            }
+
+            .tableDetail {
+                width: 280px;
+                background-color: #333;
+                border-radius: 6px;
+                padding: 20px 10px;
+                overflow: scroll;
+
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 10px 0;
+                }
+
+                .detailTitle {
+                    font-size: 10px;
+                    color: #666;
+                }
+
+                .detailAddIcon {
+                    background-color: #ffa522;
+                    color: #f8f8f8;
+                    border-radius: 4px;
+                    width: 16px;
+                    height: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

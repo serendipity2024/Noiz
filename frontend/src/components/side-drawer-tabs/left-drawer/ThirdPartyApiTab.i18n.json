@@ -1,0 +1,26 @@
+{
+  "en": {
+    "thirdPartyApi": "Third Party API",
+    "addConfig": "Add Configuration",
+    "debug": "Debug",
+    "description": "Description",
+    "inputDescription": "Enter description",
+    "input": "Input",
+    "output": "Output",
+    "successTab": "Success",
+    "temporaryFailureTab": "Temporary Failure",
+    "permanentFailureTab": "Permanent Failure"
+  },
+  "zh": {
+    "thirdPartyApi": "第三方 API",
+    "addConfig": "添加配置",
+    "debug": "调试",
+    "description": "描述",
+    "inputDescription": "请输入描述",
+    "input": "输入",
+    "output": "输出",
+    "successTab": "成功",
+    "temporaryFailureTab": "临时失败",
+    "permanentFailureTab": "永久失败"
+  }
+}

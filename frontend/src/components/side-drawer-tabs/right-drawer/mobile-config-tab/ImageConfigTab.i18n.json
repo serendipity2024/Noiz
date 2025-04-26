@@ -1,0 +1,36 @@
+{
+  "en": {
+    "label": {
+      "imageCropping": "Image Cropping"
+    },
+    "cropping": {
+      "NONE": "None",
+      "CENTER": "Center",
+      "TOP": "Top",
+      "BOTTOM": "Bottom",
+      "LEFT": "Left",
+      "RIGHT": "Right",
+      "TOP_LEFT": "Top Left",
+      "TOP_RIGHT": "Top Right",
+      "BOTTOM_LEFT": "Bottom Left",
+      "BOTTOM_RIGHT": "Bottom Right"
+    }
+  },
+  "zh": {
+    "label": {
+      "imageCropping": "图片裁剪"
+    },
+    "cropping": {
+      "NONE": "无",
+      "CENTER": "居中",
+      "TOP": "顶部",
+      "BOTTOM": "底部",
+      "LEFT": "左侧",
+      "RIGHT": "右侧",
+      "TOP_LEFT": "左上",
+      "TOP_RIGHT": "右上",
+      "BOTTOM_LEFT": "左下",
+      "BOTTOM_RIGHT": "右下"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "target": "Target Video"
+    },
+    "placeholder": "Select video component..."
+  },
+  "zh": {
+    "label": {
+      "target": "目标视频"
+    },
+    "placeholder": "选择视频组件..."
+  }
+}

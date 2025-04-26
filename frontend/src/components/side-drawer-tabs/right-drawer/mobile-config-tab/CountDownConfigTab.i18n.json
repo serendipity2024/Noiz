@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "prefix": "Prefix",
+      "suffix": "Suffix",
+      "startTime": "Start Time",
+      "onTimeUp": "On Time Up",
+      "eventListeners": "Event Listeners",
+      "millisUntilExpiry": "Millis Until Expiry",
+      "actions": "Actions",
+      "addEventListener": "Add Event Listener"
+    }
+  },
+  "zh": {
+    "label": {
+      "prefix": "前缀",
+      "suffix": "后缀",
+      "startTime": "开始时间",
+      "onTimeUp": "时间到时",
+      "eventListeners": "事件监听器",
+      "millisUntilExpiry": "到期时间(毫秒)",
+      "actions": "动作",
+      "addEventListener": "添加事件监听器"
+    }
+  }
+}

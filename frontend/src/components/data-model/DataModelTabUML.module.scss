@@ -1,0 +1,148 @@
+.lineEnter {
+    opacity: 0;
+}
+
+.lineEnterActive {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.line {
+    position: absolute;
+    height: 0;
+    border: 1px solid #ffa522;
+    border-bottom: none;
+
+    .start {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 11px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-transform: translate3d(0, 50%, 0);
+        transform: translate3d(0, 50%, 0);
+    }
+
+    .end {
+        content: "";
+        display: block;
+        width: 11px;
+        height: 11px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    .relationsBox {
+        position: absolute;
+        display: block;
+        top: 0;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        border: 1px solid #ffa522;
+        border-radius: 20px;
+        left: 50%;
+        background: #202020;
+
+        .text {
+            color: #f8f8f8;
+            font-size: 12px;
+            padding: 0 6px;
+            height: 12px;
+            border-right: 1px solid #8f8f8f;
+
+            &:last-of-type {
+                border-right: none;
+            }
+        }
+    }
+
+    &.isReverse {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+
+        .relationsBox {
+            -webkit-transform: translate3d(-50%, -50%, 0) scaleX(-1);
+            transform: translate3d(-50%, -50%, 0) scaleX(-1);
+        }
+    }
+
+    &.isTop {
+        .start {
+            -webkit-transform: translate3d(0, 5.5px, 0) rotate(-90deg);
+            transform: translate3d(0, 5.5px, 0) rotate(-90deg);
+            -webkit-transform-origin: left;
+            transform-origin: left;
+        }
+
+        .end {
+            -webkit-transform: translate3d(6px, 0, 0) rotate(90deg);
+            transform: translate3d(6px, 0, 0) rotate(90deg);
+        }
+    }
+}
+
+.table {
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #333;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+    transition: border-color .2s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, border-color .2s ease-in-out;
+    transition: transform 0.3s ease-in-out, border-color 0.2s ease-in-out, -webkit-transform 0.3s ease-in-out;
+
+    &.isSelected {
+        border-color: #ffa522;
+
+        .tableName {
+            color: #ffa522;
+        }
+    }
+
+    .tableName {
+        font-size: 14px;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #f8f8f8;
+    }
+}
+
+.stage {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    position: relative;
+}
+
+.tableContianer {
+    display: flex;
+    align-items: flex-start;
+    min-height: 100%;
+}
+
+.umlContainer {
+    flex: 1 1;
+    background-color: #202020;
+    border-radius: 6px;
+    white-space: nowrap;
+    position: relative;
+    overflow: scroll;
+    display: flex;
+    align-items: flex-start;
+
+    .react-transform-component {
+        height: 100%;
+        width: 100%;
+    }
+}

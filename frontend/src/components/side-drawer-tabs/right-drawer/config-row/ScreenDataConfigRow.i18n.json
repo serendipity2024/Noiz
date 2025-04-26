@@ -1,0 +1,40 @@
+{
+  "en": {
+    "label": {
+      "components": "Components",
+      "share": "Share",
+      "lifeCycle": "Life Cycle",
+      "pageData": "Page Data",
+      "linkedData": "Linked Data",
+      "remoteData": "Remote Data",
+      "customData": "Custom Data"
+    },
+    "share": {
+      "enableSharing": "Enable Sharing",
+      "title": "Share Title"
+    },
+    "lifeCycle": {
+      "didLoad": "Page Did Load",
+      "dealloc": "Page Dealloc"
+    }
+  },
+  "zh": {
+    "label": {
+      "components": "组件",
+      "share": "分享",
+      "lifeCycle": "生命周期",
+      "pageData": "页面数据",
+      "linkedData": "关联数据",
+      "remoteData": "远程数据",
+      "customData": "自定义数据"
+    },
+    "share": {
+      "enableSharing": "启用分享",
+      "title": "分享标题"
+    },
+    "lifeCycle": {
+      "didLoad": "页面加载完成",
+      "dealloc": "页面销毁"
+    }
+  }
+}

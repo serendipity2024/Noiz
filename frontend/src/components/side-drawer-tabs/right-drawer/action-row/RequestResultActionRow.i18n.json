@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "success": "Success Actions",
+      "failure": "Failure Actions"
+    }
+  },
+  "zh": {
+    "label": {
+      "success": "成功动作",
+      "failure": "失败动作"
+    }
+  }
+}

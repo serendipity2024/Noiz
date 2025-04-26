@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "source": "Source",
+      "upload": "Upload",
+      "file": "File"
+    },
+    "source": {
+      "upload": "Upload File",
+      "file": "Select File"
+    }
+  },
+  "zh": {
+    "label": {
+      "source": "来源",
+      "upload": "上传",
+      "file": "文件"
+    },
+    "source": {
+      "upload": "上传文件",
+      "file": "选择文件"
+    }
+  }
+}

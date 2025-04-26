@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "pathComponent": "Path Component",
+      "index": "Index"
+    },
+    "placeholder": "Select Component"
+  },
+  "zh": {
+    "label": {
+      "pathComponent": "路径组件",
+      "index": "索引"
+    },
+    "placeholder": "选择组件"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "en": {
+    "label": {
+      "columnNumber": "Column Number",
+      "horizontalPadding": "Horizontal Padding",
+      "verticalPadding": "Vertical Padding",
+      "cellWidth": "Cell Width",
+      "cellHeight": "Cell Height",
+      "list": {
+        "pullDownRefreshEnabled": "Pull Down Refresh",
+        "loadMoreEnabled": "Load More",
+        "pageSize": "Page Size",
+        "list": "List"
+      }
+    }
+  },
+  "zh": {
+    "label": {
+      "columnNumber": "列数",
+      "horizontalPadding": "水平间距",
+      "verticalPadding": "垂直间距",
+      "cellWidth": "单元格宽度",
+      "cellHeight": "单元格高度",
+      "list": {
+        "pullDownRefreshEnabled": "下拉刷新",
+        "loadMoreEnabled": "加载更多",
+        "pageSize": "每页数量",
+        "list": "列表"
+      }
+    }
+  }
+}

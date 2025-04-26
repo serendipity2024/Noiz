@@ -1,0 +1,56 @@
+{
+  "en": {
+    "title": "Publish Progress",
+    "subtitle": {
+      "default": "Waiting to start",
+      "progressing": "Processing...",
+      "wechatSuccess": "Preview QR code generated successfully",
+      "webSuccess": "Preview URL generated successfully",
+      "failed": "Failed to generate preview"
+    },
+    "steps": {
+      "pending": "Pending",
+      "generating": "Generating",
+      "packaging": "Packaging",
+      "ready": "Ready",
+      "unknown": "Unknown"
+    },
+    "label": {
+      "error": "Error Log",
+      "remindWechat": "Please configure WeChat Mini Program first"
+    },
+    "button": {
+      "preview": "Preview",
+      "retry": "Retry",
+      "history": "History",
+      "copy": "Copy"
+    }
+  },
+  "zh": {
+    "title": "发布进度",
+    "subtitle": {
+      "default": "等待开始",
+      "progressing": "处理中...",
+      "wechatSuccess": "预览二维码生成成功",
+      "webSuccess": "预览链接生成成功",
+      "failed": "生成预览失败"
+    },
+    "steps": {
+      "pending": "等待中",
+      "generating": "生成中",
+      "packaging": "打包中",
+      "ready": "就绪",
+      "unknown": "未知"
+    },
+    "label": {
+      "error": "错误日志",
+      "remindWechat": "请先配置微信小程序"
+    },
+    "button": {
+      "preview": "预览",
+      "retry": "重试",
+      "history": "历史记录",
+      "copy": "复制"
+    }
+  }
+}

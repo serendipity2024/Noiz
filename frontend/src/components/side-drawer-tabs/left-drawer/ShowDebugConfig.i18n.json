@@ -1,0 +1,10 @@
+{
+  "en": {
+    "debugConfiguration": "Debug Configuration",
+    "copy": "Copy"
+  },
+  "zh": {
+    "debugConfiguration": "调试配置",
+    "copy": "复制"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "backgroundColor": "Background Color",
+      "titleColor": "Title Color",
+      "title": "Title",
+      "leftButton": "Left Button",
+      "rightButton": "Right Button"
+    },
+    "buttonConfig": {
+      "isHidden": "Hidden",
+      "uploadIcon": "Upload Icon",
+      "clickActions": "Click Actions"
+    }
+  },
+  "zh": {
+    "label": {
+      "backgroundColor": "背景颜色",
+      "titleColor": "标题颜色",
+      "title": "标题",
+      "leftButton": "左侧按钮",
+      "rightButton": "右侧按钮"
+    },
+    "buttonConfig": {
+      "isHidden": "隐藏",
+      "uploadIcon": "上传图标",
+      "clickActions": "点击事件"
+    }
+  }
+}

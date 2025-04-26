@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "after": "After obtaining phone number",
+      "assign": "Assign to"
+    }
+  },
+  "zh": {
+    "label": {
+      "after": "获取手机号后",
+      "assign": "赋值给"
+    }
+  }
+}

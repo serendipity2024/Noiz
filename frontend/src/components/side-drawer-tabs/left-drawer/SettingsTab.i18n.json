@@ -1,0 +1,62 @@
+{
+  "en": {
+    "project": {
+      "title": "Project Settings",
+      "name": "Project Name",
+      "save": "Save"
+    },
+    "config": {
+      "cloud": "Cloud Configuration",
+      "cloudProvider": "Cloud Provider",
+      "save": "Save",
+      "email": "Email Configuration",
+      "emailAddress": "Email Address",
+      "emailProvider": "Email Provider",
+      "emailPassword": "Email Password",
+      "emailProviders": {
+        "SMTP": "SMTP",
+        "SES": "Amazon SES",
+        "SENDGRID": "SendGrid"
+      },
+      "wechatPay": "WeChat Payment",
+      "wechatMerchantId": "Merchant ID",
+      "wechatMerchantKey": "Merchant Key",
+      "wechatPaymentNotifyUrl": "Payment Notify URL"
+    },
+    "editor": {
+      "title": "Editor Settings",
+      "language": "Language"
+    },
+    "businessLicense": "Business License"
+  },
+  "zh": {
+    "project": {
+      "title": "项目设置",
+      "name": "项目名称",
+      "save": "保存"
+    },
+    "config": {
+      "cloud": "云配置",
+      "cloudProvider": "云服务提供商",
+      "save": "保存",
+      "email": "邮件配置",
+      "emailAddress": "邮箱地址",
+      "emailProvider": "邮件服务商",
+      "emailPassword": "邮箱密码",
+      "emailProviders": {
+        "SMTP": "SMTP",
+        "SES": "亚马逊 SES",
+        "SENDGRID": "SendGrid"
+      },
+      "wechatPay": "微信支付",
+      "wechatMerchantId": "商户号",
+      "wechatMerchantKey": "商户密钥",
+      "wechatPaymentNotifyUrl": "支付通知地址"
+    },
+    "editor": {
+      "title": "编辑器设置",
+      "language": "语言"
+    },
+    "businessLicense": "营业执照"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "projectCheckError": "Project Check Results",
+      "error": "Errors",
+      "warning": "Warnings",
+      "errorMessage": "Error Message",
+      "warningMessage": "Warning Message",
+      "target": "Target",
+      "continue": "Continue"
+    }
+  },
+  "zh": {
+    "label": {
+      "projectCheckError": "项目检查结果",
+      "error": "错误",
+      "warning": "警告",
+      "errorMessage": "错误信息",
+      "warningMessage": "警告信息",
+      "target": "目标",
+      "continue": "继续"
+    }
+  }
+}

@@ -1,0 +1,371 @@
+.select {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.selector {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.selectorFocused {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  outline: 0;
+}
+
+.selectorDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.selectorSingle {
+  height: 32px;
+  padding: 0 11px;
+}
+
+.selectorMultiple {
+  min-height: 32px;
+  padding: 0 4px;
+}
+
+.selectorSearch {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.selectorSearchInput {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.selectorSearchInputDisabled {
+  cursor: not-allowed;
+}
+
+.selectorSearchInputMirror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  color: transparent;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.selectorSelection {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.selectorSelectionItem {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  margin-right: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0 8px;
+  height: 24px;
+  line-height: 22px;
+  transition: all 0.3s;
+}
+
+.selectorSelectionItemDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.selectorSelectionItemContent {
+  display: inline-block;
+  margin-right: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.selectorSelectionItemRemove {
+  color: rgba(0, 0, 0, 0.45);
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.selectorSelectionItemRemove:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.selectorSelectionPlaceholder {
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  left: 11px;
+  transform: translateY(-50%);
+  color: #bfbfbf;
+  line-height: 1.5;
+  pointer-events: none;
+}
+
+.selectorSelectionPlaceholderHidden {
+  display: none;
+}
+
+.selectorArrow {
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+
+.selectorArrowRotated {
+  transform: rotate(180deg);
+}
+
+.selectorClear {
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  z-index: 1;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1;
+  text-align: center;
+  text-transform: none;
+  background: #fff;
+  cursor: pointer;
+  opacity: 0;
+  transition: color 0.3s ease, opacity 0.15s ease;
+}
+
+.selectorClear:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.selectorHasClear:hover .selectorClear {
+  opacity: 1;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 1050;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.dropdownHidden {
+  display: none;
+}
+
+.dropdownEmpty {
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.dropdownMenu {
+  max-height: 250px;
+  margin: 0;
+  padding: 4px 0;
+  overflow: auto;
+  list-style: none;
+  outline: none;
+}
+
+.dropdownOption {
+  position: relative;
+  display: block;
+  padding: 5px 12px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: normal;
+  line-height: 22px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dropdownOptionActive {
+  background-color: #e6f7ff;
+}
+
+.dropdownOptionSelected {
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 600;
+  background-color: #fafafa;
+}
+
+.dropdownOptionDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.dropdownOptionGroupLabel {
+  padding: 5px 12px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.selectLarge {
+  .selectorSingle {
+    height: 40px;
+    padding: 0 11px;
+  }
+
+  .selectorSearchInput {
+    height: 38px;
+  }
+
+  .selectorSelectionItem {
+    height: 32px;
+    line-height: 30px;
+  }
+}
+
+.selectSmall {
+  .selectorSingle {
+    height: 24px;
+    padding: 0 7px;
+  }
+
+  .selectorSearchInput {
+    height: 22px;
+  }
+
+  .selectorSelectionItem {
+    height: 16px;
+    line-height: 14px;
+  }
+
+  .selectorArrow {
+    right: 7px;
+  }
+
+  .selectorClear {
+    right: 7px;
+  }
+}
+
+// Dark theme
+.dark {
+  color: rgba(255, 255, 255, 0.65);
+
+  .selector {
+    background-color: #141414;
+    border-color: #434343;
+  }
+
+  .selectorFocused {
+    border-color: #ffa522;
+    box-shadow: 0 0 0 2px rgba(255, 165, 34, 0.2);
+  }
+
+  .selectorDisabled {
+    color: rgba(255, 255, 255, 0.25);
+    background: #303030;
+  }
+
+  .selectorSelectionItem {
+    background-color: #1f1f1f;
+  }
+
+  .selectorSelectionItemDisabled {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .selectorSelectionItemRemove {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .selectorSelectionItemRemove:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .selectorSelectionPlaceholder {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .selectorArrow {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .selectorClear {
+    color: rgba(255, 255, 255, 0.25);
+    background: #141414;
+  }
+
+  .selectorClear:hover {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .dropdown {
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  }
+
+  .dropdownEmpty {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .dropdownOption {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .dropdownOptionActive {
+    background-color: #303030;
+  }
+
+  .dropdownOptionSelected {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #303030;
+  }
+
+  .dropdownOptionDisabled {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .dropdownOptionGroupLabel {
+    color: rgba(255, 255, 255, 0.45);
+  }
+}

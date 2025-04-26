@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "imagePicker": "Image Picker",
+      "index": "Index",
+      "image": "Image"
+    }
+  },
+  "zh": {
+    "label": {
+      "imagePicker": "图片选择器",
+      "index": "索引",
+      "image": "图片"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "listMutation": "List Mutation",
+      "listMutationSourceData": "List Mutation Source Data",
+      "role": "Role",
+      "parameter": "Parameters"
+    },
+    "role": {
+      "user": "User",
+      "self": "Self"
+    }
+  },
+  "zh": {
+    "label": {
+      "listMutation": "列表变更",
+      "listMutationSourceData": "列表变更源数据",
+      "role": "角色",
+      "parameter": "参数"
+    },
+    "role": {
+      "user": "用户",
+      "self": "自身"
+    }
+  }
+}

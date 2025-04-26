@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "title": "Title"
+    },
+    "menuButtonColor": {
+      "WHITE": "White",
+      "BLACK": "Black"
+    },
+    "titleChangeMessage": "Title cannot contain illegal characters"
+  },
+  "zh": {
+    "label": {
+      "title": "标题"
+    },
+    "menuButtonColor": {
+      "WHITE": "白色",
+      "BLACK": "黑色"
+    },
+    "titleChangeMessage": "标题不能包含非法字符"
+  }
+}

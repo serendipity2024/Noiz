@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "edit": "Box Shadow",
+      "color": "Shadow Color",
+      "offsetX": "Horizontal Offset",
+      "offsetY": "Vertical Offset",
+      "blur": "Blur Radius",
+      "spread": "Spread Radius"
+    }
+  },
+  "zh": {
+    "label": {
+      "edit": "阴影效果",
+      "color": "阴影颜色",
+      "offsetX": "水平偏移",
+      "offsetY": "垂直偏移",
+      "blur": "模糊半径",
+      "spread": "扩散半径"
+    }
+  }
+}

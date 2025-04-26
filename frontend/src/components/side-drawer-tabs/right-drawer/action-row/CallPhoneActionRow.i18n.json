@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "phoneNumber": "Phone Number"
+    }
+  },
+  "zh": {
+    "label": {
+      "phoneNumber": "电话号码"
+    }
+  }
+}

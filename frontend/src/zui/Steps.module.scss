@@ -1,0 +1,542 @@
+.steps {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+}
+
+.stepsHorizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.stepsVertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepsNavigation {
+  padding-top: 8px;
+
+  .stepsItem {
+    overflow: visible;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-top: -6px;
+      margin-left: -6px;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      border-bottom: none;
+      border-left: none;
+      transform: rotate(45deg);
+      content: '';
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+.stepsItem {
+  position: relative;
+  display: inline-block;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+
+  &:last-child {
+    flex: none;
+  }
+}
+
+.stepsItemContainer {
+  outline: none;
+}
+
+.stepsItemIcon,
+.stepsItemContent {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.stepsItemIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.stepsItemIconDot {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+  background: #ccc;
+  border-radius: 100px;
+}
+
+.stepsItemTail {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 1px;
+  height: 100%;
+  padding: 38px 0 6px;
+
+  &::after {
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #f0f0f0;
+    border-radius: 1px;
+    transition: background 0.3s;
+    content: '';
+  }
+}
+
+.stepsHorizontal .stepsItemTail {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  padding: 0 10px;
+
+  &::after {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #f0f0f0;
+    border-radius: 1px;
+    transition: background 0.3s;
+    content: '';
+  }
+}
+
+.stepsItemTitle {
+  position: relative;
+  display: inline-block;
+  padding-right: 16px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  line-height: 32px;
+
+  &::after {
+    position: absolute;
+    top: 16px;
+    left: 100%;
+    display: block;
+    width: 9999px;
+    height: 1px;
+    background: #f0f0f0;
+    content: '';
+  }
+}
+
+.stepsItemSubtitle {
+  display: inline;
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.stepsItemDescription {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.stepsItemWait {
+  .stepsItemIcon {
+    background-color: #fff;
+    border-color: rgba(0, 0, 0, 0.25);
+
+    > .stepsIcon {
+      color: rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  .stepsItemTitle {
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .stepsItemDescription {
+    color: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.stepsItemProcess {
+  .stepsItemIcon {
+    background-color: #1890ff;
+    border-color: #1890ff;
+
+    > .stepsIcon {
+      color: #fff;
+    }
+  }
+
+  .stepsItemTitle {
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .stepsItemDescription {
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .stepsItemTail::after {
+    background-color: #f0f0f0;
+  }
+
+  .stepsIconDot {
+    background: #1890ff;
+  }
+}
+
+.stepsItemFinish {
+  .stepsItemIcon {
+    background-color: #fff;
+    border-color: #1890ff;
+
+    > .stepsIcon {
+      color: #1890ff;
+    }
+  }
+
+  .stepsItemTitle {
+    color: rgba(0, 0, 0, 0.65);
+
+    &::after {
+      background-color: #1890ff;
+    }
+  }
+
+  .stepsItemDescription {
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .stepsItemTail::after {
+    background-color: #1890ff;
+  }
+
+  .stepsIconDot {
+    background: #1890ff;
+  }
+}
+
+.stepsItemError {
+  .stepsItemIcon {
+    background-color: #fff;
+    border-color: #ff4d4f;
+
+    > .stepsIcon {
+      color: #ff4d4f;
+    }
+  }
+
+  .stepsItemTitle {
+    color: #ff4d4f;
+
+    &::after {
+      background-color: #f0f0f0;
+    }
+  }
+
+  .stepsItemDescription {
+    color: #ff4d4f;
+  }
+
+  .stepsItemTail::after {
+    background-color: #f0f0f0;
+  }
+
+  .stepsIconDot {
+    background: #ff4d4f;
+  }
+}
+
+.stepsSmall {
+  .stepsItemIcon {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 24px;
+  }
+
+  .stepsItemTitle {
+    padding-right: 12px;
+    font-size: 14px;
+    line-height: 24px;
+
+    &::after {
+      top: 12px;
+    }
+  }
+
+  .stepsItemDescription {
+    font-size: 14px;
+  }
+
+  .stepsItemTail {
+    top: 8px;
+    padding: 30px 0 6px;
+  }
+
+  .stepsHorizontal .stepsItemTail {
+    top: 12px;
+  }
+
+  .stepsIconDot {
+    position: relative;
+    top: -1px;
+    width: 6px;
+    height: 6px;
+    font-size: 12px;
+  }
+}
+
+.stepsVertical {
+  display: flex;
+  flex-direction: column;
+
+  > .stepsItem {
+    display: block;
+    flex: 1 0 auto;
+    padding-left: 0;
+    overflow: visible;
+
+    .stepsItemIcon {
+      float: left;
+      margin-right: 16px;
+    }
+
+    .stepsItemContent {
+      display: block;
+      min-height: 48px;
+      overflow: hidden;
+    }
+
+    .stepsItemTitle {
+      line-height: 32px;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    .stepsItemDescription {
+      padding-bottom: 12px;
+    }
+  }
+
+  > .stepsItem > .stepsItemContainer > .stepsItemTail {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 1px;
+    height: 100%;
+    padding: 38px 0 6px;
+
+    &::after {
+      width: 1px;
+      height: 100%;
+    }
+  }
+
+  > .stepsItem:not(:last-child) > .stepsItemContainer > .stepsItemTail {
+    display: block;
+  }
+
+  > .stepsItem > .stepsItemContainer > .stepsItemContent > .stepsItemTitle {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.stepsHorizontal {
+  &.stepsLabelVertical {
+    .stepsItem {
+      overflow: visible;
+
+      .stepsItemTail {
+        padding: 3.5px 24px;
+        margin-left: 51px;
+      }
+
+      .stepsItemContent {
+        display: block;
+        text-align: center;
+      }
+
+      .stepsItemIcon {
+        margin-left: 40px;
+        margin-right: 0;
+      }
+
+      .stepsItemTitle {
+        padding-right: 0;
+        padding-left: 0;
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// Dark theme
+.dark {
+  .stepsItemIcon {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.25);
+
+    > .stepsIcon {
+      color: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  .stepsItemTitle {
+    color: rgba(255, 255, 255, 0.65);
+
+    &::after {
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  .stepsItemSubtitle {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .stepsItemDescription {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .stepsItemTail::after {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .stepsItemWait {
+    .stepsItemIcon {
+      background-color: transparent;
+      border-color: rgba(255, 255, 255, 0.25);
+
+      > .stepsIcon {
+        color: rgba(255, 255, 255, 0.25);
+      }
+    }
+
+    .stepsItemTitle {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .stepsItemDescription {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  .stepsItemProcess {
+    .stepsItemIcon {
+      background-color: #ffa522;
+      border-color: #ffa522;
+
+      > .stepsIcon {
+        color: #202020;
+      }
+    }
+
+    .stepsItemTitle {
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .stepsItemDescription {
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    .stepsItemTail::after {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .stepsIconDot {
+      background: #ffa522;
+    }
+  }
+
+  .stepsItemFinish {
+    .stepsItemIcon {
+      background-color: transparent;
+      border-color: #ffa522;
+
+      > .stepsIcon {
+        color: #ffa522;
+      }
+    }
+
+    .stepsItemTitle {
+      color: rgba(255, 255, 255, 0.65);
+
+      &::after {
+        background-color: #ffa522;
+      }
+    }
+
+    .stepsItemDescription {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .stepsItemTail::after {
+      background-color: #ffa522;
+    }
+
+    .stepsIconDot {
+      background: #ffa522;
+    }
+  }
+
+  .stepsItemError {
+    .stepsItemIcon {
+      background-color: transparent;
+      border-color: #ff4d4f;
+
+      > .stepsIcon {
+        color: #ff4d4f;
+      }
+    }
+
+    .stepsItemTitle {
+      color: #ff4d4f;
+
+      &::after {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    .stepsItemDescription {
+      color: #ff4d4f;
+    }
+
+    .stepsItemTail::after {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .stepsIconDot {
+      background: #ff4d4f;
+    }
+  }
+}

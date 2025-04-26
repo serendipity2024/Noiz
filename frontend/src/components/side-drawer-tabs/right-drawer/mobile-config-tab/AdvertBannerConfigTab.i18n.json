@@ -1,0 +1,10 @@
+{
+  "en": {
+    "label": "Advert ID",
+    "placeholder": "Please enter advert ID"
+  },
+  "zh": {
+    "label": "广告ID",
+    "placeholder": "请输入广告ID"
+  }
+}

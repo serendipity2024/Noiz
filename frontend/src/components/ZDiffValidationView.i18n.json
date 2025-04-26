@@ -1,0 +1,14 @@
+{
+  "en": {
+    "title": "Validation Error",
+    "target": "Target",
+    "dependentPathComponent": "Dependent Path",
+    "dependencyContent": "Dependency Content"
+  },
+  "zh": {
+    "title": "验证错误",
+    "target": "目标",
+    "dependentPathComponent": "依赖路径",
+    "dependencyContent": "依赖内容"
+  }
+}

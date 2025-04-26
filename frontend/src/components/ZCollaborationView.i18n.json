@@ -1,0 +1,22 @@
+{
+  "en": {
+    "exception": "Exception",
+    "applyError": "Failed to apply changes",
+    "schemaSaved": "Schema has been saved",
+    "projectReset": "Project has been reset",
+    "createSchemaDiffError": "Failed to create schema diff",
+    "projectDeleted": "Project has been deleted",
+    "synchronize": "Synchronize",
+    "repair": "Repair"
+  },
+  "zh": {
+    "exception": "异常",
+    "applyError": "应用更改失败",
+    "schemaSaved": "架构已保存",
+    "projectReset": "项目已重置",
+    "createSchemaDiffError": "创建架构差异失败",
+    "projectDeleted": "项目已删除",
+    "synchronize": "同步",
+    "repair": "修复"
+  }
+}

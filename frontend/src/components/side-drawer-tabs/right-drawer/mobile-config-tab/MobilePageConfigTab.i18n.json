@@ -1,0 +1,16 @@
+{
+    "en": {
+      "label": {
+        "isInitialScreen": "Initial Screen",
+        "navigationBar": "Navigation Bar",
+        "fillMarginFooterHeight": "Footer Height"
+      }
+    },
+    "zh": {
+      "label": {
+        "isInitialScreen": "初始页面",
+        "navigationBar": "导航栏",
+        "fillMarginFooterHeight": "底部高度"
+      }
+    }
+  }

@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "conflict": "Conflict Resolution",
+      "field": "Unique Fields",
+      "constraint": "Constraints",
+      "actionType": "Action Type"
+    },
+    "actionType": {
+      "NONE": "None",
+      "IGNORE": "Ignore",
+      "UPDATE": "Update",
+      "DELETE": "Delete"
+    }
+  },
+  "zh": {
+    "label": {
+      "conflict": "冲突处理",
+      "field": "唯一字段",
+      "constraint": "约束条件",
+      "actionType": "处理方式"
+    },
+    "actionType": {
+      "NONE": "无",
+      "IGNORE": "忽略",
+      "UPDATE": "更新",
+      "DELETE": "删除"
+    }
+  }
+}

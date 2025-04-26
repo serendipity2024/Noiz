@@ -1,0 +1,38 @@
+{
+  "en": {
+    "label": {
+      "action": "Action",
+      "target": "Target",
+      "playFrom": "Play From",
+      "stopAt": "Stop At",
+      "frame": "Frame",
+      "direction": "Direction"
+    },
+    "action": {
+      "PLAY": "Play",
+      "PLAY_SEGMENTS": "Play Segments",
+      "STOP": "Stop",
+      "PAUSE": "Pause",
+      "SET_DIRECTION": "Set Direction",
+      "setDirection": "Set Direction"
+    }
+  },
+  "zh": {
+    "label": {
+      "action": "动作",
+      "target": "目标",
+      "playFrom": "从",
+      "stopAt": "停止于",
+      "frame": "帧",
+      "direction": "方向"
+    },
+    "action": {
+      "PLAY": "播放",
+      "PLAY_SEGMENTS": "播放片段",
+      "STOP": "停止",
+      "PAUSE": "暂停",
+      "SET_DIRECTION": "设置方向",
+      "setDirection": "设置方向"
+    }
+  }
+}

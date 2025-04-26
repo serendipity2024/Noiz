@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "distinctOn": "Distinct On Fields"
+    },
+    "placeholder": "Please select fields to distinct on..."
+  },
+  "zh": {
+    "label": {
+      "distinctOn": "去重字段"
+    },
+    "placeholder": "请选择需要去重的字段..."
+  }
+}

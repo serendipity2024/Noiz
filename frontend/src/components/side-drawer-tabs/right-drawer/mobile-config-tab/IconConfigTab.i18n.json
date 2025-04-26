@@ -1,0 +1,56 @@
+{
+  "en": {
+    "label": {
+      "iconColor": "Icon Color",
+      "icon": "Icon",
+      "iconSize": "Icon Size"
+    },
+    "icon": {
+      "icon-home": "Home",
+      "icon-user": "User",
+      "icon-settings": "Settings",
+      "icon-search": "Search",
+      "icon-message": "Message",
+      "icon-notification": "Notification",
+      "icon-star": "Star",
+      "icon-heart": "Heart",
+      "icon-share": "Share",
+      "icon-edit": "Edit",
+      "icon-delete": "Delete",
+      "icon-add": "Add",
+      "icon-close": "Close",
+      "icon-menu": "Menu",
+      "icon-arrow-left": "Arrow Left",
+      "icon-arrow-right": "Arrow Right",
+      "icon-arrow-up": "Arrow Up",
+      "icon-arrow-down": "Arrow Down"
+    }
+  },
+  "zh": {
+    "label": {
+      "iconColor": "图标颜色",
+      "icon": "图标",
+      "iconSize": "图标大小"
+    },
+    "icon": {
+      "icon-home": "首页",
+      "icon-user": "用户",
+      "icon-settings": "设置",
+      "icon-search": "搜索",
+      "icon-message": "消息",
+      "icon-notification": "通知",
+      "icon-star": "收藏",
+      "icon-heart": "喜欢",
+      "icon-share": "分享",
+      "icon-edit": "编辑",
+      "icon-delete": "删除",
+      "icon-add": "添加",
+      "icon-close": "关闭",
+      "icon-menu": "菜单",
+      "icon-arrow-left": "左箭头",
+      "icon-arrow-right": "右箭头",
+      "icon-arrow-up": "上箭头",
+      "icon-arrow-down": "下箭头"
+    }
+  }
+}

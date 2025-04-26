@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "upload": "Upload",
+      "uploaded": "Uploaded",
+      "uploadFromLocal": "Upload from Local"
+    },
+    "notification": {
+      "UPLOAD_FILE_UNSUPPORTED": "Unsupported file type",
+      "UPLOAD_PICTURE_EXCEEDING_MAX_SIZE": "Picture size exceeds 20MB",
+      "UPLOAD_FILE_EXCEEDING_MAX_SIZE": "File size exceeds 20MB"
+    }
+  },
+  "zh": {
+    "label": {
+      "upload": "上传",
+      "uploaded": "已上传",
+      "uploadFromLocal": "从本地选择"
+    },
+    "notification": {
+      "UPLOAD_FILE_UNSUPPORTED": "不支持的文件类型",
+      "UPLOAD_PICTURE_EXCEEDING_MAX_SIZE": "图片大小超过20MB",
+      "UPLOAD_FILE_EXCEEDING_MAX_SIZE": "文件大小超过20MB"
+    }
+  }
+}

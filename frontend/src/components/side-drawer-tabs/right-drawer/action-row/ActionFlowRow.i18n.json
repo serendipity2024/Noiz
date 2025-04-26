@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "action": "Action",
+      "inputArgsSetting": "Input Arguments"
+    }
+  },
+  "zh": {
+    "label": {
+      "action": "动作",
+      "inputArgsSetting": "输入参数"
+    }
+  }
+}

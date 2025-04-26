@@ -1,0 +1,48 @@
+.container {
+    margin: 24px;
+    overflow-y: scroll;
+    height: 95%;
+
+    .ant-cascader-menu:only-child {
+        background-color: #333;
+    }
+
+    .ant-input {
+        color: #fff;
+        background-color: #333;
+    }
+}
+
+.content {
+    border-radius: 5px;
+    border: 1px dashed #555;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.configItem {
+    width: 48%;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid #555;
+    width: 100%;
+}
+
+.itemMargin {
+    margin-bottom: 40px;
+}
+
+.title {
+    color: #ffa522;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.icon {
+    color: #ffa522;
+}

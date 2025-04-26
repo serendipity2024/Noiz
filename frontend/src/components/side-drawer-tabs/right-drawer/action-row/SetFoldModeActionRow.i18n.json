@@ -1,0 +1,20 @@
+{
+  "en": {
+    "label": {
+      "target": "Target Component",
+      "foldMode": "Fold Mode"
+    },
+    "placeholder": {
+      "select": "Please select..."
+    }
+  },
+  "zh": {
+    "label": {
+      "target": "目标组件",
+      "foldMode": "折叠模式"
+    },
+    "placeholder": {
+      "select": "请选择..."
+    }
+  }
+}

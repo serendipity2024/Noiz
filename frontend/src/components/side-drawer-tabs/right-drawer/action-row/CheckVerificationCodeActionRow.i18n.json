@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "channel": "Channel",
+      "sendTo": "Send To",
+      "verificationCode": "Verification Code"
+    },
+    "method": {
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "zh": {
+    "label": {
+      "channel": "渠道",
+      "sendTo": "发送至",
+      "verificationCode": "验证码"
+    },
+    "method": {
+      "email": "邮箱",
+      "phone": "手机"
+    }
+  }
+}

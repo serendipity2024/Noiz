@@ -1,0 +1,38 @@
+{
+  "en": {
+    "label": {
+      "mode": "Mode",
+      "list": "List",
+      "limit": "Limit",
+      "whichField": "Display Field",
+      "deselectable": "Deselectable",
+      "onChange": "On Change"
+    },
+    "mode": {
+      "TIME": "Time",
+      "DATE": "Date",
+      "OBJECT": "Object"
+    },
+    "placeholder": {
+      "select": "Please select"
+    }
+  },
+  "zh": {
+    "label": {
+      "mode": "模式",
+      "list": "列表",
+      "limit": "限制",
+      "whichField": "显示字段",
+      "deselectable": "可取消选择",
+      "onChange": "值改变时"
+    },
+    "mode": {
+      "TIME": "时间",
+      "DATE": "日期",
+      "OBJECT": "对象"
+    },
+    "placeholder": {
+      "select": "请选择"
+    }
+  }
+}

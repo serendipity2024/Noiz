@@ -1,0 +1,34 @@
+{
+  "en": {
+    "preview": "Preview",
+    "focusRow": "Focus Row",
+    "headerView": "Header View",
+    "cellView": "Cell View",
+    "imageView": "Image View",
+    "addView": "Add View",
+    "normalView": "Normal View",
+    "selectView": "Selected View",
+    "normalTab": "Normal Tab",
+    "selectTab": "Selected Tab",
+    "bottomView": "Bottom View",
+    "hint": "Hint",
+    "buttonViewHint": "You can add a button view to customize the official account button",
+    "advice": "Recommended size"
+  },
+  "zh": {
+    "preview": "预览",
+    "focusRow": "聚焦行",
+    "headerView": "头部视图",
+    "cellView": "单元格视图",
+    "imageView": "图片视图",
+    "addView": "添加视图",
+    "normalView": "普通视图",
+    "selectView": "选中视图",
+    "normalTab": "普通标签",
+    "selectTab": "选中标签",
+    "bottomView": "底部视图",
+    "hint": "提示",
+    "buttonViewHint": "您可以添加按钮视图来自定义公众号按钮",
+    "advice": "推荐尺寸"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "target": "Target List",
+      "direction": "Scroll Direction"
+    },
+    "direction": {
+      "LEFT": "Left",
+      "RIGHT": "Right"
+    }
+  },
+  "zh": {
+    "label": {
+      "target": "目标列表",
+      "direction": "滚动方向"
+    },
+    "direction": {
+      "LEFT": "向左",
+      "RIGHT": "向右"
+    }
+  }
+}

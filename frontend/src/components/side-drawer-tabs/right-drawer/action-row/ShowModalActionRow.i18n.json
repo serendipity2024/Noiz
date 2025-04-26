@@ -1,0 +1,42 @@
+{
+  "en": {
+    "label": {
+      "mode": "Modal Mode",
+      "title": "Modal Title",
+      "content": "Modal Content",
+      "cancelText": "Cancel Button Text",
+      "confirmText": "Confirm Button Text",
+      "confirmActions": "Confirm Actions",
+      "editMode": "Edit Custom Modal"
+    },
+    "mode": {
+      "ALERT": "Alert Modal",
+      "CUSTOM": "Custom Modal"
+    },
+    "placeholder": {
+      "title": "Enter title...",
+      "cancelText": "Enter cancel text...",
+      "confirmText": "Enter confirm text..."
+    }
+  },
+  "zh": {
+    "label": {
+      "mode": "弹窗模式",
+      "title": "弹窗标题",
+      "content": "弹窗内容",
+      "cancelText": "取消按钮文本",
+      "confirmText": "确认按钮文本",
+      "confirmActions": "确认动作",
+      "editMode": "编辑自定义弹窗"
+    },
+    "mode": {
+      "ALERT": "提示弹窗",
+      "CUSTOM": "自定义弹窗"
+    },
+    "placeholder": {
+      "title": "请输入标题...",
+      "cancelText": "请输入取消文本...",
+      "confirmText": "请输入确认文本..."
+    }
+  }
+}

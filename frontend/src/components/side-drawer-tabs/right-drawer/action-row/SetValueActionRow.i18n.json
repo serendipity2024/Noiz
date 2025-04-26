@@ -1,0 +1,20 @@
+{
+  "en": {
+    "label": {
+      "target": "Target Input",
+      "value": "Value"
+    },
+    "placeholder": {
+      "target": "Please select input..."
+    }
+  },
+  "zh": {
+    "label": {
+      "target": "目标输入框",
+      "value": "值"
+    },
+    "placeholder": {
+      "target": "请选择输入框..."
+    }
+  }
+}

@@ -1,0 +1,255 @@
+.modal {
+  width: 100vw !important;
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  padding: 0;
+
+  .ant-modal-body {
+    padding: 0;
+    background: #202020;
+    height: 100%;
+  }
+
+  .ant-modal-content,
+  .ant-tabs-content {
+    height: 100%;
+  }
+}
+
+.backIcon :hover {
+  color: #ffa522;
+  cursor: pointer;
+}
+
+.addIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.topBar {
+  background: #333;
+  height: 96px;
+  line-height: 96px;
+  padding: 0 40px;
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerLeft,
+.containerRight {
+  border-radius: 6px;
+  background: #333;
+  padding-bottom: 16px;
+  margin-right: 24px;
+}
+
+.containerLeft {
+  flex: none;
+  width: 290px;
+  margin-left: 24px;
+}
+
+.containerRight {
+  flex: 1 0;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listTitle {
+  font-size: 20px;
+  color: #ffa522;
+  border-bottom: 1px solid #202020;
+  line-height: 52px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  margin-top: 12px;
+
+  .ant-list-item {
+    height: 48px;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid transparent;
+
+    &[data-active=true] {
+      border: 1px solid #ffa522;
+      background: rgba(255, 165, 34, 0.1);
+    }
+
+    textarea {
+      height: 24px;
+      resize: none;
+    }
+
+    .ant-typography {
+      margin: 0;
+      color: #fff;
+    }
+  }
+}
+
+.listEmpty {
+  margin-top: 160px;
+  text-align: center;
+
+  .emptyText {
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-bottom: 18px;
+  }
+}
+
+.argEmptyText {
+  text-align: center;
+  font-size: 16px;
+  color: #8f8f8f;
+  margin-top: 160px;
+}
+
+.tabCode,
+.tabParams {
+  height: 100%;
+}
+
+.tabCode .ant-tabs-content-holder,
+.tabParams .ant-tabs-content-holder {
+  overflow: scroll;
+}
+
+.tabCode .ant-tabs-tab-active .ant-tabs-tab-btn,
+.tabParams .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffa522;
+}
+
+.tabCode .ant-tabs-nav,
+.tabParams .ant-tabs-nav {
+  padding: 0 24px;
+}
+
+.tabCode .ant-tabs-ink-bar,
+.tabParams .ant-tabs-ink-bar {
+  background: #ffa522;
+}
+
+.tabCode .ant-tabs-nav:before,
+.tabParams .ant-tabs-nav:before {
+  border-color: #202020;
+}
+
+.tabCode .ant-tabs-tab-btn {
+  color: #8f8f8f;
+}
+
+.tabParams {
+  .ant-tabs-tab-btn {
+    color: #8f8f8f;
+  }
+
+  width: 380px;
+}
+
+.tabCode {
+  flex: 1 0;
+}
+
+.inputPanel,
+.outputPanel {
+  padding: 0 24px;
+  overflow: auto;
+}
+
+.formItemSpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+
+  > {
+    span {
+      width: 60px;
+      display: inline-block;
+    }
+
+    div {
+      flex: 1 1;
+    }
+  }
+}
+
+.logicTextArea {
+  display: block;
+  height: 100%;
+
+  >.CodeMirror {
+    height: 100%;
+  }
+
+  &:focus-within {
+    border: 1px solid rgba(255, 165, 34, 0.2);
+  }
+}
+
+.addVariable {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+  color: #ffa522;
+
+  &:first-child {
+    margin-top: 64px;
+  }
+
+  img {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+  }
+}
+
+.primaryBtn {
+  background: #ffa522;
+  border-color: #ffa522;
+  color: #fff;
+  border-radius: 6px;
+  width: 96px;
+  height: 36px;
+
+  &:hover {
+    color: #ffa522;
+    border-color: #ffa522;
+  }
+}
+
+.ghostBtn {
+  border-color: #ffa522;
+  color: #ffa522;
+  width: 90px;
+  border-radius: 6px;
+
+  &:focus,
+  &:hover {
+    border-color: #ffa522;
+    color: #ffa522;
+    width: 90px;
+    border-radius: 6px;
+  }
+}

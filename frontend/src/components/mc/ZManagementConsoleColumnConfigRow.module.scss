@@ -1,0 +1,93 @@
+.container {
+    background-color: #202020;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.relationContainer {
+    margin-top: 32px;
+}
+
+.title {
+    color: #ffa522;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.introduceTitle {
+    color: #8f8f8f;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.input {
+    background: #333;
+    border-radius: 4px;
+    color: #f8f8f8;
+    pointer-events: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.divider {
+    background-color: #454545;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.fieldItemTitleContainer {
+    width: 90%;
+}
+
+.fieldItem {
+    min-height: 32px;
+    width: 100%;
+
+    .ant-btn {
+        background-color: #333;
+        border-color: #555;
+    }
+
+    .ant-tag {
+        background-color: #333;
+        border-color: #333;
+        color: #fff;
+    }
+
+    .ant-tag-close-icon {
+        color: #ffa522;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.fieldTitle {
+    color: #8f8f8f;
+    font-size: 14px;
+    width: 33%;
+}
+
+.fieldName {
+    color: #fff;
+    font-size: 16px;
+    width: 80%;
+}
+
+.fieldContent {
+    color: #fff;
+    background-color: #202020;
+    border-radius: 5px;
+    border: 1px double #555;
+    font-size: 14px;
+    width: 70%;
+}
+
+.tableName {
+    margin-right: 11px;
+}

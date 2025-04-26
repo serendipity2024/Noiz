@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "target": "Target List",
+      "index": "Scroll to Index"
+    },
+    "placeholder": "Select a list component"
+  },
+  "zh": {
+    "label": {
+      "target": "目标列表",
+      "index": "滚动到索引"
+    },
+    "placeholder": "选择列表组件"
+  }
+}

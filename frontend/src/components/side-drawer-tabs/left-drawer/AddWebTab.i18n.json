@@ -1,0 +1,24 @@
+{
+  "en": {
+    "menuCategories": {
+      "popular": "Popular"
+    },
+    "modal": {
+      "title": "Create New Web Page",
+      "placeholder": "Enter page name",
+      "cancel": "Cancel",
+      "create": "Create"
+    }
+  },
+  "zh": {
+    "menuCategories": {
+      "popular": "常用"
+    },
+    "modal": {
+      "title": "创建新网页",
+      "placeholder": "请输入页面名称",
+      "cancel": "取消",
+      "create": "创建"
+    }
+  }
+}

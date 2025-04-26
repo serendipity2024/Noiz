@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "dataSource": "Data Source",
+      "data": "Data",
+      "whichList": "Which List"
+    },
+    "source": {
+      "LOCAL": "Local Data",
+      "REMOTE": "Remote Data"
+    },
+    "placeholder": "Please select a list..."
+  },
+  "zh": {
+    "label": {
+      "dataSource": "数据源",
+      "data": "数据",
+      "whichList": "选择列表"
+    },
+    "source": {
+      "LOCAL": "本地数据",
+      "REMOTE": "远程数据"
+    },
+    "placeholder": "请选择一个列表..."
+  }
+}

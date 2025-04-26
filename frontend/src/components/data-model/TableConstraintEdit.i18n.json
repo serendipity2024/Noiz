@@ -1,0 +1,40 @@
+{
+  "en": {
+    "title": "Edit Constraints",
+    "button": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "add": "Add Constraint"
+    },
+    "label": {
+      "unique": "Unique",
+      "empty": "No constraints",
+      "constraintName": "Constraint Name",
+      "compositeUniqueColumns": "Unique Columns"
+    },
+    "message": {
+      "nameNotUnique": "Constraint name must be unique",
+      "nameEmpty": "Constraint name cannot be empty",
+      "compositeUniqueColumns": "Please select at least one column"
+    }
+  },
+  "zh": {
+    "title": "编辑约束",
+    "button": {
+      "ok": "确定",
+      "cancel": "取消",
+      "add": "添加约束"
+    },
+    "label": {
+      "unique": "唯一",
+      "empty": "暂无约束",
+      "constraintName": "约束名称",
+      "compositeUniqueColumns": "唯一列"
+    },
+    "message": {
+      "nameNotUnique": "约束名称必须唯一",
+      "nameEmpty": "约束名称不能为空",
+      "compositeUniqueColumns": "请至少选择一个列"
+    }
+  }
+}

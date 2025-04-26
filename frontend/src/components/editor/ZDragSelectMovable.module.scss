@@ -1,0 +1,44 @@
+.descriptionContainer {
+    display: flex;
+    position: absolute;
+    background-color: #22afff;
+    border-radius: 2px;
+    font-size: 8px;
+    height: 18px;
+    line-height: 16px;
+    color: #f8f8f8;
+    white-space: nowrap;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.focusContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.focusButton {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+.focusImg {
+    width: 12px;
+}
+
+.divider {
+    background-color: #f8f8f8;
+    height: 100%;
+    margin: 0;
+    width: 1px;
+}
+
+.frameDescription {
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+}

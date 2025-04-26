@@ -1,0 +1,38 @@
+{
+  "en": {
+    "actionFlow": "Action Flow",
+    "save": "Save",
+    "listEmpty": "No action flows",
+    "create": "Create",
+    "fieldName": "Field Name",
+    "type": "Type",
+    "argEmpty": "No arguments",
+    "tabs": {
+      "Input": "Input",
+      "Output": "Output",
+      "Logic": "Logic",
+      "add": {
+        "Input": "Add Input",
+        "Output": "Add Output"
+      }
+    }
+  },
+  "zh": {
+    "actionFlow": "动作流",
+    "save": "保存",
+    "listEmpty": "暂无动作流",
+    "create": "创建",
+    "fieldName": "字段名称",
+    "type": "类型",
+    "argEmpty": "暂无参数",
+    "tabs": {
+      "Input": "输入",
+      "Output": "输出",
+      "Logic": "逻辑",
+      "add": {
+        "Input": "添加输入",
+        "Output": "添加输出"
+      }
+    }
+  }
+}

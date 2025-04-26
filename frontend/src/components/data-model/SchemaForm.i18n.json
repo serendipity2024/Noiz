@@ -1,0 +1,22 @@
+{
+  "en": {
+    "error": "Invalid SQL keyword or starts with 'fz'",
+    "button": {
+      "ok": "OK",
+      "cancel": "Cancel"
+    },
+    "placeholder": {
+      "select": "Please select"
+    }
+  },
+  "zh": {
+    "error": "无效的SQL关键字或以'fz'开头",
+    "button": {
+      "ok": "确定",
+      "cancel": "取消"
+    },
+    "placeholder": {
+      "select": "请选择"
+    }
+  }
+}

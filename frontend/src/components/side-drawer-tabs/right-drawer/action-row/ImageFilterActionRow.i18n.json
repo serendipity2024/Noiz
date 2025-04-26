@@ -1,0 +1,28 @@
+{
+  "en": {
+    "label": {
+      "bitmap": "Bitmap",
+      "filterName": "Filter Name",
+      "filterParmas": "Filter Parameters",
+      "assignTo": "Assign To",
+      "selectPlaceholder": "Select filter"
+    },
+    "select": {
+      "variable": "Variable",
+      "customList": "Custom List"
+    }
+  },
+  "zh": {
+    "label": {
+      "bitmap": "位图",
+      "filterName": "滤镜名称",
+      "filterParmas": "滤镜参数",
+      "assignTo": "分配给",
+      "selectPlaceholder": "选择滤镜"
+    },
+    "select": {
+      "variable": "变量",
+      "customList": "自定义列表"
+    }
+  }
+}

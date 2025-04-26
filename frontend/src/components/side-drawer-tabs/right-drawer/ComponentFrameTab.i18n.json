@@ -1,0 +1,48 @@
+{
+  "en": {
+    "label": {
+      "isFloating": "Floating",
+      "verticalFlexDirection": "Vertical Direction",
+      "verticalLayoutMode": "Layout Mode",
+      "verticalMinValue": "Minimum Height",
+      "position": "Position",
+      "size": "Size"
+    },
+    "direction": {
+      "TOP_DOWN": "Top to Bottom",
+      "BOTTOM_UP": "Bottom to Top"
+    },
+    "mode": {
+      "FIXED": "Fixed",
+      "FLEXIBLE": "Flexible",
+      "STRETCH": "Stretch"
+    },
+    "placeholder": {
+      "direction": "Select direction...",
+      "mode": "Select layout mode..."
+    }
+  },
+  "zh": {
+    "label": {
+      "isFloating": "浮动",
+      "verticalFlexDirection": "垂直方向",
+      "verticalLayoutMode": "布局模式",
+      "verticalMinValue": "最小高度",
+      "position": "位置",
+      "size": "尺寸"
+    },
+    "direction": {
+      "TOP_DOWN": "从上到下",
+      "BOTTOM_UP": "从下到上"
+    },
+    "mode": {
+      "FIXED": "固定",
+      "FLEXIBLE": "灵活",
+      "STRETCH": "拉伸"
+    },
+    "placeholder": {
+      "direction": "选择方向...",
+      "mode": "选择布局模式..."
+    }
+  }
+}

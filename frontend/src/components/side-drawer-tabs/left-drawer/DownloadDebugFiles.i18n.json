@@ -1,0 +1,18 @@
+{
+  "en": {
+    "title": "Download Debug Files",
+    "json": "Download JSON",
+    "debugScript": "Download Debug Script",
+    "cancel": "Cancel",
+    "current": "Current",
+    "savedAt": "Saved at"
+  },
+  "zh": {
+    "title": "下载调试文件",
+    "json": "下载 JSON",
+    "debugScript": "下载调试脚本",
+    "cancel": "取消",
+    "current": "当前版本",
+    "savedAt": "保存于"
+  }
+}

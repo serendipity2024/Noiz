@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "assignTo": "Assign Scan Result To"
+    }
+  },
+  "zh": {
+    "label": {
+      "assignTo": "扫描结果赋值给"
+    }
+  }
+}

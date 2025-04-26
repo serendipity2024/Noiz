@@ -1,0 +1,18 @@
+{
+  "en": {
+    "label": {
+      "styleSetting": "Style Settings",
+      "size": "Size",
+      "selectedColor": "Selected Color",
+      "deselectedColor": "Deselected Color"
+    }
+  },
+  "zh": {
+    "label": {
+      "styleSetting": "样式设置",
+      "size": "尺寸",
+      "selectedColor": "选中颜色",
+      "deselectedColor": "未选中颜色"
+    }
+  }
+}

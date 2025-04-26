@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "closeOnClickOverlay": "Close On Click Overlay"
+    }
+  },
+  "zh": {
+    "label": {
+      "closeOnClickOverlay": "点击遮罩关闭"
+    }
+  }
+}

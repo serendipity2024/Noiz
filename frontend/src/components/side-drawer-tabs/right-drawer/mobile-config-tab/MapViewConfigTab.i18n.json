@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "geoPoint": "Geo Point"
+    }
+  },
+  "zh": {
+    "label": {
+      "geoPoint": "地理位置"
+    }
+  }
+}

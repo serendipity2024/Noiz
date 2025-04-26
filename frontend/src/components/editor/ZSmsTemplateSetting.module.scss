@@ -1,0 +1,294 @@
+.smsTemplateSettingButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 20px;
+    cursor: pointer;
+    border: 2px solid #202020;
+    background-color: #202020;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+
+    &:hover {
+        border-color: #ffa522;
+    }
+}
+
+#smsTemplateScrollBar {
+    &::-webkit-scrollbar {
+        display: unset;
+        width: 5px;
+        position: absolute;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 6px;
+        background-color: #616668;
+    }
+}
+
+.smsTemplateSettingEmptyTemplates {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    text-align: center;
+    font-size: large;
+}
+
+.smsTemplateSettingEmptyTemplatesFont {
+    color: #ffa522;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.smsTemplateModifyContainer {
+    width: 100%;
+    max-height: 700px;
+    display: inline-flex;
+}
+
+.smsTemplateLeftContainer {
+    width: 40%;
+    height: 560px;
+    padding-top: 2%;
+}
+
+.smsTemplateListContainer {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    padding-left: 5px;
+    padding-right: 15px;
+    scroll-behavior: auto;
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #f8f8f8;
+    }
+}
+
+.smsTemplateLeftHeader {
+    padding-left: 15px;
+    padding-right: 25px;
+    height: 10%;
+}
+
+.hideDiv {
+    display: none;
+}
+
+.smsTemplateListCard {
+    width: 100%;
+    cursor: pointer;
+    display: table;
+    border: 2px solid #202020;
+    background-color: #202020;
+    border-radius: 6px;
+    transition: 0.2s;
+
+    :hover {
+        background-color: #333;
+        border-width: 2px;
+        border-color: #fff;
+        border-radius: 6px;
+        transition: 0.2s;
+    }
+}
+
+.smsTemplateListCardSelected {
+    width: 100%;
+    display: table;
+    border: 2px solid #ffa522;
+    border-radius: 6px;
+    background-color: #333;
+    transition: 0.2s;
+}
+
+.smsTemplateListCardtitleContainer {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    text-align: center;
+    padding: 15px 10%;
+}
+
+.smsTemplateListCardTitle {
+    text-align: start;
+    color: #f8f8f8;
+}
+
+.smsTemplateListCardTitleSelected {
+    text-align: start;
+    color: #ffa522;
+}
+
+.smsTemplateListCardTime {
+    text-align: start;
+    font-size: small;
+    color: #616668;
+}
+
+.smsTemplateListCardTimeSelected {
+    text-align: start;
+    font-size: small;
+    color: #f8f8f8;
+}
+
+.smsTemplateDetailContainer {
+    padding: 2%;
+    width: 60%;
+    height: 560px;
+    max-height: 700px;
+    margin-left: 10px;
+    background-color: #333;
+    border-radius: 6px;
+}
+
+.smsTemplateDetail {
+    padding: 3% 5% 3% 3%;
+    width: 100%;
+    overflow: auto;
+    height: 460px;
+    background-color: #333;
+}
+
+.smsTemplateDetailFooter {
+    padding: 8% 3% 3%;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+}
+
+.whiteFont {
+    color: #fff;
+}
+
+.auditReason {
+    padding-left: 15%;
+    margin-bottom: 15%;
+    color: #fff;
+}
+
+.test {
+    background: #f8f8f8;
+}
+
+.smsTemplateDetailConfigButton {
+    background-color: #f8f8f8;
+
+    :disabled {
+        background-color: #ffa522;
+    }
+}
+
+.smsTemplateAddNewIcon {
+    cursor: pointer;
+    color: #fff;
+    display: table-cell;
+    font-size: 120%;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-color: #ffa522;
+    background-color: #ffa522;
+    border-radius: 6px;
+}
+
+.signSettingContainer {
+    border-radius: 6px;
+    overflow: auto;
+    color: #f8f8f8;
+    flex-direction: row;
+    background-color: #333;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.settingInput {
+    padding: 10px;
+    background-color: #202020;
+    color: #fff;
+}
+
+.textAreaInput {
+    padding: 10px;
+    background-color: #202020;
+    color: #fff;
+    min-height: 100px !important;
+    resize: none;
+}
+
+.tooltipIcon {
+    padding-left: 5px;
+    color: #1f8bea;
+}
+
+.smsTemplateSetting {
+    .ant-modal {
+        border-radius: 6px;
+        overflow: auto;
+    }
+
+    .ant-modal-content {
+        border-radius: 6px;
+        width: 700px;
+    }
+
+    .ant-modal-header {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 0;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color: #333;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background-color: #202020;
+    }
+
+    .ant-modal-close-x {
+        padding-top: 10%;
+        margin: auto;
+        padding-bottom: 10%;
+        color: #ffa522;
+    }
+
+    .ant-modal-body {
+        background: #202020;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        height: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .ant-form-item-label {
+        max-width: -webkit-fit-content !important;
+        max-width: -moz-fit-content !important;
+        max-width: fit-content !important;
+    }
+
+    .ant-upload {
+        width: 200px;
+        height: 144px;
+        border: transparent;
+        background-color: #202020;
+        border-radius: 6px;
+    }
+
+    .ant-btn .ant-btn-primary .ant-btn-block {
+        background-color: #f8f8f8 !important;
+
+        :disabled {
+            background-color: #f8f8f8 !important;
+        }
+    }
+}

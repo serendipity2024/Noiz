@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "sendBy": "Send By",
+      "sendTo": "Send To"
+    },
+    "method": {
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "zh": {
+    "label": {
+      "sendBy": "发送方式",
+      "sendTo": "发送至"
+    },
+    "method": {
+      "email": "邮箱",
+      "phone": "手机"
+    }
+  }
+}

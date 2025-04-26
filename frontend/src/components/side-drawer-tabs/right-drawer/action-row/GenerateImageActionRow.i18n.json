@@ -1,0 +1,42 @@
+{
+  "en": {
+    "label": {
+      "assignTo": "Assign To",
+      "parameters": "Parameters",
+      "hasBackgroundImage": "Has Background Image",
+      "backgroundImage": "Background Image",
+      "size": "Size",
+      "relativePosition": "Relative Position",
+      "type": "Type",
+      "entrance": "Entrance"
+    },
+    "miniAppCodeType": {
+      "CUSTOM": "Custom",
+      "UNLIMITED": "Unlimited",
+      "LIMITED": "Limited"
+    },
+    "placeholder": {
+      "entrance": "Select entrance page"
+    }
+  },
+  "zh": {
+    "label": {
+      "assignTo": "分配给",
+      "parameters": "参数",
+      "hasBackgroundImage": "使用背景图片",
+      "backgroundImage": "背景图片",
+      "size": "尺寸",
+      "relativePosition": "相对位置",
+      "type": "类型",
+      "entrance": "入口"
+    },
+    "miniAppCodeType": {
+      "CUSTOM": "自定义",
+      "UNLIMITED": "无限制",
+      "LIMITED": "限制"
+    },
+    "placeholder": {
+      "entrance": "选择入口页面"
+    }
+  }
+}

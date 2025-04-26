@@ -1,0 +1,72 @@
+{
+  "en": {
+    "label": {
+      "loggedInUser": "Logged-in User",
+      "constantData": "Constant Data",
+      "logicalData": "Logical Data",
+      "globalData": "Global Data",
+      "itemData": "Item Data",
+      "linkedData": "Linked Data",
+      "pageData": "Page Data",
+      "componentInputData": "Component Input",
+      "componentOutputData": "Component Output",
+      "localData": "Local Data",
+      "remoteData": "Remote Data",
+      "resultData": "Result Data",
+      "requestStatusData": "Request Status",
+      "actionData": "Action Data",
+      "inputs": "Inputs",
+      "selections": "Selections"
+    },
+    "logicalData": {
+      "null": "Null",
+      "now": "Current Time",
+      "today": "Today",
+      "timestamp": "Timestamp",
+      "clipboardData": "Clipboard Data",
+      "formulaData": "Formula",
+      "conditionalData": "Conditional",
+      "isIOS": "Is iOS",
+      "isAndroid": "Is Android"
+    },
+    "select": {
+      "variable": "Variable",
+      "customData": "Custom Data"
+    }
+  },
+  "zh": {
+    "label": {
+      "loggedInUser": "当前用户",
+      "constantData": "常量数据",
+      "logicalData": "逻辑数据",
+      "globalData": "全局数据",
+      "itemData": "项目数据",
+      "linkedData": "关联数据",
+      "pageData": "页面数据",
+      "componentInputData": "组件输入",
+      "componentOutputData": "组件输出",
+      "localData": "本地数据",
+      "remoteData": "远程数据",
+      "resultData": "结果数据",
+      "requestStatusData": "请求状态",
+      "actionData": "动作数据",
+      "inputs": "输入项",
+      "selections": "选择项"
+    },
+    "logicalData": {
+      "null": "空值",
+      "now": "当前时间",
+      "today": "今天",
+      "timestamp": "时间戳",
+      "clipboardData": "剪贴板数据",
+      "formulaData": "公式",
+      "conditionalData": "条件",
+      "isIOS": "是否iOS",
+      "isAndroid": "是否安卓"
+    },
+    "select": {
+      "variable": "变量",
+      "customData": "自定义数据"
+    }
+  }
+}

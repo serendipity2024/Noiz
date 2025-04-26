@@ -1,0 +1,18 @@
+{
+  "en": {
+    "field": "Field",
+    "titleContent": "Title Content",
+    "table": "Table",
+    "displayContent": "Display Content",
+    "dataSource": "Data Source",
+    "associatedData": "Associated Data"
+  },
+  "zh": {
+    "field": "字段",
+    "titleContent": "标题内容",
+    "table": "表格",
+    "displayContent": "显示内容",
+    "dataSource": "数据源",
+    "associatedData": "关联数据"
+  }
+}

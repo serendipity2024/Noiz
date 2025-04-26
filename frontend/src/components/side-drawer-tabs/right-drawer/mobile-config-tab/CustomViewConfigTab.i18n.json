@@ -1,0 +1,46 @@
+{
+  "en": {
+    "label": {
+      "type": "Type",
+      "foldingHeight": "Folding Height",
+      "stickyMode": "Sticky Mode",
+      "stickyMarginTop": "Sticky Margin Top",
+      "convertToConditionalContainer": "Convert to Conditional Container",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "convertMessage": "Are you sure you want to convert this component to a conditional container? This action cannot be undone."
+    },
+    "type": {
+      "NORMAL": "Normal",
+      "FOLDING": "Folding",
+      "STICKY": "Sticky"
+    },
+    "stickyMode": {
+      "none": "None",
+      "TOP": "Top",
+      "BOTTOM": "Bottom"
+    }
+  },
+  "zh": {
+    "label": {
+      "type": "类型",
+      "foldingHeight": "折叠高度",
+      "stickyMode": "粘性模式",
+      "stickyMarginTop": "粘性顶部边距",
+      "convertToConditionalContainer": "转换为条件容器",
+      "confirm": "确认",
+      "cancel": "取消",
+      "convertMessage": "确定要将此组件转换为条件容器吗？此操作无法撤销。"
+    },
+    "type": {
+      "NORMAL": "普通",
+      "FOLDING": "折叠",
+      "STICKY": "粘性"
+    },
+    "stickyMode": {
+      "none": "无",
+      "TOP": "顶部",
+      "BOTTOM": "底部"
+    }
+  }
+}

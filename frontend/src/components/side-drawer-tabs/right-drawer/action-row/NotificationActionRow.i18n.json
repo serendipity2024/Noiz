@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "templateId": "Template",
+      "receiver": "Receiver",
+      "parameter": "Parameters"
+    }
+  },
+  "zh": {
+    "label": {
+      "templateId": "模板",
+      "receiver": "接收者",
+      "parameter": "参数"
+    }
+  }
+}

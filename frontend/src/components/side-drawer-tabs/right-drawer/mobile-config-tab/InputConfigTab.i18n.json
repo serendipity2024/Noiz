@@ -1,0 +1,38 @@
+{
+  "en": {
+    "label": {
+      "placeholder": "Placeholder",
+      "isPassword": "Password Input",
+      "isFocused": "Auto Focus",
+      "multiline": "Multiline",
+      "cursorSpacing": "Cursor Spacing",
+      "placeholderColor": "Placeholder Color",
+      "valueType": "Value Type",
+      "onChange": "On Change",
+      "onChangeDebounceDuration": "Debounce Duration",
+      "onBlur": "On Blur"
+    },
+    "valueType": {
+      "TEXT": "Text",
+      "Numeric": "Number"
+    }
+  },
+  "zh": {
+    "label": {
+      "placeholder": "占位文本",
+      "isPassword": "密码输入",
+      "isFocused": "自动聚焦",
+      "multiline": "多行输入",
+      "cursorSpacing": "光标间距",
+      "placeholderColor": "占位文本颜色",
+      "valueType": "值类型",
+      "onChange": "值改变时",
+      "onChangeDebounceDuration": "防抖时间",
+      "onBlur": "失去焦点时"
+    },
+    "valueType": {
+      "TEXT": "文本",
+      "Numeric": "数字"
+    }
+  }
+}

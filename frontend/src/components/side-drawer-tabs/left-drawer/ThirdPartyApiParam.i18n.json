@@ -1,0 +1,20 @@
+{
+  "en": {
+    "parameterName": "Parameter Name",
+    "parameterType": "Parameter Type",
+    "itemType": "Item Type",
+    "position": "Position",
+    "required": "Required",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "zh": {
+    "parameterName": "参数名称",
+    "parameterType": "参数类型",
+    "itemType": "项目类型",
+    "position": "位置",
+    "required": "必填",
+    "cancel": "取消",
+    "confirm": "确认"
+  }
+}

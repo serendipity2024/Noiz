@@ -1,0 +1,10 @@
+.mainContainer {
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+        color: #f8f8f8;
+        background-color: #ffa522;
+    }
+
+    .ant-radio-button-wrapper:hover {
+        color: #ffa522;
+    }
+}

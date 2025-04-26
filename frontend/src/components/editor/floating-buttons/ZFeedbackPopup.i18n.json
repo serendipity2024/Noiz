@@ -1,0 +1,24 @@
+{
+  "en": {
+    "title": "Feedback",
+    "subtitleRating": "How would you rate your experience?",
+    "subtitleComment": "Any additional comments?",
+    "placeholder": "Please share your thoughts...",
+    "submit": "Submit",
+    "rating": {
+      "good": "Good",
+      "bad": "Bad"
+    }
+  },
+  "zh": {
+    "title": "反馈",
+    "subtitleRating": "您如何评价您的体验？",
+    "subtitleComment": "有任何其他意见吗？",
+    "placeholder": "请分享您的想法...",
+    "submit": "提交",
+    "rating": {
+      "good": "好",
+      "bad": "差"
+    }
+  }
+}

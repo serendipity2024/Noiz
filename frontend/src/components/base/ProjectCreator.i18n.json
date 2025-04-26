@@ -1,0 +1,12 @@
+{
+  "en": {
+    "title": "Create Project",
+    "cancel": "Cancel",
+    "build": "Create"
+  },
+  "zh": {
+    "title": "创建项目",
+    "cancel": "取消",
+    "build": "创建"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "Publish Configuration",
+    "subtitle": {
+      "choice": "Choose Build Target",
+      "wechat": "WeChat Mini Program"
+    },
+    "tab": {
+      "wechat": "WeChat",
+      "web": "Mobile Web"
+    },
+    "button": "Publish"
+  },
+  "zh": {
+    "title": "发布配置",
+    "subtitle": {
+      "choice": "选择构建目标",
+      "wechat": "微信小程序"
+    },
+    "tab": {
+      "wechat": "微信",
+      "web": "移动网页"
+    },
+    "button": "发布"
+  }
+}

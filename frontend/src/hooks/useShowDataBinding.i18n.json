@@ -1,0 +1,88 @@
+{
+  "EN": {
+    "label": {
+      "FORMULA_DATA": "Formula",
+      "CONDITIONAL_DATA": "Conditional"
+    },
+    "pathComponent": {
+      "LOGGED_IN_USER": "Logged In User",
+      "LOGICAL_DATA": "Logical Data",
+      "PAGE_DATA": "Page Data",
+      "REMOTE_DATA": "Remote Data",
+      "LINKED_DATA": "Linked Data",
+      "LOCAL_DATA": "Local Data",
+      "ITEM_DATA": "Item Data",
+      "RESULT_DATA": "Result Data",
+      "INPUTS": "Inputs",
+      "SELECTIONS": "Selections"
+    },
+    "function": {
+      "SUM": "Sum",
+      "AVG": "Average",
+      "COUNT": "Count",
+      "MAX": "Maximum",
+      "MIN": "Minimum",
+      "CONCAT": "Concatenate",
+      "UPPER": "Uppercase",
+      "LOWER": "Lowercase",
+      "TRIM": "Trim",
+      "LENGTH": "Length",
+      "ROUND": "Round",
+      "FLOOR": "Floor",
+      "CEIL": "Ceiling",
+      "ABS": "Absolute",
+      "NOW": "Current Time",
+      "DATE": "Date",
+      "TIME": "Time",
+      "YEAR": "Year",
+      "MONTH": "Month",
+      "DAY": "Day",
+      "HOUR": "Hour",
+      "MINUTE": "Minute",
+      "SECOND": "Second"
+    }
+  },
+  "ZH": {
+    "label": {
+      "FORMULA_DATA": "公式",
+      "CONDITIONAL_DATA": "条件"
+    },
+    "pathComponent": {
+      "LOGGED_IN_USER": "登录用户",
+      "LOGICAL_DATA": "逻辑数据",
+      "PAGE_DATA": "页面数据",
+      "REMOTE_DATA": "远程数据",
+      "LINKED_DATA": "关联数据",
+      "LOCAL_DATA": "本地数据",
+      "ITEM_DATA": "项目数据",
+      "RESULT_DATA": "结果数据",
+      "INPUTS": "输入",
+      "SELECTIONS": "选择"
+    },
+    "function": {
+      "SUM": "求和",
+      "AVG": "平均值",
+      "COUNT": "计数",
+      "MAX": "最大值",
+      "MIN": "最小值",
+      "CONCAT": "连接",
+      "UPPER": "大写",
+      "LOWER": "小写",
+      "TRIM": "修剪",
+      "LENGTH": "长度",
+      "ROUND": "四舍五入",
+      "FLOOR": "向下取整",
+      "CEIL": "向上取整",
+      "ABS": "绝对值",
+      "NOW": "当前时间",
+      "DATE": "日期",
+      "TIME": "时间",
+      "YEAR": "年",
+      "MONTH": "月",
+      "DAY": "日",
+      "HOUR": "时",
+      "MINUTE": "分",
+      "SECOND": "秒"
+    }
+  }
+}

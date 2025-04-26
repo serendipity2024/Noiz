@@ -1,0 +1,166 @@
+.container {
+    height: 80%;
+
+    .ant-modal-body {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border-radius: 16px;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ant-modal-content {
+        width: 100%;
+        background: #202020;
+        border-radius: 16px;
+        height: 100%;
+    }
+
+    .ant-card-hoverable {
+        transition: .1s ease-in-out;
+        position: relative;
+
+        &:hover {
+            border: 4px solid #ffa522;
+        }
+    }
+
+    .ant-card {
+        border-radius: 14px;
+        overflow: hidden;
+        border: 4px solid transparent;
+        background-color: #333;
+    }
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.title {
+    margin-left: 52px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.divider {
+    background-color: #333;
+    height: 2px;
+    margin: 0;
+}
+
+.templateListContainer {
+    width: 100%;
+    flex: auto;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.templateListtemplateList {
+    margin-left: 42px;
+    margin-top: 28px;
+    margin-right: 42px;
+}
+
+.cardItem {
+    padding: 10px;
+}
+
+.descriptionContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f8f8f8;
+}
+
+.descriptionContent {
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 12px;
+    line-height: 17px;
+    color: #ffa522;
+}
+
+.rightIcon {
+    margin-left: 12px;
+    margin-bottom: 4px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeButtonContainer {
+    margin-left: 40px;
+}
+
+.closeButton {
+    background-color: transparent;
+    color: #f8f8f8;
+}
+
+.closeButtonContainer .ant-btn {
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: transparent;
+        color: #f8f8f8;
+    }
+}
+
+.closeButton {
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 140px;
+    height: 50px;
+}
+
+.blankButtonContainer {
+    margin-right: 36px;
+}
+
+.blankButton {
+    background-color: #ffa522;
+    color: #f8f8f8;
+}
+
+.blankButtonContainer .ant-btn {
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: #ffa522;
+        color: #f8f8f8;
+    }
+}
+
+.blankButton {
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+}

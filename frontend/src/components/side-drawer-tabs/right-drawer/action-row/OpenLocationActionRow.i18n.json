@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "location": "Location",
+      "address": "Address",
+      "name": "Name"
+    }
+  },
+  "zh": {
+    "label": {
+      "location": "位置",
+      "address": "地址",
+      "name": "名称"
+    }
+  }
+}

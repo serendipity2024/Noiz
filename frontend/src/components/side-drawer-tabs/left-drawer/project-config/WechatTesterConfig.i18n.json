@@ -1,0 +1,22 @@
+{
+  "en": {
+    "title": "WeChat Tester Configuration",
+    "label": {
+      "url": "WeChat Official Account",
+      "addMember": "Add Tester"
+    },
+    "button": {
+      "add": "Add"
+    }
+  },
+  "zh": {
+    "title": "微信测试者配置",
+    "label": {
+      "url": "微信公众号",
+      "addMember": "添加测试者"
+    },
+    "button": {
+      "add": "添加"
+    }
+  }
+}

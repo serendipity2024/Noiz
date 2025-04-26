@@ -1,0 +1,14 @@
+{
+  "en": {
+    "placeholder": {
+      "select": "Select a value",
+      "input": "Enter a value"
+    }
+  },
+  "zh": {
+    "placeholder": {
+      "select": "选择一个值",
+      "input": "输入一个值"
+    }
+  }
+}

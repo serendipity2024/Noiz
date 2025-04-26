@@ -1,0 +1,18 @@
+{
+  "en": {
+    "title": "Component Tree",
+    "iconTips": {
+      "expandAll": "Expand All",
+      "collapseAll": "Collapse All",
+      "goToTop": "Go to Top"
+    }
+  },
+  "zh": {
+    "title": "组件树",
+    "iconTips": {
+      "expandAll": "展开全部",
+      "collapseAll": "折叠全部",
+      "goToTop": "回到顶部"
+    }
+  }
+}

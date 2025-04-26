@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "loop": "Loop",
+      "source": "Source"
+    }
+  },
+  "zh": {
+    "label": {
+      "loop": "循环",
+      "source": "音频源"
+    }
+  }
+}

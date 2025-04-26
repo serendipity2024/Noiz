@@ -1,0 +1,7 @@
+.container-hand-tool-on {
+    cursor: grab;
+
+    &:active {
+        cursor: grabbing;
+    }
+}

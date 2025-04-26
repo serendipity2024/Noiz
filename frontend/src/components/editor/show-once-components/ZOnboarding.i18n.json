@@ -1,0 +1,14 @@
+{
+  "en": {
+    "header": {
+      "onboarding": "Welcome to Zion",
+      "skip": "Skip"
+    }
+  },
+  "zh": {
+    "header": {
+      "onboarding": "欢迎使用 Zion",
+      "skip": "跳过"
+    }
+  }
+}

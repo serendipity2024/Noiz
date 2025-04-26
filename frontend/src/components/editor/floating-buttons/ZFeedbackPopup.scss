@@ -1,0 +1,8 @@
+.textArea {
+
+    &::-webkit-input-placeholder,
+    &:-ms-input-placeholder,
+    &::placeholder {
+        opacity: 0.6;
+    }
+}

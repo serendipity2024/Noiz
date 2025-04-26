@@ -1,0 +1,40 @@
+{
+  "en": {
+    "label": {
+      "condition": "Condition",
+      "setting": "Condition Settings",
+      "orCondition": "OR Condition",
+      "andCondition": "AND Condition",
+      "notCondition": "NOT Condition",
+      "addItem": "Add Item",
+      "deleteSelf": "Delete",
+      "addCondition": "Add Condition"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "placeholder": {
+      "select": "Select condition type..."
+    }
+  },
+  "zh": {
+    "label": {
+      "condition": "条件",
+      "setting": "条件设置",
+      "orCondition": "或条件",
+      "andCondition": "且条件",
+      "notCondition": "非条件",
+      "addItem": "添加项目",
+      "deleteSelf": "删除",
+      "addCondition": "添加条件"
+    },
+    "button": {
+      "cancel": "取消",
+      "confirm": "确认"
+    },
+    "placeholder": {
+      "select": "选择条件类型..."
+    }
+  }
+}

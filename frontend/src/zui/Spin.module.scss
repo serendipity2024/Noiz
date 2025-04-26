@@ -1,0 +1,124 @@
+.spin {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.spinning {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  transition: opacity 0.3s;
+}
+
+.blur {
+  clear: both;
+  overflow: hidden;
+  opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+}
+
+.spinnerContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+.dot {
+  position: absolute;
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: #1890ff;
+  border-radius: 100%;
+  transform: scale(0.75);
+  transform-origin: 50% 50%;
+  animation: spinMove 1s infinite linear alternate;
+}
+
+.dot:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.dot:nth-child(2) {
+  top: 0;
+  right: 0;
+  animation-delay: 0.4s;
+}
+
+.dot:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  animation-delay: 0.8s;
+}
+
+.dot:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  animation-delay: 1.2s;
+}
+
+@keyframes spinMove {
+  to {
+    opacity: 1;
+  }
+}
+
+.text {
+  margin-top: 8px;
+  color: #1890ff;
+  text-shadow: 0 1px 2px #fff;
+}
+
+.small {
+  .spinner {
+    width: 14px;
+    height: 14px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+.large {
+  .spinner {
+    width: 32px;
+    height: 32px;
+  }
+
+  .dot {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.dark {
+  .dot {
+    background-color: #ffa522;
+  }
+
+  .text {
+    color: #ffa522;
+    text-shadow: 0 1px 2px #000;
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "en": {
+    "title": "SMS Template Setting",
+    "delete": "Delete",
+    "notUploaded": "Not Uploaded",
+    "createTemplateNotAllowed": "Template creation is not allowed at this time",
+    "signatureConfig": {
+      "subtitle": "Signature Configuration",
+      "powerOfAttorneyImage": "Power of Attorney Image",
+      "powerOfAttorneyTemplate": "Download Power of Attorney Template",
+      "smsSignature": "SMS Signature",
+      "smsSource": "SMS Source",
+      "smsDescription": "SMS Description",
+      "smsSignatureStatus": "Signature Status",
+      "smsSources": {
+        "ENTERPRISE": "Enterprise",
+        "INDIVIDUAL": "Individual",
+        "WEBSITE": "Website",
+        "APP": "App",
+        "OTHER": "Other"
+      }
+    },
+    "templatesConfig": {
+      "subtitle": "Template Configuration",
+      "smsTemplatesHeader": "SMS Templates",
+      "newTemplate": "New Template",
+      "noTemplates": "No templates available",
+      "clickHere": "Click here to create one",
+      "upload": "Upload",
+      "reUpload": "Re-upload",
+      "smsTemplateDetails": {
+        "smsTemplateName": "Template Name",
+        "smsTemplateNameSize": "50",
+        "smsTemplateNamePlaceholder": "Enter template name",
+        "smsTemplateType": "Template Type",
+        "smsTemplateTypePlaceholder": "Select template type",
+        "smsTemplateDescription": "Template Description",
+        "smsTemplateDescriptionPlaceholder": "Enter template description",
+        "smsTemplateContent": "Template Content",
+        "smsTemplateContentPlaceholder": "Enter template content",
+        "smsTemplateReason": "Audit Reason",
+        "isRequired": " is required"
+      },
+      "templateType": {
+        "VERIFICATION_CODE": "Verification Code",
+        "NOTIFICATION": "Notification",
+        "PROMOTION": "Promotion"
+      }
+    },
+    "auditStatus": "Audit Status",
+    "statuses": {
+      "NOT_UPLOADED": "Not Uploaded",
+      "IN_REVIEW": "In Review",
+      "APPROVED": "Approved",
+      "AUDIT_FAILED": "Audit Failed"
+    },
+    "contentTooltip": "You can use variables in the template content, e.g. ${code} for verification code"
+  },
+  "zh": {
+    "title": "短信模板设置",
+    "delete": "删除",
+    "notUploaded": "未上传",
+    "createTemplateNotAllowed": "当前不允许创建模板",
+    "signatureConfig": {
+      "subtitle": "签名配置",
+      "powerOfAttorneyImage": "授权书图片",
+      "powerOfAttorneyTemplate": "下载授权书模板",
+      "smsSignature": "短信签名",
+      "smsSource": "短信来源",
+      "smsDescription": "短信描述",
+      "smsSignatureStatus": "签名状态",
+      "smsSources": {
+        "ENTERPRISE": "企业",
+        "INDIVIDUAL": "个人",
+        "WEBSITE": "网站",
+        "APP": "应用",
+        "OTHER": "其他"
+      }
+    },
+    "templatesConfig": {
+      "subtitle": "模板配置",
+      "smsTemplatesHeader": "短信模板",
+      "newTemplate": "新模板",
+      "noTemplates": "暂无模板",
+      "clickHere": "点击此处创建",
+      "upload": "上传",
+      "reUpload": "重新上传",
+      "smsTemplateDetails": {
+        "smsTemplateName": "模板名称",
+        "smsTemplateNameSize": "50",
+        "smsTemplateNamePlaceholder": "请输入模板名称",
+        "smsTemplateType": "模板类型",
+        "smsTemplateTypePlaceholder": "请选择模板类型",
+        "smsTemplateDescription": "模板描述",
+        "smsTemplateDescriptionPlaceholder": "请输入模板描述",
+        "smsTemplateContent": "模板内容",
+        "smsTemplateContentPlaceholder": "请输入模板内容",
+        "smsTemplateReason": "审核原因",
+        "isRequired": "为必填项"
+      },
+      "templateType": {
+        "VERIFICATION_CODE": "验证码",
+        "NOTIFICATION": "通知",
+        "PROMOTION": "推广"
+      }
+    },
+    "auditStatus": "审核状态",
+    "statuses": {
+      "NOT_UPLOADED": "未上传",
+      "IN_REVIEW": "审核中",
+      "APPROVED": "已通过",
+      "AUDIT_FAILED": "审核失败"
+    },
+    "contentTooltip": "您可以在模板内容中使用变量，例如使用 ${code} 表示验证码"
+  }
+}

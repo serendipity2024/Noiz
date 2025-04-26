@@ -1,0 +1,20 @@
+.config-cascader.ant-cascader-picker.ant-cascader-picker-show-search.ant-cascader-picker-borderless {
+    color: #8f8f8f;
+    background-color: inherit;
+    display: block;
+
+    .anticon {
+        &.ant-cascader-picker-arrow {
+            color: #8f8f8f;
+        }
+
+        &.ant-cascader-picker-clear {
+            color: #8f8f8f;
+            background-color: inherit;
+        }
+    }
+
+    .ant-input {
+        color: #8f8f8f;
+    }
+}

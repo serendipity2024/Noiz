@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "disable": "Disable",
+      "disableInput": "Disable Input",
+      "defaultValue": "Default Value",
+      "maxValue": "Max Value",
+      "minValue": "Min Value",
+      "stepValue": "Step Value"
+    }
+  },
+  "zh": {
+    "label": {
+      "disable": "禁用",
+      "disableInput": "禁用输入",
+      "defaultValue": "默认值",
+      "maxValue": "最大值",
+      "minValue": "最小值",
+      "stepValue": "步长值"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "en": {
+    "addScreen": "Add Screen",
+    "theme": "Theme",
+    "dataModel": "Data Model",
+    "screens": "Screens",
+    "dashboard": "Dashboard",
+    "managementConsole": "Management Console",
+    "save": "Save",
+    "build": "Build",
+    "download": "Download",
+    "showDebugConfig": "Debug Config",
+    "import": "Import",
+    "settings": "Settings",
+    "revert": "Revert",
+    "addComponent": "Add Component",
+    "componentTree": "Component Tree",
+    "subSystems": "Subsystems",
+    "actionFlow": "Action Flow",
+    "thirdPartyApi": "Third Party API"
+  },
+  "zh": {
+    "addScreen": "添加页面",
+    "theme": "主题",
+    "dataModel": "数据模型",
+    "screens": "页面列表",
+    "dashboard": "仪表盘",
+    "managementConsole": "管理控制台",
+    "save": "保存",
+    "build": "构建",
+    "download": "下载",
+    "showDebugConfig": "调试配置",
+    "import": "导入",
+    "settings": "设置",
+    "revert": "还原",
+    "addComponent": "添加组件",
+    "componentTree": "组件树",
+    "subSystems": "子系统",
+    "actionFlow": "动作流",
+    "thirdPartyApi": "第三方API"
+  }
+}

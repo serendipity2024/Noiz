@@ -1,0 +1,117 @@
+.modalContainer {
+
+    .ant-modal-body,
+    .ant-modal-content {
+        border: hidden;
+        border-radius: 10px;
+    }
+
+    .ant-modal-body {
+        padding: 24px;
+    }
+
+    .ant-modal-footer {
+        border-top: none;
+    }
+}
+
+.titleContainer {
+    margin-left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 36px;
+}
+
+.inputContainer {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+
+.sampleTextBelowInput {
+    color: #ffa522;
+    font-weight: 400;
+}
+
+.cancelButton {
+    border: 2.5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 90px;
+    height: 32px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    transition: border-color 0.3s;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border-color: #f8f8f8;
+    }
+
+    &:active span,
+    &:focus span,
+    &:hover span {
+        color: #f8f8f8;
+    }
+
+    span {
+        transition: color .3s;
+        color: #8f8f8f;
+    }
+}
+
+.submitButton {
+    border: 2.5px solid #ffa522;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 90px;
+    height: 32px;
+    margin-left: 24px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    transition: background-color 0.3s;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border: 2.5px solid #ffa522;
+        background-color: #ffa522;
+    }
+
+    &:active>span,
+    &:focus>span,
+    &:hover>span {
+        color: #f8f8f8;
+        transition: color 0.3s;
+    }
+
+    &[disabled] {
+        border: 2.5px solid #8f8f8f;
+        background-color: #8f8f8f;
+
+        &:hover {
+            border: 2.5px solid #8f8f8f;
+            background-color: #8f8f8f;
+
+            span {
+                color: #333;
+            }
+        }
+
+        span {
+            color: #333;
+        }
+    }
+
+    span {
+        transition: color .3s;
+        color: #ffa522;
+    }
+}

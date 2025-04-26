@@ -1,0 +1,34 @@
+{
+  "EN": {
+    "WECHAT_NAVIGATION_BAR": "WeChat Navigation Bar",
+    "MOBILE_NAVIGATION_BAR": "Mobile Navigation Bar",
+    "BASIC_MOBILE": "Basic Mobile",
+    "BASIC_WECHAT": "Basic WeChat",
+    "BASIC_WEB": "Basic Web",
+    "BASIC_DESKTOP": "Basic Desktop",
+    "BASIC_TABLET": "Basic Tablet",
+    "BASIC_TV": "Basic TV",
+    "BASIC_WATCH": "Basic Watch",
+    "BASIC_CAR": "Basic Car",
+    "BASIC_IOT": "Basic IoT",
+    "BASIC_VR": "Basic VR",
+    "BASIC_AR": "Basic AR",
+    "BASIC_MR": "Basic MR"
+  },
+  "ZH": {
+    "WECHAT_NAVIGATION_BAR": "微信导航栏",
+    "MOBILE_NAVIGATION_BAR": "移动端导航栏",
+    "BASIC_MOBILE": "基础移动端",
+    "BASIC_WECHAT": "基础微信端",
+    "BASIC_WEB": "基础网页端",
+    "BASIC_DESKTOP": "基础桌面端",
+    "BASIC_TABLET": "基础平板端",
+    "BASIC_TV": "基础电视端",
+    "BASIC_WATCH": "基础手表端",
+    "BASIC_CAR": "基础车载端",
+    "BASIC_IOT": "基础物联网端",
+    "BASIC_VR": "基础虚拟现实端",
+    "BASIC_AR": "基础增强现实端",
+    "BASIC_MR": "基础混合现实端"
+  }
+}

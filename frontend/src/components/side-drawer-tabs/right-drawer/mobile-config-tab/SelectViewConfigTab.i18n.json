@@ -1,0 +1,56 @@
+{
+  "en": {
+    "label": {
+      "isMultiline": "Multi-line Display",
+      "keepChoice": "Keep Choice On Refresh",
+      "multiple": "Multiple Selection",
+      "deselectable": "Deselectable",
+      "treatEmptyAsAll": "Treat Empty As All",
+      "defaultValueArrayElementMappingEnabled": "Enable Default Value Array Element Mapping",
+      "defaultValue": "Default Value",
+      "addDefaultValue": "Add Default Value",
+      "sourceType": "Source Type",
+      "action": "Action"
+    },
+    "source": {
+      "LOCAL": "Local Data",
+      "QUERY": "Query Data"
+    },
+    "local": {
+      "data": "Data",
+      "addTab": "Add Tab"
+    },
+    "query": {
+      "limit": "Limit",
+      "field": "Display Field",
+      "placeholder": "Select Field"
+    }
+  },
+  "zh": {
+    "label": {
+      "isMultiline": "多行显示",
+      "keepChoice": "刷新时保持选择",
+      "multiple": "多选",
+      "deselectable": "可取消选择",
+      "treatEmptyAsAll": "空值视为全选",
+      "defaultValueArrayElementMappingEnabled": "启用默认值数组元素映射",
+      "defaultValue": "默认值",
+      "addDefaultValue": "添加默认值",
+      "sourceType": "数据来源",
+      "action": "操作"
+    },
+    "source": {
+      "LOCAL": "本地数据",
+      "QUERY": "查询数据"
+    },
+    "local": {
+      "data": "数据",
+      "addTab": "添加选项"
+    },
+    "query": {
+      "limit": "限制",
+      "field": "显示字段",
+      "placeholder": "选择字段"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "en": {
+    "label": {
+      "receiver": "Phone Number",
+      "templateId": "SMS Template",
+      "parameter": "Template Parameters"
+    },
+    "placeholder": {
+      "receiver": "Enter phone number...",
+      "templateId": "Select SMS template..."
+    },
+    "status": {
+      "approved": "Approved",
+      "pending": "Pending Review",
+      "rejected": "Rejected"
+    }
+  },
+  "zh": {
+    "label": {
+      "receiver": "手机号码",
+      "templateId": "短信模板",
+      "parameter": "模板参数"
+    },
+    "placeholder": {
+      "receiver": "请输入手机号码...",
+      "templateId": "请选择短信模板..."
+    },
+    "status": {
+      "approved": "已通过",
+      "pending": "审核中",
+      "rejected": "已拒绝"
+    }
+  }
+}

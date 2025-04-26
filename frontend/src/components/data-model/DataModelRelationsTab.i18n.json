@@ -1,0 +1,12 @@
+{
+  "en": {
+    "confirm": "Are you sure you want to delete",
+    "relation": "relation",
+    "delete": "Delete"
+  },
+  "zh": {
+    "confirm": "确定要删除",
+    "relation": "关系",
+    "delete": "删除"
+  }
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    background: #202020;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.disabledContainer>* {
+    cursor: not-allowed;
+}
+
+.textElements {
+    height: 36px;
+    line-height: 36px;
+}
+
+.input {
+    flex: auto;
+    overflow: hidden;
+    width: 0;
+    min-width: 0;
+    border: none;
+    padding-left: 12px;
+    background: transparent;
+    font-size: 16px;
+    color: #f8f8f8;
+}
+
+.label {
+    flex: none;
+    width: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #8f8f8f;
+}

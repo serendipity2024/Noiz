@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "horizontalPadding": "Horizontal Padding",
+      "pagingEnabled": "Enable Paging",
+      "autoplay": "Autoplay",
+      "circular": "Circular",
+      "showIndicatorDots": "Show Indicator Dots",
+      "dotColor": "Dot Color",
+      "indicatorColor": "Indicator Color",
+      "indicatorActiveColor": "Active Indicator Color",
+      "list": "List",
+      "limit": "Limit"
+    }
+  },
+  "zh": {
+    "label": {
+      "horizontalPadding": "水平间距",
+      "pagingEnabled": "启用分页",
+      "autoplay": "自动播放",
+      "circular": "循环播放",
+      "showIndicatorDots": "显示指示点",
+      "dotColor": "指示点颜色",
+      "indicatorColor": "指示器颜色",
+      "indicatorActiveColor": "活动指示器颜色",
+      "list": "列表",
+      "limit": "限制"
+    }
+  }
+}

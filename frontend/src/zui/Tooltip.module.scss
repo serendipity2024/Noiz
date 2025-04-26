@@ -1,0 +1,261 @@
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  display: block;
+  max-width: 250px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  white-space: normal;
+  text-decoration: none;
+  word-wrap: break-word;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 6px 8px;
+  color: #fff;
+}
+
+.tooltipHidden {
+  display: none;
+}
+
+.tooltipArrow {
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.75);
+  transform: rotate(45deg);
+}
+
+// Placement styles
+.tooltipPlacementTop,
+.tooltipPlacementTopLeft,
+.tooltipPlacementTopRight {
+  padding-bottom: 8px;
+}
+
+.tooltipPlacementRight,
+.tooltipPlacementRightTop,
+.tooltipPlacementRightBottom {
+  padding-left: 8px;
+}
+
+.tooltipPlacementBottom,
+.tooltipPlacementBottomLeft,
+.tooltipPlacementBottomRight {
+  padding-top: 8px;
+}
+
+.tooltipPlacementLeft,
+.tooltipPlacementLeftTop,
+.tooltipPlacementLeftBottom {
+  padding-right: 8px;
+}
+
+// Arrow placement
+.tooltipPlacementTop .tooltipArrow,
+.tooltipPlacementTopLeft .tooltipArrow,
+.tooltipPlacementTopRight .tooltipArrow {
+  bottom: 0;
+}
+
+.tooltipPlacementTop .tooltipArrow {
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.tooltipPlacementTopLeft .tooltipArrow {
+  left: 16px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementTopRight .tooltipArrow {
+  right: 16px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementRight .tooltipArrow,
+.tooltipPlacementRightTop .tooltipArrow,
+.tooltipPlacementRightBottom .tooltipArrow {
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementRight .tooltipArrow {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.tooltipPlacementRightTop .tooltipArrow {
+  top: 12px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementRightBottom .tooltipArrow {
+  bottom: 12px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementBottom .tooltipArrow,
+.tooltipPlacementBottomLeft .tooltipArrow,
+.tooltipPlacementBottomRight .tooltipArrow {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementBottom .tooltipArrow {
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.tooltipPlacementBottomLeft .tooltipArrow {
+  left: 16px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementBottomRight .tooltipArrow {
+  right: 16px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementLeft .tooltipArrow,
+.tooltipPlacementLeftTop .tooltipArrow,
+.tooltipPlacementLeftBottom .tooltipArrow {
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementLeft .tooltipArrow {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.tooltipPlacementLeftTop .tooltipArrow {
+  top: 12px;
+  transform: rotate(45deg);
+}
+
+.tooltipPlacementLeftBottom .tooltipArrow {
+  bottom: 12px;
+  transform: rotate(45deg);
+}
+
+// Dark theme
+.dark {
+  background-color: #202020;
+  color: #f8f8f8;
+
+  .tooltipArrow {
+    background: #202020;
+  }
+}
+
+// Color variants
+.tooltipPink {
+  background-color: #eb2f96;
+
+  .tooltipArrow {
+    background-color: #eb2f96;
+  }
+}
+
+.tooltipRed {
+  background-color: #f5222d;
+
+  .tooltipArrow {
+    background-color: #f5222d;
+  }
+}
+
+.tooltipYellow {
+  background-color: #faad14;
+
+  .tooltipArrow {
+    background-color: #faad14;
+  }
+}
+
+.tooltipOrange {
+  background-color: #fa8c16;
+
+  .tooltipArrow {
+    background-color: #fa8c16;
+  }
+}
+
+.tooltipCyan {
+  background-color: #13c2c2;
+
+  .tooltipArrow {
+    background-color: #13c2c2;
+  }
+}
+
+.tooltipGreen {
+  background-color: #52c41a;
+
+  .tooltipArrow {
+    background-color: #52c41a;
+  }
+}
+
+.tooltipBlue {
+  background-color: #1890ff;
+
+  .tooltipArrow {
+    background-color: #1890ff;
+  }
+}
+
+.tooltipPurple {
+  background-color: #722ed1;
+
+  .tooltipArrow {
+    background-color: #722ed1;
+  }
+}
+
+.tooltipGeekblue {
+  background-color: #2f54eb;
+
+  .tooltipArrow {
+    background-color: #2f54eb;
+  }
+}
+
+.tooltipMagenta {
+  background-color: #eb2f96;
+
+  .tooltipArrow {
+    background-color: #eb2f96;
+  }
+}
+
+.tooltipVolcano {
+  background-color: #fa541c;
+
+  .tooltipArrow {
+    background-color: #fa541c;
+  }
+}
+
+.tooltipGold {
+  background-color: #faad14;
+
+  .tooltipArrow {
+    background-color: #faad14;
+  }
+}
+
+.tooltipLime {
+  background-color: #a0d911;
+
+  .tooltipArrow {
+    background-color: #a0d911;
+  }
+}

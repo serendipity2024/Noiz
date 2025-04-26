@@ -1,0 +1,18 @@
+{
+  "en": {
+    "label": {
+      "name": "Component Name"
+    },
+    "placeholder": {
+      "input": "Enter component name..."
+    }
+  },
+  "zh": {
+    "label": {
+      "name": "组件名称"
+    },
+    "placeholder": {
+      "input": "输入组件名称..."
+    }
+  }
+}

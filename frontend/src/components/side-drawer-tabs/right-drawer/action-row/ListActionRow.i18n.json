@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "dataSource": "Data Source",
+      "itemActions": "Item Actions"
+    }
+  },
+  "zh": {
+    "label": {
+      "dataSource": "数据源",
+      "itemActions": "项目动作"
+    }
+  }
+}

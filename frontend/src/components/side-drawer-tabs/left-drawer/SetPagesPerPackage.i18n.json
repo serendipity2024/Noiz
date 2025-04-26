@@ -1,0 +1,22 @@
+{
+  "en": {
+    "title": "Set Pages Per Package",
+    "label": {
+      "pageCountInMainPackage": "Main Package Page Count",
+      "pageCountInSubPackage": "Sub Package Page Count"
+    },
+    "button": {
+      "save": "Save"
+    }
+  },
+  "zh": {
+    "title": "设置分包页面数",
+    "label": {
+      "pageCountInMainPackage": "主包页面数量",
+      "pageCountInSubPackage": "分包页面数量"
+    },
+    "button": {
+      "save": "保存"
+    }
+  }
+}

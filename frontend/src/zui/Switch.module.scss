@@ -1,0 +1,157 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 44px;
+  height: 22px;
+  line-height: 20px;
+  padding: 0;
+  vertical-align: middle;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+  user-select: none;
+}
+
+.switchInner {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  left: 24px;
+  top: 0;
+}
+
+.switchInner::after {
+  content: attr(data-unchecked);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.switchInner::before {
+  content: attr(data-checked);
+  position: absolute;
+  left: -28px;
+  top: 0;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.switchHandle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.checked {
+  border-color: #1890ff;
+  background-color: #1890ff;
+
+  .switchInner {
+    left: 6px;
+  }
+
+  .switchInner::before {
+    opacity: 1;
+  }
+
+  .switchInner::after {
+    opacity: 0;
+  }
+
+  .switchHandle {
+    left: 24px;
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.loading {
+  cursor: default;
+
+  .switchHandle {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  }
+
+  &.checked .switchHandle {
+    left: 24px;
+  }
+}
+
+.loadingIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1890ff;
+  font-size: 12px;
+  line-height: 1;
+}
+
+// Size variants
+.small {
+  width: 28px;
+  height: 16px;
+  line-height: 14px;
+
+  .switchHandle {
+    width: 12px;
+    height: 12px;
+  }
+
+  .switchInner {
+    left: 18px;
+    font-size: 10px;
+  }
+
+  &.checked {
+    .switchHandle {
+      left: 14px;
+    }
+
+    .switchInner {
+      left: 4px;
+    }
+  }
+
+  .loadingIcon {
+    font-size: 8px;
+  }
+}
+
+// Dark theme
+.dark {
+  border-color: #434343;
+  background-color: #434343;
+
+  &.checked {
+    border-color: #ffa522;
+    background-color: #ffa522;
+  }
+
+  .loadingIcon {
+    color: #ffa522;
+  }
+}

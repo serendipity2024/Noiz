@@ -1,0 +1,262 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.tabsNav {
+  position: relative;
+  display: flex;
+  flex: none;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tabsNavList {
+  position: relative;
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.tabsTab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 32px 0 0;
+  padding: 12px 0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.tabsTabActive {
+  color: #1890ff;
+  font-weight: 500;
+}
+
+.tabsTabDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.tabsInk {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: #1890ff;
+  transform-origin: 0 0;
+  transition: transform 0.3s, width 0.3s, left 0.3s;
+}
+
+.tabsContent {
+  position: relative;
+  width: 100%;
+}
+
+.tabsTabpane {
+  width: 100%;
+  flex: none;
+}
+
+.tabsTabpaneHidden {
+  display: none;
+}
+
+.tabsTabpaneActive {
+  display: block;
+}
+
+// Card style
+.tabsCard {
+  .tabsNav {
+    margin-bottom: 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .tabsTab {
+    margin: 0;
+    padding: 8px 16px;
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s;
+  }
+
+  .tabsTabActive {
+    color: #1890ff;
+    background: #fff;
+    border-bottom-color: #fff;
+  }
+
+  .tabsInk {
+    display: none;
+  }
+}
+
+// Size variants
+.tabsLarge {
+  .tabsTab {
+    padding: 16px 0;
+    font-size: 16px;
+  }
+}
+
+.tabsSmall {
+  .tabsNav {
+    margin-bottom: 8px;
+  }
+
+  .tabsTab {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+}
+
+// Position variants
+.tabsTop {
+  .tabsNav {
+    flex-direction: row;
+  }
+
+  .tabsInk {
+    bottom: 0;
+  }
+}
+
+.tabsBottom {
+  .tabsNav {
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: none;
+  }
+
+  .tabsInk {
+    top: 0;
+  }
+}
+
+.tabsLeft {
+  display: flex;
+  flex-direction: row;
+
+  .tabsNav {
+    flex-direction: column;
+    margin-right: 16px;
+    margin-bottom: 0;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: none;
+  }
+
+  .tabsNavList {
+    flex-direction: column;
+  }
+
+  .tabsTab {
+    margin: 0 0 16px 0;
+  }
+
+  .tabsInk {
+    right: 0;
+    left: auto;
+    width: 2px;
+    height: auto;
+  }
+}
+
+.tabsRight {
+  display: flex;
+  flex-direction: row;
+
+  .tabsNav {
+    flex-direction: column;
+    margin-left: 16px;
+    margin-bottom: 0;
+    border-left: 1px solid #f0f0f0;
+    border-bottom: none;
+    order: 1;
+  }
+
+  .tabsNavList {
+    flex-direction: column;
+  }
+
+  .tabsTab {
+    margin: 0 0 16px 0;
+  }
+
+  .tabsContent {
+    order: 0;
+  }
+
+  .tabsInk {
+    left: 0;
+    width: 2px;
+    height: auto;
+  }
+}
+
+// Extra content
+.tabsExtra {
+  margin-left: auto;
+}
+
+// Dark theme
+.dark {
+  color: #f8f8f8;
+
+  .tabsNav {
+    border-bottom-color: #434343;
+  }
+
+  .tabsTabActive {
+    color: #ffa522;
+  }
+
+  .tabsTabDisabled {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .tabsInk {
+    background-color: #ffa522;
+  }
+
+  &.tabsCard {
+    .tabsNav {
+      border-bottom-color: #434343;
+    }
+
+    .tabsTab {
+      background: #303030;
+      border-color: #434343;
+    }
+
+    .tabsTabActive {
+      color: #ffa522;
+      background: #202020;
+      border-bottom-color: #202020;
+    }
+  }
+
+  &.tabsBottom {
+    .tabsNav {
+      border-top-color: #434343;
+    }
+  }
+
+  &.tabsLeft {
+    .tabsNav {
+      border-right-color: #434343;
+    }
+  }
+
+  &.tabsRight {
+    .tabsNav {
+      border-left-color: #434343;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "startUsing": "Start Using",
+    "wechatScan": "Scan with WeChat to preview",
+    "expTemplate": "Experience Template",
+    "preview": "Preview"
+  },
+  "zh": {
+    "startUsing": "开始使用",
+    "wechatScan": "使用微信扫码预览",
+    "expTemplate": "体验模板",
+    "preview": "预览"
+  }
+}

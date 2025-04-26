@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "list": "List",
+      "index": "Index"
+    },
+    "placeholder": "Select List"
+  },
+  "zh": {
+    "label": {
+      "list": "列表",
+      "index": "索引"
+    },
+    "placeholder": "选择列表"
+  }
+}

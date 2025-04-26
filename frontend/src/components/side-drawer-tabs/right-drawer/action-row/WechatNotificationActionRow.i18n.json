@@ -1,0 +1,32 @@
+{
+  "en": {
+    "label": {
+      "receiver": "WeChat Account",
+      "templateId": "Message Template",
+      "parameter": "Template Parameters"
+    },
+    "placeholder": {
+      "receiver": "Enter WeChat account ID...",
+      "templateId": "Select message template..."
+    },
+    "description": {
+      "template": "Configure WeChat subscription message template",
+      "parameter": "Configure template parameters"
+    }
+  },
+  "zh": {
+    "label": {
+      "receiver": "微信账号",
+      "templateId": "消息模板",
+      "parameter": "模板参数"
+    },
+    "placeholder": {
+      "receiver": "输入微信账号ID...",
+      "templateId": "选择消息模板..."
+    },
+    "description": {
+      "template": "配置微信订阅消息模板",
+      "parameter": "配置模板参数"
+    }
+  }
+}

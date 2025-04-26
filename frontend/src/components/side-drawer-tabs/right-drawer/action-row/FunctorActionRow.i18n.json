@@ -1,0 +1,42 @@
+{
+  "en": {
+    "label": {
+      "name": "Name",
+      "parameter": "Parameter",
+      "noData": "No Data",
+      "addData": "Add Parameter",
+      "after": "After Execution",
+      "assign": "Assign Result To",
+      "onSuccess": "On Success",
+      "onFailure": "On Failure"
+    },
+    "parameter": {
+      "name": "Name",
+      "type": "Type",
+      "value": "Value"
+    },
+    "placeholder": {
+      "name": "Enter function name"
+    }
+  },
+  "zh": {
+    "label": {
+      "name": "名称",
+      "parameter": "参数",
+      "noData": "暂无数据",
+      "addData": "添加参数",
+      "after": "执行后",
+      "assign": "分配结果至",
+      "onSuccess": "成功时",
+      "onFailure": "失败时"
+    },
+    "parameter": {
+      "name": "名称",
+      "type": "类型",
+      "value": "值"
+    },
+    "placeholder": {
+      "name": "请输入函数名称"
+    }
+  }
+}

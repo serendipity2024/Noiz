@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "image": "Image",
+      "assignTo": "Assign To"
+    }
+  },
+  "zh": {
+    "label": {
+      "image": "图片",
+      "assignTo": "分配给"
+    }
+  }
+}

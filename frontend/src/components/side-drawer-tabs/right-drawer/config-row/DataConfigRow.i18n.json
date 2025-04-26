@@ -1,0 +1,92 @@
+{
+  "en": {
+    "label": {
+      "noParameter": "No Parameters",
+      "addParameter": "Add Parameter",
+      "noLinkedData": "No Linked Data",
+      "addLinkedData": "Add Linked Data",
+      "noPageData": "No Page Data",
+      "addPageData": "Add Page Data",
+      "noRemoteData": "No Remote Data",
+      "addRemoteData": "Add Remote Data",
+      "noCustomData": "No Custom Data",
+      "addCustomData": "Add Custom Data"
+    },
+    "data": {
+      "name": "Name",
+      "type": "Type",
+      "value": "Value",
+      "isList": "Is List",
+      "unique": "Unique",
+      "limit": "Limit",
+      "reference": "Reference",
+      "pageData": "Page Data",
+      "referenceData": "Reference Data",
+      "placeholder": "Please select type..."
+    },
+    "parameter": {
+      "name": "Parameter Name",
+      "type": "Parameter Type",
+      "value": "Parameter Value",
+      "pageData": "Page Data"
+    },
+    "type": {
+      "TEXT": "Text",
+      "NUMBER": "Number",
+      "BOOLEAN": "Boolean",
+      "DATE": "Date",
+      "ARRAY": "Array",
+      "OBJECT": "Object",
+      "BITMAP": "Image",
+      "LOCATION_INFO": "Location",
+      "JSON": "JSON",
+      "MEDIA": "Media",
+      "MEDIA_LIST": "Media List"
+    }
+  },
+  "zh": {
+    "label": {
+      "noParameter": "暂无参数",
+      "addParameter": "添加参数",
+      "noLinkedData": "暂无关联数据",
+      "addLinkedData": "添加关联数据",
+      "noPageData": "暂无页面数据",
+      "addPageData": "添加页面数据",
+      "noRemoteData": "暂无远程数据",
+      "addRemoteData": "添加远程数据",
+      "noCustomData": "暂无自定义数据",
+      "addCustomData": "添加自定义数据"
+    },
+    "data": {
+      "name": "名称",
+      "type": "类型",
+      "value": "值",
+      "isList": "是否列表",
+      "unique": "唯一",
+      "limit": "限制",
+      "reference": "引用",
+      "pageData": "页面数据",
+      "referenceData": "引用数据",
+      "placeholder": "请选择类型..."
+    },
+    "parameter": {
+      "name": "参数名称",
+      "type": "参数类型",
+      "value": "参数值",
+      "pageData": "页面数据"
+    },
+    "type": {
+      "TEXT": "文本",
+      "NUMBER": "数字",
+      "BOOLEAN": "布尔值",
+      "DATE": "日期",
+      "ARRAY": "数组",
+      "OBJECT": "对象",
+      "BITMAP": "图片",
+      "LOCATION_INFO": "位置",
+      "JSON": "JSON",
+      "MEDIA": "媒体",
+      "MEDIA_LIST": "媒体列表"
+    }
+  }
+}

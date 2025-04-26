@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "self": "Current Component",
+      "conditionalContainer": "Conditional Container",
+      "switchCase": "Switch Case"
+    },
+    "placeholder": {
+      "switchCase": "Select case to switch..."
+    }
+  },
+  "zh": {
+    "label": {
+      "self": "当前组件",
+      "conditionalContainer": "条件容器",
+      "switchCase": "切换选项"
+    },
+    "placeholder": {
+      "switchCase": "选择要切换的选项..."
+    }
+  }
+}

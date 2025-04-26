@@ -1,0 +1,44 @@
+{
+  "en": {
+    "title": "WeChat Authorization",
+    "label": {
+      "appId": "App ID",
+      "appSecret": "App Secret",
+      "authorized": "Authorized",
+      "authorization": "Authorization"
+    },
+    "button": {
+      "save": "Save",
+      "wechatMiniAppPackageDownload": "Download WeChat Mini App Package",
+      "wechatRegistration": "WeChat Registration"
+    },
+    "notification": {
+      "authorized": "You have already authorized this project. Do you want to reauthorize?"
+    },
+    "option": {
+      "ok": "OK",
+      "cancel": "Cancel"
+    }
+  },
+  "zh": {
+    "title": "微信授权",
+    "label": {
+      "appId": "App ID",
+      "appSecret": "App Secret",
+      "authorized": "已授权",
+      "authorization": "授权"
+    },
+    "button": {
+      "save": "保存",
+      "wechatMiniAppPackageDownload": "下载微信小程序包",
+      "wechatRegistration": "微信注册"
+    },
+    "notification": {
+      "authorized": "您已经授权过此项目，是否重新授权？"
+    },
+    "option": {
+      "ok": "确定",
+      "cancel": "取消"
+    }
+  }
+}

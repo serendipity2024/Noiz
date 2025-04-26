@@ -1,0 +1,84 @@
+.hoverCollapseHeader:hover {
+    background-color: #333;
+    border-radius: 6px;
+
+    .type {
+        background-color: rgba(74, 255, 136, 0.5);
+        border: 1px solid #4aff88;
+    }
+
+    .position {
+        background: rgba(255, 165, 34, 0.5);
+        border: 1px solid #ffa522;
+    }
+
+    .collapseHeaderTool {
+        visibility: visible;
+    }
+}
+
+.expandCollapseHeaderPadding {
+    padding-left: 48px;
+}
+
+.normalCollapseHeaderPadding {
+    padding-left: 16px;
+}
+
+.collapseHeader {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+
+    .collapseHeaderContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        .typeName {
+            font-size: 16px;
+            color: #f8f8f8;
+            margin-right: 16px;
+        }
+    }
+
+    .type {
+        margin-right: 8px;
+    }
+
+    .position,
+    .type {
+        border-radius: 4px;
+        height: 24px;
+        padding: 3px 9px;
+        font-size: 10px;
+        color: #f8f8f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(85, 85, 85, 0.5);
+        border: 1px solid #555;
+    }
+
+    .position {
+        margin-right: 0;
+    }
+
+    .collapseHeaderTool {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        visibility: hidden;
+    }
+
+    .collapseHeaderIcon {
+        margin-left: 16px;
+    }
+}

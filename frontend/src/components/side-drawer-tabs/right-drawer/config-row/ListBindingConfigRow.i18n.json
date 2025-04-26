@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "listSourceData": "List Source Data",
+      "parameters": "Parameters"
+    }
+  },
+  "zh": {
+    "label": {
+      "listSourceData": "列表数据源",
+      "parameters": "参数列表"
+    }
+  }
+}

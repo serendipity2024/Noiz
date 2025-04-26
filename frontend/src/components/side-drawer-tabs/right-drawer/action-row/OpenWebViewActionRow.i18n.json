@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "warning": "Warning: WebView is not supported in WeChat Mini Program",
+      "source": "Source URL"
+    }
+  },
+  "zh": {
+    "label": {
+      "warning": "警告：微信小程序不支持 WebView",
+      "source": "源地址"
+    }
+  }
+}

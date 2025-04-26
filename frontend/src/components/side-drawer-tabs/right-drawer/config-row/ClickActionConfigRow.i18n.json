@@ -1,0 +1,32 @@
+{
+  "en": {
+    "label": {
+      "noAction": "No actions configured",
+      "noTrigger": "No triggers configured",
+      "addAction": "Add Action...",
+      "addTrigger": "Add Trigger..."
+    },
+    "action": {
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "placeholder": {
+      "search": "Search actions..."
+    }
+  },
+  "zh": {
+    "label": {
+      "noAction": "暂无配置动作",
+      "noTrigger": "暂无配置触发器",
+      "addAction": "添加动作...",
+      "addTrigger": "添加触发器..."
+    },
+    "action": {
+      "delete": "删除",
+      "edit": "编辑"
+    },
+    "placeholder": {
+      "search": "搜索动作..."
+    }
+  }
+}

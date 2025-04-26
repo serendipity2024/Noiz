@@ -1,0 +1,80 @@
+{
+  "en": {
+    "label": {
+      "save": "Save",
+      "refresh": "Refresh on value change"
+    },
+    "arrayMapping": {
+      "field": "Field Mapping",
+      "object": "Object Mapping",
+      "fieldLabel": "Field",
+      "ObjectLabel": "Object",
+      "placeholder": "Please select"
+    },
+    "format": {
+      "label": "Format",
+      "none": "None",
+      "elpased": "Elapsed Time",
+      "date": "Date",
+      "monthDay": "Month Day",
+      "dateTime": "Date Time",
+      "dayOfWeek": "Day of Week",
+      "time": "Time",
+      "countdown": "Countdown",
+      "distance": "Distance"
+    },
+    "timestamp": {
+      "temporalUnit": {
+        "YEAR": "Year",
+        "MONTH": "Month",
+        "DAY": "Day",
+        "HOUR": "Hour",
+        "MINUTE": "Minute",
+        "SECOND": "Second"
+      },
+      "timeDirection": {
+        "BEFORE": "Before",
+        "AFTER": "After"
+      }
+    }
+  },
+  "zh": {
+    "label": {
+      "save": "保存",
+      "refresh": "值变化时刷新"
+    },
+    "arrayMapping": {
+      "field": "字段映射",
+      "object": "对象映射",
+      "fieldLabel": "字段",
+      "ObjectLabel": "对象",
+      "placeholder": "请选择"
+    },
+    "format": {
+      "label": "格式",
+      "none": "无",
+      "elpased": "经过时间",
+      "date": "日期",
+      "monthDay": "月日",
+      "dateTime": "日期时间",
+      "dayOfWeek": "星期",
+      "time": "时间",
+      "countdown": "倒计时",
+      "distance": "距离"
+    },
+    "timestamp": {
+      "temporalUnit": {
+        "YEAR": "年",
+        "MONTH": "月",
+        "DAY": "日",
+        "HOUR": "时",
+        "MINUTE": "分",
+        "SECOND": "秒"
+      },
+      "timeDirection": {
+        "BEFORE": "之前",
+        "AFTER": "之后"
+      }
+    }
+  }
+}

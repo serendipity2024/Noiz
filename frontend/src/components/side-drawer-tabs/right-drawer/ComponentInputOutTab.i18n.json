@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": {
+      "inputData": "Input Data",
+      "outputData": "Output Data",
+      "noInputData": "No Input Data",
+      "noOutputData": "No Output Data",
+      "addInputData": "Add Input Data",
+      "addOutputData": "Add Output Data"
+    }
+  },
+  "zh": {
+    "label": {
+      "inputData": "输入数据",
+      "outputData": "输出数据",
+      "noInputData": "暂无输入数据",
+      "noOutputData": "暂无输出数据",
+      "addInputData": "添加输入数据",
+      "addOutputData": "添加输出数据"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "name": "Name",
+      "parameter": "Parameters"
+    },
+    "parameter": {
+      "key": "Key",
+      "type": "Type",
+      "value": "Value"
+    }
+  },
+  "zh": {
+    "label": {
+      "name": "名称",
+      "parameter": "参数"
+    },
+    "parameter": {
+      "key": "键",
+      "type": "类型",
+      "value": "值"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "en": {
+    "label": {
+      "devicePosition": "Device Position",
+      "flash": "Flash",
+      "resolution": "Resolution",
+      "frameSize": "Frame Size"
+    },
+    "devicePosition": {
+      "FRONT": "Front",
+      "BACK": "Back"
+    },
+    "flash": {
+      "ON": "On",
+      "OFF": "Off",
+      "AUTO": "Auto"
+    },
+    "resolution": {
+      "HIGH": "High",
+      "MEDIUM": "Medium",
+      "LOW": "Low"
+    },
+    "frameSize": {
+      "FULL": "Full",
+      "MEDIUM": "Medium",
+      "SMALL": "Small"
+    }
+  },
+  "zh": {
+    "label": {
+      "devicePosition": "设备位置",
+      "flash": "闪光灯",
+      "resolution": "分辨率",
+      "frameSize": "画面尺寸"
+    },
+    "devicePosition": {
+      "FRONT": "前置",
+      "BACK": "后置"
+    },
+    "flash": {
+      "ON": "开启",
+      "OFF": "关闭",
+      "AUTO": "自动"
+    },
+    "resolution": {
+      "HIGH": "高",
+      "MEDIUM": "中",
+      "LOW": "低"
+    },
+    "frameSize": {
+      "FULL": "全屏",
+      "MEDIUM": "中等",
+      "SMALL": "小"
+    }
+  }
+}

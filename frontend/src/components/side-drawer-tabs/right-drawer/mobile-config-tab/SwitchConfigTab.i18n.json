@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "switchStyle": "Switch Style",
+      "selected": "Selected"
+    }
+  },
+  "zh": {
+    "label": {
+      "switchStyle": "开关样式",
+      "selected": "选中状态"
+    }
+  }
+}

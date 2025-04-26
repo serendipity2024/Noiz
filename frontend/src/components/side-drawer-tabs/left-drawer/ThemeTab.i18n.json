@@ -1,0 +1,16 @@
+{
+  "en": {
+    "title": "Theme Colors",
+    "custom": "Custom",
+    "background": "Background",
+    "primary": "Primary",
+    "accent": "Accent"
+  },
+  "zh": {
+    "title": "主题颜色",
+    "custom": "自定义",
+    "background": "背景",
+    "primary": "主要",
+    "accent": "强调"
+  }
+}

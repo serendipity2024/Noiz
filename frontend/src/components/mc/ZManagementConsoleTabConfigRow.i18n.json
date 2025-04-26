@@ -1,0 +1,18 @@
+{
+  "en": {
+    "data": "Data",
+    "dataModel": "Data Model",
+    "pageSize": "Page Size",
+    "dataSelection": "Data Selection",
+    "defaultFilter": "Default Filter",
+    "actionSelection": "Action Selection"
+  },
+  "zh": {
+    "data": "数据",
+    "dataModel": "数据模型",
+    "pageSize": "每页数量",
+    "dataSelection": "数据选择",
+    "defaultFilter": "默认筛选",
+    "actionSelection": "操作选择"
+  }
+}

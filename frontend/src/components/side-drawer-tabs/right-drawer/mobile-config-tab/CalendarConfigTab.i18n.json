@@ -1,0 +1,12 @@
+{
+  "en": {
+    "isVertical": "Vertical Layout",
+    "currentDate": "Current Date",
+    "onSelectDateActions": "On Select Date Actions"
+  },
+  "zh": {
+    "isVertical": "垂直布局",
+    "currentDate": "当前日期",
+    "onSelectDateActions": "选择日期事件"
+  }
+}

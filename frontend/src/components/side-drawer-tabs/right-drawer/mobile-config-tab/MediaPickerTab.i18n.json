@@ -1,0 +1,18 @@
+{
+  "en": {
+    "label": {
+      "disablePreview": "Disable Preview",
+      "uploadLoadingEnabled": "Upload Loading Enabled",
+      "original": "Original Image",
+      "onSuccessActions": "On Success"
+    }
+  },
+  "zh": {
+    "label": {
+      "disablePreview": "禁用预览",
+      "uploadLoadingEnabled": "启用上传加载",
+      "original": "原始图片",
+      "onSuccessActions": "成功时"
+    }
+  }
+}

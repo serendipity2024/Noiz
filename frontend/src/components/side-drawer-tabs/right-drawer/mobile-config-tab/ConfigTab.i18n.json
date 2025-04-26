@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "style": "Style",
+      "data": "Data",
+      "action": "Action"
+    }
+  },
+  "zh": {
+    "label": {
+      "style": "样式",
+      "data": "数据",
+      "action": "动作"
+    }
+  }
+}

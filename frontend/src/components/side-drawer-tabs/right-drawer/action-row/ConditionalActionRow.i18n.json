@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "conditionalAction": "Conditional Action",
+      "name": "Name",
+      "noActions": "No Actions"
+    }
+  },
+  "zh": {
+    "label": {
+      "conditionalAction": "条件动作",
+      "name": "名称",
+      "noActions": "暂无动作"
+    }
+  }
+}

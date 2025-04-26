@@ -1,0 +1,36 @@
+{
+  "en": {
+    "label": {
+      "autoplay": "Autoplay",
+      "loop": "Loop",
+      "controls": "Show Controls",
+      "showMuteBtn": "Show Mute Button",
+      "objectFit": "Object Fit",
+      "beginPlay": "On Begin Play"
+    },
+    "objectFit": {
+      "CONTAIN": "Contain",
+      "COVER": "Cover",
+      "FILL": "Fill",
+      "NONE": "None",
+      "SCALE_DOWN": "Scale Down"
+    }
+  },
+  "zh": {
+    "label": {
+      "autoplay": "自动播放",
+      "loop": "循环播放",
+      "controls": "显示控制栏",
+      "showMuteBtn": "显示静音按钮",
+      "objectFit": "填充方式",
+      "beginPlay": "开始播放时"
+    },
+    "objectFit": {
+      "CONTAIN": "包含",
+      "COVER": "覆盖",
+      "FILL": "填充",
+      "NONE": "无",
+      "SCALE_DOWN": "缩小"
+    }
+  }
+}

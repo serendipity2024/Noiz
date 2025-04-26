@@ -1,0 +1,14 @@
+{
+  "en": {
+    "placeholder": "Select page data...",
+    "label": {
+      "noData": "No page data available"
+    }
+  },
+  "zh": {
+    "placeholder": "选择页面数据...",
+    "label": {
+      "noData": "暂无页面数据"
+    }
+  }
+}

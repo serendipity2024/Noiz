@@ -1,0 +1,19 @@
+.config-tab.ant-tabs.ant-tabs-top {
+    .ant-tabs-nav:before {
+        border: none;
+    }
+
+    .ant-tabs-tab {
+        &.ant-tabs-tab-active>div {
+            color: #ffa522;
+        }
+
+        >div {
+            color: #fff;
+        }
+    }
+
+    .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+        background-color: #ffa522;
+    }
+}

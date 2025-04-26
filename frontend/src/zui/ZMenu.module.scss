@@ -1,0 +1,306 @@
+.menu {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  list-style: none;
+  outline: none;
+  transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+
+.menuInline {
+  width: 100%;
+}
+
+.menuVertical {
+  width: 100%;
+}
+
+.menuHorizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.menuItem {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.menuItemHorizontal {
+  margin: 0;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.menuItemVertical {
+  margin: 0;
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.menuItemInline {
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.menuItemActive {
+  color: #1890ff;
+}
+
+.menuItemSelected {
+  color: #1890ff;
+  background-color: #e6f7ff;
+}
+
+.menuItemDisabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.menuItemDivider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.menuItemIcon {
+  margin-right: 10px;
+}
+
+.menuItemGroup {
+  .menuItemGroupTitle {
+    padding: 8px 16px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all 0.3s;
+  }
+}
+
+.subMenu {
+  position: relative;
+
+  .subMenuTitle {
+    position: relative;
+    display: block;
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .subMenuTitleHorizontal {
+    margin: 0;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .subMenuTitleVertical {
+    margin: 0;
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .subMenuTitleInline {
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .subMenuTitleActive {
+    color: #1890ff;
+  }
+
+  .subMenuTitleDisabled {
+    color: rgba(0, 0, 0, 0.25);
+    cursor: not-allowed;
+  }
+
+  .subMenuArrow {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 10px;
+    transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .subMenuArrowVertical {
+    transform: translateY(-50%) rotate(-90deg);
+  }
+
+  .subMenuArrowHorizontal {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  .subMenuArrowInline {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  .subMenuArrowOpen {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .subMenuPopup {
+    position: absolute;
+    z-index: 1050;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    min-width: 160px;
+  }
+
+  .subMenuPopupHidden {
+    display: none;
+  }
+
+  .subMenuPopupPlacementBottomLeft {
+    top: 100%;
+    left: 0;
+  }
+
+  .subMenuPopupPlacementBottomCenter {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .subMenuPopupPlacementBottomRight {
+    top: 100%;
+    right: 0;
+  }
+
+  .subMenuPopupPlacementTopLeft {
+    bottom: 100%;
+    left: 0;
+  }
+
+  .subMenuPopupPlacementTopCenter {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .subMenuPopupPlacementTopRight {
+    bottom: 100%;
+    right: 0;
+  }
+
+  .subMenuPopupPlacementLeftTop {
+    top: 0;
+    right: 100%;
+  }
+
+  .subMenuPopupPlacementLeftCenter {
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+  }
+
+  .subMenuPopupPlacementLeftBottom {
+    bottom: 0;
+    right: 100%;
+  }
+
+  .subMenuPopupPlacementRightTop {
+    top: 0;
+    left: 100%;
+  }
+
+  .subMenuPopupPlacementRightCenter {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+  }
+
+  .subMenuPopupPlacementRightBottom {
+    bottom: 0;
+    left: 100%;
+  }
+}
+
+.menuInlineCollapsed {
+  width: 80px;
+
+  .menuItemInline {
+    padding: 0 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .menuItemIcon {
+    margin: 0;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .subMenuTitleInline {
+    padding: 0 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+// Dark theme
+.dark {
+  color: rgba(255, 255, 255, 0.65);
+  background: #141414;
+
+  .menuItem {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .menuItemActive {
+    color: #ffa522;
+  }
+
+  .menuItemSelected {
+    color: #ffa522;
+    background-color: #1f1f1f;
+  }
+
+  .menuItemDisabled {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .menuItemDivider {
+    background-color: #303030;
+  }
+
+  .menuItemGroup {
+    .menuItemGroupTitle {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  .subMenu {
+    .subMenuTitle {
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    .subMenuTitleActive {
+      color: #ffa522;
+    }
+
+    .subMenuTitleDisabled {
+      color: rgba(255, 255, 255, 0.25);
+    }
+
+    .subMenuPopup {
+      background-color: #1f1f1f;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+    }
+  }
+}

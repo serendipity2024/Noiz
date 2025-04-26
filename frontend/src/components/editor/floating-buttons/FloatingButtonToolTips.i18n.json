@@ -1,0 +1,18 @@
+{
+  "en": {
+    "academy": "Zion Academy",
+    "community": "Community",
+    "document": "Documentation",
+    "feedback": "Feedback",
+    "onboarding": "Onboarding",
+    "userProfile": "User Profile"
+  },
+  "zh": {
+    "academy": "Zion 学院",
+    "community": "社区",
+    "document": "文档",
+    "feedback": "反馈",
+    "onboarding": "新手引导",
+    "userProfile": "用户资料"
+  }
+}

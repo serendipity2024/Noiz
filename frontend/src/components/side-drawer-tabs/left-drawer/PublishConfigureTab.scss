@@ -1,0 +1,55 @@
+.publishTab.ant-tabs.ant-tabs-left.ant-tabs-card {
+    .ant-tabs-tab {
+        &.ant-tabs-tab-active {
+            color: #fff;
+            background-color: rgba(255, 165, 34, 0.2);
+            border-color: #ffa522;
+        }
+
+        color: #fff;
+        background-color: #333;
+        border-color: #333;
+        border-radius: 6px;
+        margin-bottom: 12px;
+
+        img {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .ant-row {
+            width: 100%;
+
+            .ant-checkbox {
+                margin-left: 10px;
+
+                ::selection {
+                    background-color: #ffa522;
+                }
+
+                .ant-checkbox-inner {
+                    border-color: #ffa522;
+                }
+
+                &.ant-checkbox-checked {
+                    .ant-checkbox-inner {
+                        background-color: #ffa522;
+                    }
+
+                    &:after {
+                        border-color: #ffa522;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-tabs-content-holder {
+        border-left: none;
+
+        .ant-tabs-tabpane {
+            padding-left: 12px;
+        }
+    }
+}

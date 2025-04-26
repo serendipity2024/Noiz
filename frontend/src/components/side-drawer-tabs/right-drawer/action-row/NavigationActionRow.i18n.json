@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "transition": "Transition",
+      "refreshEnabled": "Refresh Enabled",
+      "targetScreenName": "Target Screen",
+      "parameters": "Parameters"
+    },
+    "transition": {
+      "NONE": "None",
+      "SLIDE": "Slide",
+      "FADE": "Fade",
+      "MODAL": "Modal"
+    }
+  },
+  "zh": {
+    "label": {
+      "transition": "过渡效果",
+      "refreshEnabled": "启用刷新",
+      "targetScreenName": "目标页面",
+      "parameters": "参数"
+    },
+    "transition": {
+      "NONE": "无",
+      "SLIDE": "滑动",
+      "FADE": "淡入淡出",
+      "MODAL": "模态框"
+    }
+  }
+}

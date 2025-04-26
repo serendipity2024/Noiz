@@ -1,0 +1,24 @@
+{
+  "en": {
+    "label": {
+      "page": "Share Page",
+      "title": "Share Title",
+      "parameter": "Share Parameters",
+      "image": "Share Image"
+    },
+    "placeholder": {
+      "page": "Select page to share..."
+    }
+  },
+  "zh": {
+    "label": {
+      "page": "分享页面",
+      "title": "分享标题",
+      "parameter": "分享参数",
+      "image": "分享图片"
+    },
+    "placeholder": {
+      "page": "选择要分享的页面..."
+    }
+  }
+}

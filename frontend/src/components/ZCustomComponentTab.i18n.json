@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "Title",
+    "titleWarning": "Please enter title",
+    "icon": "Icon",
+    "iconWarning": "Please upload icon",
+    "preview": "Preview",
+    "cancel": "Cancel",
+    "publish": "Publish",
+    "createComponentTemplate": "Create Component Template",
+    "unbindTemplate": "Unbind Template",
+    "templateComponent": "Template Component",
+    "unbindPrompt": "Unbind Template"
+  },
+  "zh": {
+    "title": "标题",
+    "titleWarning": "请输入标题",
+    "icon": "图标",
+    "iconWarning": "请上传图标",
+    "preview": "预览",
+    "cancel": "取消",
+    "publish": "发布",
+    "createComponentTemplate": "创建组件模板",
+    "unbindTemplate": "解除模板绑定",
+    "templateComponent": "模板组件",
+    "unbindPrompt": "解除模板绑定"
+  }
+}

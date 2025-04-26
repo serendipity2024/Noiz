@@ -1,0 +1,34 @@
+{
+  "en": {
+    "label": {
+      "backgroundColor": "Background Color",
+      "backgroundImage": "Background Image",
+      "backgroundImageFit": "Image Fit",
+      "color": "Color",
+      "image": "Image"
+    },
+    "fitType": {
+      "fill": "Fill",
+      "fit": "Fit",
+      "stretch": "Stretch",
+      "center": "Center",
+      "tile": "Tile"
+    }
+  },
+  "zh": {
+    "label": {
+      "backgroundColor": "背景颜色",
+      "backgroundImage": "背景图片",
+      "backgroundImageFit": "图片适配",
+      "color": "颜色",
+      "image": "图片"
+    },
+    "fitType": {
+      "fill": "填充",
+      "fit": "适应",
+      "stretch": "拉伸",
+      "center": "居中",
+      "tile": "平铺"
+    }
+  }
+}

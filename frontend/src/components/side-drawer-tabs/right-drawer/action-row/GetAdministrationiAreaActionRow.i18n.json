@@ -1,0 +1,16 @@
+{
+  "en": {
+    "label": {
+      "location": "Location",
+      "fields": "Fields",
+      "assignTo": "Assign To"
+    }
+  },
+  "zh": {
+    "label": {
+      "location": "位置",
+      "fields": "字段",
+      "assignTo": "分配给"
+    }
+  }
+}

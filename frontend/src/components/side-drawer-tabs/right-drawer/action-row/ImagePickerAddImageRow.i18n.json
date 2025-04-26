@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "imagePicker": "Image Picker"
+    }
+  },
+  "zh": {
+    "label": {
+      "imagePicker": "图片选择器"
+    }
+  }
+}

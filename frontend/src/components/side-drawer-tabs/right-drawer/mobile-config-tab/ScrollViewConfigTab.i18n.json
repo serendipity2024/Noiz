@@ -1,0 +1,18 @@
+{
+  "en": {
+    "label": {
+      "hasScrollX": "Enable Horizontal Scroll",
+      "hasScrollY": "Enable Vertical Scroll",
+      "showHorizontalIndicator": "Show Horizontal Indicator",
+      "showVerticalIndicator": "Show Vertical Indicator"
+    }
+  },
+  "zh": {
+    "label": {
+      "hasScrollX": "启用水平滚动",
+      "hasScrollY": "启用垂直滚动",
+      "showHorizontalIndicator": "显示水平指示器",
+      "showVerticalIndicator": "显示垂直指示器"
+    }
+  }
+}

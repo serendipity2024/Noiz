@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "Audit Progress",
+    "subtitle": {
+      "uploadTime": "Upload Time",
+      "versionNumber": "Version Number",
+      "auditSituation": "Audit Status",
+      "auditFailureReason": "Audit Failure Reason"
+    },
+    "button": {
+      "retry": "Retry",
+      "review": "In Review",
+      "default": "Submit for Review"
+    },
+    "status": {
+      "rejected": "Rejected",
+      "success": "Approved"
+    }
+  },
+  "zh": {
+    "title": "审核进度",
+    "subtitle": {
+      "uploadTime": "上传时间",
+      "versionNumber": "版本号",
+      "auditSituation": "审核状态",
+      "auditFailureReason": "审核失败原因"
+    },
+    "button": {
+      "retry": "重新提交",
+      "review": "审核中",
+      "default": "提交审核"
+    },
+    "status": {
+      "rejected": "已拒绝",
+      "success": "已通过"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "en": {
+    "option": {
+      "cancel": "Cancel",
+      "ok": "OK"
+    },
+    "notification": {
+      "delete": "Are you sure you want to delete this project?",
+      "logout": "Are you sure you want to logout?"
+    },
+    "label": {
+      "deletePrompt": "Please enter project name to confirm deletion",
+      "delete": "Delete Project",
+      "logout": "Logout",
+      "resetPassword": "Reset Password"
+    }
+  },
+  "zh": {
+    "option": {
+      "cancel": "取消",
+      "ok": "确定"
+    },
+    "notification": {
+      "delete": "确定要删除这个项目吗？",
+      "logout": "确定要退出登录吗？"
+    },
+    "label": {
+      "deletePrompt": "请输入项目名称以确认删除",
+      "delete": "删除项目",
+      "logout": "退出登录",
+      "resetPassword": "重置密码"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "en": {
+    "label": {
+      "styleSetting": "Style Settings",
+      "size": "Size",
+      "opacity": "Opacity",
+      "lineHeight": "Line Height",
+      "weight": "Weight",
+      "style": "Style",
+      "family": "Font Family",
+      "textDecorationColor": "Text Decoration Color",
+      "textDecorationLine": "Text Decoration Line",
+      "textDecorationStyle": "Text Decoration Style",
+      "multiline": "Multiline",
+      "alignment": "Alignment"
+    },
+    "weight": {
+      "REGULAR": "Regular",
+      "MEDIUM": "Medium",
+      "BOLD": "Bold"
+    },
+    "style": {
+      "normal": "Normal",
+      "italic": "Italic",
+      "oblique": "Oblique"
+    },
+    "decorationLine": {
+      "none": "None",
+      "underline": "Underline",
+      "line-through": "Line Through"
+    },
+    "decorationStyle": {
+      "solid": "Solid",
+      "dashed": "Dashed",
+      "wavy": "Wavy"
+    },
+    "alignment": {
+      "left": "Left",
+      "center": "Center",
+      "right": "Right"
+    }
+  },
+  "zh": {
+    "label": {
+      "styleSetting": "样式设置",
+      "size": "字体大小",
+      "opacity": "透明度",
+      "lineHeight": "行高",
+      "weight": "字重",
+      "style": "字体样式",
+      "family": "字体",
+      "textDecorationColor": "文本装饰颜色",
+      "textDecorationLine": "文本装饰线",
+      "textDecorationStyle": "文本装饰样式",
+      "multiline": "多行",
+      "alignment": "对齐方式"
+    },
+    "weight": {
+      "REGULAR": "常规",
+      "MEDIUM": "中等",
+      "BOLD": "粗体"
+    },
+    "style": {
+      "normal": "正常",
+      "italic": "斜体",
+      "oblique": "倾斜"
+    },
+    "decorationLine": {
+      "none": "无",
+      "underline": "下划线",
+      "line-through": "删除线"
+    },
+    "decorationStyle": {
+      "solid": "实线",
+      "dashed": "虚线",
+      "wavy": "波浪线"
+    },
+    "alignment": {
+      "left": "左对齐",
+      "center": "居中",
+      "right": "右对齐"
+    }
+  }
+}

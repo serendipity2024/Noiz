@@ -1,0 +1,50 @@
+.mainContainer {
+    .ant-modal-content {
+        background-color: #333;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .ant-modal-body,
+    .ant-modal-header {
+        background-color: transparent;
+    }
+
+    .ant-modal-footer {
+        border-color: #8f8f8f;
+        padding: 16px;
+        margin-top: 16px;
+
+        button+button {
+            margin-left: 12px;
+        }
+    }
+
+    .ant-btn {
+        border-radius: 6px;
+        background-color: #333;
+        color: #ffa522;
+        border-color: #ffa522;
+    }
+
+    .ant-btn-primary {
+        background-color: #ffa522;
+        border-color: transparent;
+        color: #f8f8f8;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: #f8f8f8;
+            border-color: transparent;
+        }
+    }
+
+    .ant-collapse-content-box {
+        border-top: 1px solid #555;
+    }
+
+    .ant-radio-button-wrapper:not(:first-child):before {
+        background-color: #555;
+    }
+}

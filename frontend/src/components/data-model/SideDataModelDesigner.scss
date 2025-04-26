@@ -1,0 +1,36 @@
+.danger {
+    color: red;
+}
+
+.actions {
+    float: right;
+
+    .anticon:not(:first-child) {
+        margin-left: 0.6em;
+    }
+}
+
+ul {
+
+    &.columnMetadata,
+    &.relations {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &.columnMetadata li,
+    &.relations li {
+        line-height: 1.8em;
+        height: 2.2em;
+    }
+
+    &.columnMetadata li .anticon,
+    &.relations li .anticon {
+        margin-right: 0.5em;
+    }
+}
+
+.sideDataModelDesigner .ant-card-body {
+    background-color: #ccc;
+}

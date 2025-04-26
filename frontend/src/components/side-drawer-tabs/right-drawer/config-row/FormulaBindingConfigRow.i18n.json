@@ -1,0 +1,118 @@
+{
+  "en": {
+    "label": {
+      "noFormula": "No Formula Available",
+      "operator": "Operator",
+      "durations": "Durations",
+      "targetType": "Target Type",
+      "reference": "Reference"
+    },
+    "placeholder": {
+      "operator": "Please select operator...",
+      "targetType": "Please select target type..."
+    },
+    "parameter": {
+      "value": "Value",
+      "value1": "Value 1",
+      "value2": "Value 2",
+      "array": "Array",
+      "joinDelimiter": "Join Delimiter",
+      "substringStart": "Start Position",
+      "substringEnd": "End Position"
+    },
+    "operator": {
+      "GET_JSON_VALUE": "Get JSON Value",
+      "GET_JSON_ARRAY": "Get JSON Array",
+      "GET_JSON_OBJECT": "Get JSON Object",
+      "ADD": "Add",
+      "SUBTRACT": "Subtract",
+      "MULTIPLY": "Multiply",
+      "DIVIDE": "Divide",
+      "MOD": "Modulo",
+      "POWER": "Power",
+      "ROUND": "Round",
+      "FLOOR": "Floor",
+      "CEIL": "Ceiling",
+      "ABS": "Absolute",
+      "NEGATE": "Negate",
+      "STRING_LENGTH": "String Length",
+      "ARRAY_LENGTH": "Array Length",
+      "SUBSTRING": "Substring",
+      "ARRAY_JOIN": "Array Join",
+      "TO_UPPER": "To Upper Case",
+      "TO_LOWER": "To Lower Case",
+      "TRIM": "Trim",
+      "EQUAL": "Equal",
+      "NOT_EQUAL": "Not Equal",
+      "GREATER_THAN": "Greater Than",
+      "LESS_THAN": "Less Than",
+      "GREATER_EQUAL": "Greater Than or Equal",
+      "LESS_EQUAL": "Less Than or Equal",
+      "AND": "And",
+      "OR": "Or",
+      "NOT": "Not",
+      "ADD_DURATION": "Add Duration",
+      "SUBTRACT_DURATION": "Subtract Duration",
+      "START_OF": "Start Of",
+      "END_OF": "End Of"
+    }
+  },
+  "zh": {
+    "label": {
+      "noFormula": "暂无可用公式",
+      "operator": "运算符",
+      "durations": "时间段",
+      "targetType": "目标类型",
+      "reference": "引用"
+    },
+    "placeholder": {
+      "operator": "请选择运算符...",
+      "targetType": "请选择目标类型..."
+    },
+    "parameter": {
+      "value": "值",
+      "value1": "值1",
+      "value2": "值2",
+      "array": "数组",
+      "joinDelimiter": "连接分隔符",
+      "substringStart": "起始位置",
+      "substringEnd": "结束位置"
+    },
+    "operator": {
+      "GET_JSON_VALUE": "获取JSON值",
+      "GET_JSON_ARRAY": "获取JSON数组",
+      "GET_JSON_OBJECT": "获取JSON对象",
+      "ADD": "加",
+      "SUBTRACT": "减",
+      "MULTIPLY": "乘",
+      "DIVIDE": "除",
+      "MOD": "取余",
+      "POWER": "幂",
+      "ROUND": "四舍五入",
+      "FLOOR": "向下取整",
+      "CEIL": "向上取整",
+      "ABS": "绝对值",
+      "NEGATE": "取反",
+      "STRING_LENGTH": "字符串长度",
+      "ARRAY_LENGTH": "数组长度",
+      "SUBSTRING": "子字符串",
+      "ARRAY_JOIN": "数组连接",
+      "TO_UPPER": "转大写",
+      "TO_LOWER": "转小写",
+      "TRIM": "去空格",
+      "EQUAL": "等于",
+      "NOT_EQUAL": "不等于",
+      "GREATER_THAN": "大于",
+      "LESS_THAN": "小于",
+      "GREATER_EQUAL": "大于等于",
+      "LESS_EQUAL": "小于等于",
+      "AND": "与",
+      "OR": "或",
+      "NOT": "非",
+      "ADD_DURATION": "增加时间",
+      "SUBTRACT_DURATION": "减少时间",
+      "START_OF": "开始于",
+      "END_OF": "结束于"
+    }
+  }
+}

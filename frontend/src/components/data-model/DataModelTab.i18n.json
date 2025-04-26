@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": {
+      "dataModel": "Data Model",
+      "dataSetting": "Data Setting",
+      "addModel": "Add Model",
+      "editPermissions": "Edit Permissions",
+      "editConstraints": "Edit Constraints",
+      "delete": "Delete",
+      "columns": "Columns",
+      "relations": "Relations"
+    },
+    "warning": {
+      "confirm": "Are you sure you want to delete",
+      "table": "table",
+      "also": "Also",
+      "relation": "relations will be deleted"
+    }
+  },
+  "zh": {
+    "title": {
+      "dataModel": "数据模型",
+      "dataSetting": "数据设置",
+      "addModel": "添加模型",
+      "editPermissions": "编辑权限",
+      "editConstraints": "编辑约束",
+      "delete": "删除",
+      "columns": "列",
+      "relations": "关系"
+    },
+    "warning": {
+      "confirm": "确定要删除",
+      "table": "表",
+      "also": "同时",
+      "relation": "关系将被删除"
+    }
+  }
+}

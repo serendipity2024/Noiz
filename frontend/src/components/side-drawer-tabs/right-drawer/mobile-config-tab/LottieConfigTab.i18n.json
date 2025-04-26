@@ -1,0 +1,20 @@
+{
+  "en": {
+    "label": {
+      "loop": "Loop",
+      "autoplay": "Autoplay",
+      "upload": "Upload Animation",
+      "onComplete": "On Complete",
+      "onLoopComplete": "On Loop Complete"
+    }
+  },
+  "zh": {
+    "label": {
+      "loop": "循环播放",
+      "autoplay": "自动播放",
+      "upload": "上传动画",
+      "onComplete": "播放完成时",
+      "onLoopComplete": "循环完成时"
+    }
+  }
+}

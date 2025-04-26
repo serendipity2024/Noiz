@@ -1,0 +1,435 @@
+.table {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  list-style: none;
+  position: relative;
+  clear: both;
+}
+
+.tableWrapper {
+  zoom: 1;
+}
+
+.tableWrapper::before,
+.tableWrapper::after {
+  display: table;
+  content: '';
+}
+
+.tableWrapper::after {
+  clear: both;
+}
+
+.tableTitle {
+  padding: 16px 0;
+  position: relative;
+  top: 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.tableFooter {
+  padding: 16px 0;
+  position: relative;
+  bottom: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.tableContent {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tableScroll {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.tableScrollHorizontal {
+  overflow-x: auto;
+}
+
+.tableHeader {
+  overflow: hidden;
+  background: #fafafa;
+  border-radius: 4px 4px 0 0;
+}
+
+.tableBody {
+  overflow: auto;
+}
+
+.tableFixed {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.tableFixedLeft {
+  left: 0;
+  box-shadow: 6px 0 6px -4px rgba(0, 0, 0, 0.15);
+}
+
+.tableFixedRight {
+  right: 0;
+  box-shadow: -6px 0 6px -4px rgba(0, 0, 0, 0.15);
+}
+
+.tableFixedHeader {
+  overflow: hidden;
+}
+
+.tableFixedBody {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.tableFixedTable {
+  width: auto;
+  background: #fff;
+}
+
+.tableExpandIcon {
+  cursor: pointer;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  line-height: 14px;
+  border: 1px solid #e8e8e8;
+  user-select: none;
+  background: #fff;
+}
+
+.tableExpandIconCell {
+  width: 50px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.tableRowExpanded::after {
+  content: '-';
+}
+
+.tableRowCollapsed::after {
+  content: '+';
+}
+
+.tableRowSpaced {
+  visibility: hidden;
+}
+
+.tableRowExpanded,
+.tableRowCollapsed {
+  margin-right: 8px;
+}
+
+.tableFixedLeft,
+.tableFixedRight {
+  .tableExpandIcon {
+    margin: -5px 0;
+  }
+}
+
+.tableMain {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.tableFixed {
+  .tableMain {
+    border-radius: 0;
+  }
+}
+
+.tableMainSmall {
+  .tableCell {
+    padding: 8px;
+  }
+}
+
+.tableCell {
+  padding: 16px;
+  border-bottom: 1px solid #e8e8e8;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.tableHeader {
+  .tableCell {
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    text-align: left;
+  }
+}
+
+.tableRow {
+  transition: all 0.3s, height 0s;
+}
+
+.tableRow:hover {
+  .tableCell {
+    background: #e6f7ff;
+  }
+}
+
+.tableRowSelected {
+  .tableCell {
+    background: #e6f7ff;
+  }
+}
+
+.tableColumnSorted {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.tableColumnFiltered {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.tableColumnSortIcon {
+  position: relative;
+  margin-left: 8px;
+  color: #bfbfbf;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+.tableColumnSortIconAsc {
+  color: #1890ff;
+}
+
+.tableColumnSortIconDesc {
+  color: #1890ff;
+}
+
+.tableColumnFilterIcon {
+  position: relative;
+  margin-left: 8px;
+  color: #bfbfbf;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tableColumnFilterIconFiltered {
+  color: #1890ff;
+}
+
+.tableColumnFilterDropdown {
+  min-width: 120px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tableColumnFilterDropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tableColumnFilterDropdownItem:hover {
+  background: #e6f7ff;
+}
+
+.tableColumnFilterDropdownItemSelected {
+  background: #e6f7ff;
+  color: #1890ff;
+}
+
+.tableColumnFilterDropdownButtons {
+  padding: 8px;
+  border-top: 1px solid #e8e8e8;
+  text-align: right;
+}
+
+.tableEmpty {
+  padding: 16px;
+  text-align: center;
+}
+
+.tablePlaceholder {
+  padding: 16px 8px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+}
+
+.tableBordered {
+  .tableMain {
+    border: 1px solid #e8e8e8;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .tableCell {
+    border-right: 1px solid #e8e8e8;
+  }
+
+  .tableFixedLeft {
+    .tableCell {
+      border-right: 1px solid #e8e8e8;
+    }
+  }
+
+  .tableHeader {
+    border-right: 1px solid #e8e8e8;
+  }
+
+  .tableFixedRight {
+    border-right: 1px solid #e8e8e8;
+  }
+
+  .tableBody {
+    tr:last-child {
+      td {
+        border-bottom: 1px solid #e8e8e8;
+      }
+    }
+  }
+}
+
+.tablePagination {
+  margin: 16px 0;
+  text-align: right;
+}
+
+// Dark theme
+.dark {
+  color: rgba(255, 255, 255, 0.65);
+
+  .tableHeader {
+    background: #1f1f1f;
+
+    .tableCell {
+      background: #1f1f1f;
+      color: rgba(255, 255, 255, 0.85);
+      border-bottom: 1px solid #303030;
+    }
+  }
+
+  .tableCell {
+    background: #141414;
+    border-bottom: 1px solid #303030;
+  }
+
+  .tableRow:hover {
+    .tableCell {
+      background: #1f1f1f;
+    }
+  }
+
+  .tableRowSelected {
+    .tableCell {
+      background: #1f1f1f;
+    }
+  }
+
+  .tableColumnSorted {
+    background: rgba(255, 255, 255, 0.01);
+  }
+
+  .tableColumnFiltered {
+    background: rgba(255, 255, 255, 0.01);
+  }
+
+  .tableColumnSortIcon {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .tableColumnSortIconAsc,
+  .tableColumnSortIconDesc {
+    color: #ffa522;
+  }
+
+  .tableColumnFilterIcon {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .tableColumnFilterIconFiltered {
+    color: #ffa522;
+  }
+
+  .tableColumnFilterDropdown {
+    background: #1f1f1f;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  }
+
+  .tableColumnFilterDropdownItem:hover {
+    background: #303030;
+  }
+
+  .tableColumnFilterDropdownItemSelected {
+    background: #303030;
+    color: #ffa522;
+  }
+
+  .tableColumnFilterDropdownButtons {
+    border-top: 1px solid #303030;
+  }
+
+  .tablePlaceholder {
+    background: #141414;
+    border-bottom: 1px solid #303030;
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .tableBordered {
+    .tableMain {
+      border: 1px solid #303030;
+      border-right: 0;
+      border-bottom: 0;
+    }
+
+    .tableCell {
+      border-right: 1px solid #303030;
+    }
+
+    .tableFixedLeft {
+      .tableCell {
+        border-right: 1px solid #303030;
+      }
+    }
+
+    .tableHeader {
+      border-right: 1px solid #303030;
+    }
+
+    .tableFixedRight {
+      border-right: 1px solid #303030;
+    }
+
+    .tableBody {
+      tr:last-child {
+        td {
+          border-bottom: 1px solid #303030;
+        }
+      }
+    }
+  }
+
+  .tableExpandIcon {
+    border: 1px solid #303030;
+    background: #141414;
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .tableFixedLeft {
+    box-shadow: 6px 0 6px -4px rgba(0, 0, 0, 0.45);
+  }
+
+  .tableFixedRight {
+    box-shadow: -6px 0 6px -4px rgba(0, 0, 0, 0.45);
+  }
+}

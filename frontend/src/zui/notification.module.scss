@@ -1,0 +1,151 @@
+.notification {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  position: fixed;
+  z-index: 1010;
+}
+
+.notice {
+  padding: 16px 24px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.noticeMessage {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.noticeDescription {
+  font-size: 14px;
+}
+
+.noticeWithIcon .noticeMessage {
+  font-size: 16px;
+  margin-left: 48px;
+  margin-bottom: 4px;
+}
+
+.noticeWithIcon .noticeDescription {
+  margin-left: 48px;
+  font-size: 14px;
+}
+
+.noticeIcon {
+  position: absolute;
+  margin-left: 4px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.noticeIconSuccess {
+  color: #52c41a;
+}
+
+.noticeIconInfo {
+  color: #1890ff;
+}
+
+.noticeIconWarning {
+  color: #faad14;
+}
+
+.noticeIconError {
+  color: #f5222d;
+}
+
+.noticeClose {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  color: rgba(0, 0, 0, 0.45);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0;
+}
+
+.noticeClose:hover {
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.noticeBtn {
+  float: right;
+  margin-top: 16px;
+}
+
+.topRight {
+  top: 24px;
+  right: 24px;
+}
+
+.bottomRight {
+  bottom: 24px;
+  right: 24px;
+}
+
+.topLeft {
+  top: 24px;
+  left: 24px;
+}
+
+.bottomLeft {
+  bottom: 24px;
+  left: 24px;
+}
+
+.dark {
+  .notice {
+    background-color: #202020;
+    color: #f8f8f8;
+  }
+
+  .noticeMessage {
+    color: #f8f8f8;
+  }
+
+  .noticeDescription {
+    color: #8f8f8f;
+  }
+
+  .noticeClose {
+    color: #8f8f8f;
+  }
+
+  .noticeClose:hover {
+    color: #f8f8f8;
+  }
+
+  .noticeIconSuccess {
+    color: #73d13d;
+  }
+
+  .noticeIconInfo {
+    color: #40a9ff;
+  }
+
+  .noticeIconWarning {
+    color: #ffc53d;
+  }
+
+  .noticeIconError {
+    color: #ff4d4f;
+  }
+}

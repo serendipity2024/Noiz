@@ -1,0 +1,84 @@
+.publishSteps {
+    &.ant-steps-vertical.ant-steps-dot {
+        .ant-steps-item {
+            height: 60px;
+
+            .ant-steps-item-container> {
+                .ant-steps-item-tail {
+                    &:after {
+                        background-color: #333;
+                        width: 3px;
+                    }
+
+                    top: -3px;
+                    left: -6px;
+                    height: 120%;
+                }
+
+                .ant-steps-item-icon {
+                    margin-top: 5px;
+                    margin-right: 40px;
+                }
+
+                .ant-steps-item-content {
+                    width: auto;
+
+                    >.ant-steps-item-title {
+                        font-size: 14px;
+                        color: #333;
+                    }
+                }
+            }
+        }
+
+        .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+            color: #fff;
+        }
+
+        .ant-steps-item-finish>.ant-steps-item-container> {
+            .ant-steps-item-tail:after {
+                background-color: #ffa522;
+            }
+
+            .ant-steps-item-content>.ant-steps-item-title {
+                color: #ffa522;
+            }
+        }
+    }
+
+    &.ant-steps-horizontal.ant-steps-dot {
+        .ant-steps-item .ant-steps-item-container> {
+            .ant-steps-item-tail {
+                &:after {
+                    background-color: #333;
+                    height: 3px;
+                }
+
+                width: 105%;
+            }
+
+            .ant-steps-item-icon {
+                margin-top: -3px;
+            }
+
+            .ant-steps-item-content>.ant-steps-item-title {
+                font-size: 14px;
+                color: #333;
+            }
+        }
+
+        .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+            color: #fff;
+        }
+
+        .ant-steps-item-finish>.ant-steps-item-container> {
+            .ant-steps-item-tail:after {
+                background-color: #ffa522;
+            }
+
+            .ant-steps-item-content>.ant-steps-item-title {
+                color: #ffa522;
+            }
+        }
+    }
+}

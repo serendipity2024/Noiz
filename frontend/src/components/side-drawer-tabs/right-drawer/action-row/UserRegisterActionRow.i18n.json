@@ -1,0 +1,30 @@
+{
+  "en": {
+    "label": {
+      "add": "Add Registration Field"
+    },
+    "field": {
+      "username": "Username",
+      "password": "Password",
+      "email": "Email",
+      "phone": "Phone Number",
+      "nickname": "Nickname",
+      "verificationCode": "Verification Code",
+      "confirmPassword": "Confirm Password"
+    }
+  },
+  "zh": {
+    "label": {
+      "add": "添加注册字段"
+    },
+    "field": {
+      "username": "用户名",
+      "password": "密码",
+      "email": "邮箱",
+      "phone": "手机号",
+      "nickname": "昵称",
+      "verificationCode": "验证码",
+      "confirmPassword": "确认密码"
+    }
+  }
+}

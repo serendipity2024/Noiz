@@ -1,0 +1,24 @@
+{
+  "en": {
+    "menuCategories": {
+      "popular": "Popular",
+      "input": "Input",
+      "list": "List",
+      "container": "Container",
+      "media": "Media",
+      "componentTemplate": "Component Template",
+      "wechatDedicated": "WeChat Official Account"
+    }
+  },
+  "zh": {
+    "menuCategories": {
+      "popular": "常用",
+      "input": "输入",
+      "list": "列表",
+      "container": "容器",
+      "media": "媒体",
+      "componentTemplate": "组件模板",
+      "wechatDedicated": "微信公众号"
+    }
+  }
+}

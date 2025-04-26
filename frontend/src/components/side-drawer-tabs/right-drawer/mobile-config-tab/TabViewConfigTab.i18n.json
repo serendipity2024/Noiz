@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "mode": "Mode",
+      "selectedIndex": "Selected Index",
+      "tabs": "Tabs",
+      "addTab": "Add Tab"
+    },
+    "mode": {
+      "CUSTOM": "Custom",
+      "DEFAULT": "Default"
+    }
+  },
+  "zh": {
+    "label": {
+      "mode": "模式",
+      "selectedIndex": "选中索引",
+      "tabs": "标签页",
+      "addTab": "添加标签页"
+    },
+    "mode": {
+      "CUSTOM": "自定义",
+      "DEFAULT": "默认"
+    }
+  }
+}

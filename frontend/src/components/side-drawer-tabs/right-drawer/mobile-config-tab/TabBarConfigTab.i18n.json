@@ -1,0 +1,26 @@
+{
+  "en": {
+    "label": {
+      "tabBar": "Tab Bar",
+      "selectedColor": "Selected Color"
+    },
+    "tab": {
+      "targetScreen": "Target Screen",
+      "none": "None",
+      "icon": "Icon",
+      "selectedIcon": "Selected Icon"
+    }
+  },
+  "zh": {
+    "label": {
+      "tabBar": "标签栏",
+      "selectedColor": "选中颜色"
+    },
+    "tab": {
+      "targetScreen": "目标页面",
+      "none": "无",
+      "icon": "图标",
+      "selectedIcon": "选中图标"
+    }
+  }
+}

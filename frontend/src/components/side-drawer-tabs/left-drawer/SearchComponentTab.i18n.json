@@ -1,0 +1,10 @@
+{
+  "en": {
+    "searchById": "Search by ID",
+    "searchByName": "Search by Name"
+  },
+  "zh": {
+    "searchById": "按ID搜索",
+    "searchByName": "按名称搜索"
+  }
+}

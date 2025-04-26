@@ -1,0 +1,154 @@
+.container {
+    display: block;
+    isolation: isolate;
+
+    >.collapse {
+        border-radius: 6px;
+        overflow: hidden;
+        background: #202020;
+        border: none;
+
+        >.ant-collapse-item {
+            border: none;
+            border-radius: 0;
+
+            > {
+                .ant-collapse-header {
+                    width: 100%;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    color: #ffa522;
+                    display: flex;
+                    padding: 0 0 0 40px;
+                    height: 40px;
+                    line-height: 40px;
+
+                    > {
+                        .ant-collapse-arrow {
+                            position: absolute;
+                            top: 14px;
+                            left: 14px;
+                            display: block;
+                            font-size: 12px;
+                            width: 12px;
+                            height: 12px;
+                        }
+
+                        .ant-collapse-extra {
+                            flex: none;
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .textTitle {
+                        flex: auto;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                .ant-collapse-content {
+                    background: transparent;
+                    border-top: none;
+
+                    >.ant-collapse-content-box {
+                        padding: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.bordered>.collapse {
+        border: 1px solid #ffa522;
+
+        >.ant-collapse-item {
+            border-bottom: 1px solid #ffa522;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
+    &.noBackground>.collapse {
+        background: transparent;
+    }
+
+    &.noContentPadding>.collapse>.ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+        padding: 0;
+    }
+
+    &.noHeaderHighlight>.collapse>.ant-collapse-item>.ant-collapse-header {
+        color: #f8f8f8;
+
+        .anticon svg {
+            color: #ffa522;
+        }
+    }
+
+    &.orangeContent>.collapse>.ant-collapse-item>.ant-collapse-content {
+        color: #ffa522;
+    }
+
+    &.sizeLarge {
+        >.collapse>.ant-collapse-item>.ant-collapse-header {
+            display: flex;
+            padding-left: 56px;
+            height: 56px;
+            line-height: 56px;
+            font-size: 20px;
+
+            > {
+                .ant-collapse-arrow {
+                    position: absolute;
+                    top: 22px;
+                    left: 22px;
+                    display: block;
+                    font-size: 12px;
+                    width: 12px;
+                    height: 12px;
+                }
+
+                .ant-collapse-extra {
+                    flex: none;
+                    width: 56px;
+                    height: 56px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        >.collapse>.ant-collapse-item {
+            &.noIcon>.ant-collapse-header {
+                padding-right: 16px;
+            }
+
+            &.noArrow>.ant-collapse-header {
+                padding-left: 16px;
+            }
+
+            &.customItem>.ant-collapse-header {
+                padding: 0 16px;
+            }
+        }
+    }
+
+    >.collapse>.ant-collapse-item {
+        &.noIcon>.ant-collapse-header {
+            padding-right: 12px;
+        }
+
+        &.noArrow>.ant-collapse-header {
+            padding-left: 12px;
+        }
+
+        &.customItem>.ant-collapse-header {
+            padding: 0 12px;
+        }
+    }
+}

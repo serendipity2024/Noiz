@@ -1,0 +1,14 @@
+{
+  "en": {
+    "label": {
+      "share": "Share",
+      "copyLink": "Copy Link"
+    }
+  },
+  "zh": {
+    "label": {
+      "share": "分享",
+      "copyLink": "复制链接"
+    }
+  }
+}

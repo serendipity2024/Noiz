@@ -1,0 +1,12 @@
+{
+  "en": {
+    "label": {
+      "failure": "Authorization Failure"
+    }
+  },
+  "zh": {
+    "label": {
+      "failure": "授权失败"
+    }
+  }
+}

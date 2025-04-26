@@ -1,0 +1,398 @@
+.upload {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  outline: 0;
+}
+
+.uploadBtn {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.uploadInput {
+  cursor: pointer;
+}
+
+.uploadSelect {
+  display: inline-block;
+}
+
+.uploadDisabled {
+  cursor: not-allowed;
+}
+
+.uploadPictureCard {
+  i {
+    font-size: 32px;
+    color: #999;
+  }
+
+  .uploadText {
+    margin-top: 8px;
+    color: #666;
+  }
+}
+
+.uploadDrag {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: #1890ff;
+  }
+
+  &.uploadDragHover {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+}
+
+.uploadDragContainer {
+  padding: 16px 0;
+}
+
+.uploadDragIcon {
+  margin-bottom: 8px;
+  color: #40a9ff;
+  font-size: 48px;
+}
+
+.uploadDragText {
+  margin: 0 0 4px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+}
+
+.uploadDragHint {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.uploadList {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  zoom: 1;
+}
+
+.uploadListItem {
+  position: relative;
+  height: 22px;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 22px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #f5f5f5;
+
+    .uploadListItemInfo {
+      background-color: transparent;
+    }
+
+    .uploadListItemActions {
+      opacity: 1;
+    }
+  }
+
+  &.uploadListItemError {
+    .uploadListItemName {
+      color: #f5222d;
+    }
+
+    .uploadListItemStatus {
+      color: #f5222d;
+    }
+  }
+}
+
+.uploadListItemInfo {
+  position: relative;
+  height: 100%;
+  padding: 0 12px 0 4px;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.uploadListItemName {
+  display: inline-block;
+  width: 100%;
+  padding-left: 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.uploadListItemStatus {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 22px;
+}
+
+.uploadListItemActions {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  .uploadListItemAction {
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+}
+
+.uploadListItemProgress {
+  position: absolute;
+  bottom: -12px;
+  width: 100%;
+  padding-left: 26px;
+  font-size: 14px;
+  line-height: 0;
+}
+
+// Picture style
+.uploadListPicture {
+  .uploadListItem {
+    position: relative;
+    height: 66px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-top: 8px;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .uploadListItemInfo {
+    padding: 0;
+  }
+
+  .uploadListItemThumbnail {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 48px;
+    height: 48px;
+    line-height: 54px;
+    text-align: center;
+    opacity: 0.8;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .uploadListItemName {
+    position: absolute;
+    top: 8px;
+    left: 64px;
+    padding-left: 0;
+  }
+
+  .uploadListItemStatus {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    line-height: 22px;
+  }
+
+  .uploadListItemActions {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    line-height: 22px;
+  }
+
+  .uploadListItemProgress {
+    position: absolute;
+    bottom: 8px;
+    left: 64px;
+    width: calc(100% - 72px);
+    padding-left: 0;
+  }
+}
+
+// Picture card style
+.uploadListPictureCard {
+  .uploadListItem {
+    float: left;
+    width: 104px;
+    height: 104px;
+    margin: 0 8px 8px 0;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+  }
+
+  .uploadListItemInfo {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    &::before {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: all 0.3s;
+      content: ' ';
+    }
+
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+
+      .uploadListItemActions {
+        opacity: 1;
+      }
+    }
+  }
+
+  .uploadListItemThumbnail {
+    position: static;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .uploadListItemActions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s;
+
+    .uploadListItemAction {
+      z-index: 10;
+      width: 18px;
+      height: 18px;
+      margin: 0 4px;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 18px;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .uploadListItemProgress {
+    bottom: 14px;
+    width: calc(100% - 16px);
+    padding-left: 0;
+  }
+}
+
+// Dark theme
+.dark {
+  color: #f8f8f8;
+
+  .uploadDrag {
+    background: #202020;
+    border-color: #434343;
+
+    &:hover {
+      border-color: #ffa522;
+    }
+
+    &.uploadDragHover {
+      border-color: #ffa522;
+      box-shadow: 0 0 0 2px rgba(255, 165, 34, 0.2);
+    }
+  }
+
+  .uploadDragIcon {
+    color: #ffa522;
+  }
+
+  .uploadDragText {
+    color: #f8f8f8;
+  }
+
+  .uploadDragHint {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .uploadListItem {
+    &:hover {
+      background-color: #303030;
+    }
+
+    &.uploadListItemError {
+      .uploadListItemName {
+        color: #ff4d4f;
+      }
+
+      .uploadListItemStatus {
+        color: #ff4d4f;
+      }
+    }
+  }
+
+  .uploadListItemStatus {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .uploadListItemActions {
+    .uploadListItemAction {
+      color: rgba(255, 255, 255, 0.45);
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.85);
+      }
+    }
+  }
+
+  .uploadListPicture {
+    .uploadListItem {
+      border-color: #434343;
+    }
+  }
+
+  .uploadListPictureCard {
+    .uploadListItem {
+      border-color: #434343;
+    }
+  }
+}

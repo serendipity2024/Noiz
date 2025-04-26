@@ -1,0 +1,20 @@
+{
+  "en": {
+    "addRelation": "Add Relation",
+    "editRelation": "Edit Relation",
+    "nameInSource": "Source Name",
+    "type": "Type",
+    "nameInTarget": "Target Name",
+    "targetTable": "Target Table",
+    "name": "Name"
+  },
+  "zh": {
+    "addRelation": "添加关系",
+    "editRelation": "编辑关系",
+    "nameInSource": "源名称",
+    "type": "类型",
+    "nameInTarget": "目标名称",
+    "targetTable": "目标表",
+    "name": "名称"
+  }
+}

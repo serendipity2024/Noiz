@@ -1,0 +1,20 @@
+{
+  "en": {
+    "label": {
+      "afterUpload": "After Upload",
+      "assignFileInfo": "Save File Info To"
+    },
+    "placeholder": {
+      "assignFileInfo": "Select target file info variable..."
+    }
+  },
+  "zh": {
+    "label": {
+      "afterUpload": "上传完成后",
+      "assignFileInfo": "保存文件信息至"
+    },
+    "placeholder": {
+      "assignFileInfo": "选择目标文件信息变量..."
+    }
+  }
+}

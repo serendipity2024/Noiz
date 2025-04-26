@@ -1,0 +1,62 @@
+.container {
+    margin: 24px;
+    overflow-y: scroll;
+    height: 95%;
+}
+
+.itemMargin {
+    margin-bottom: 40px;
+
+    .ant-input {
+
+        &:-ms-input-placeholder,
+        &:placeholder-shown {
+            background-color: #333;
+            caret-color: #fff;
+        }
+
+        color: #fff;
+        background-color: #333;
+    }
+}
+
+.dataContainer {
+    background-color: #202020;
+    border-radius: 8px;
+    padding: 24px;
+    flex: auto;
+
+    :first-child {
+        padding-right: 40px;
+    }
+}
+
+.dataItem {
+    flex: auto;
+}
+
+.title {
+    color: #ffa522;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.introduceTitle {
+    color: #8f8f8f;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.input {
+    background: #333;
+    border-radius: 4px;
+    color: #f8f8f8;
+    pointer-events: none;
+    font-size: 16px;
+}
+
+.placeholderContainer {
+    height: 50px;
+    width: 100%;
+    background-color: bisque;
+}

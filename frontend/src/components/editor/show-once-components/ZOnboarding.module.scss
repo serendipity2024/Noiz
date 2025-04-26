@@ -1,0 +1,129 @@
+.modal {
+    padding: 0;
+
+    .ant-modal-body {
+        padding: 0;
+        background: #202020;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+    .ant-modal-content {
+        height: auto;
+        border-radius: 24px;
+        background-color: #333;
+    }
+
+    .ant-divider-horizontal {
+        margin: 0;
+    }
+
+    .ant-carousel {
+        .slick-dots li {
+            &.slick-active button {
+                background-color: #ffa522;
+                border: 3px solid transparent;
+            }
+
+            button {
+
+                &:focus,
+                &:hover {
+                    border: 3px solid transparent;
+                }
+
+                width: 16px;
+                height: 16px;
+                background-color: #f8f8f8;
+                border-radius: 50%;
+                border: 5px solid transparent;
+                background-clip: padding-box;
+            }
+
+            &.slick-active {
+                width: 16px;
+            }
+
+            &.slick-activebutton {
+                background-color: #ffa522;
+            }
+        }
+
+        .slick-dots-bottom {
+            margin: auto;
+        }
+    }
+
+    .header {
+        height: 96px;
+        padding: 36px 40px 40px;
+
+        .title {
+            font-size: 16px;
+            color: #f8f8f8;
+        }
+
+        .skip {
+            width: 92px;
+            font-size: 16px;
+            background-color: transparent;
+            color: #8f8f8f;
+            border: none;
+        }
+    }
+
+    .divider {
+        background-color: #555;
+        height: 2px;
+    }
+
+    .expend {
+        height: 40px;
+    }
+
+    .lottieContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ant-btn {
+            padding: 0;
+            border-color: transparent;
+
+            &:active,
+            &:focus {
+                color: transparent;
+            }
+
+            &:not([disabled]):hover {
+                border: 1px solid #ffa522;
+            }
+        }
+
+        .lottie {
+            height: 70%;
+            width: 70%;
+            padding: 40px 0;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .lottieButton {
+            width: 24px;
+            height: 70px;
+            background-color: #333;
+        }
+
+        .titleContainer {
+            width: 100%;
+            height: 10%;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+
+            .guideTitle__uTTTC {
+                height: 40%;
+            }
+        }
+    }
+}

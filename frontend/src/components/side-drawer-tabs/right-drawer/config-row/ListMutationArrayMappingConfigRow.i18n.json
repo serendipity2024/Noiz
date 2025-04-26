@@ -1,0 +1,12 @@
+{
+  "en": {
+    "placeholder": {
+      "select": "Please select array element field..."
+    }
+  },
+  "zh": {
+    "placeholder": {
+      "select": "请选择数组元素字段..."
+    }
+  }
+}

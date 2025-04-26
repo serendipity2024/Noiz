@@ -1,0 +1,52 @@
+{
+  "en": {
+    "label": {
+      "source": "Data Source",
+      "mapping": "Field Mapping",
+      "field": "Field",
+      "type": "Type",
+      "value": "Value"
+    },
+    "source": {
+      "create": "Create New",
+      "mapping": "Data Mapping"
+    },
+    "type": {
+      "TEXT": "Text",
+      "NUMBER": "Number",
+      "BOOLEAN": "Boolean",
+      "DATE": "Date",
+      "ARRAY": "Array",
+      "OBJECT": "Object"
+    },
+    "placeholder": {
+      "selectField": "Select field...",
+      "selectType": "Select type..."
+    }
+  },
+  "zh": {
+    "label": {
+      "source": "数据来源",
+      "mapping": "字段映射",
+      "field": "字段",
+      "type": "类型",
+      "value": "值"
+    },
+    "source": {
+      "create": "新建",
+      "mapping": "数据映射"
+    },
+    "type": {
+      "TEXT": "文本",
+      "NUMBER": "数字",
+      "BOOLEAN": "布尔值",
+      "DATE": "日期",
+      "ARRAY": "数组",
+      "OBJECT": "对象"
+    },
+    "placeholder": {
+      "selectField": "选择字段...",
+      "selectType": "选择类型..."
+    }
+  }
+}

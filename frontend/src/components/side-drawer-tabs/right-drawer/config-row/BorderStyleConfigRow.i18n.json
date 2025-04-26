@@ -1,0 +1,28 @@
+{
+  "en": {
+    "label": {
+      "edit": "Border Style",
+      "style": "Border Style",
+      "color": "Border Color",
+      "width": "Border Width",
+      "radius": "Border Radius"
+    },
+    "style": {
+      "None": "None",
+      "solid": "Solid"
+    }
+  },
+  "zh": {
+    "label": {
+      "edit": "边框样式",
+      "style": "边框类型",
+      "color": "边框颜色",
+      "width": "边框宽度",
+      "radius": "圆角大小"
+    },
+    "style": {
+      "None": "无边框",
+      "solid": "实线"
+    }
+  }
+}
