@@ -24,7 +24,10 @@ interface Props {
 
 export function TemplatePreview(props: Props): NullableReactElement {
   const { visible, onCancel, onProjectCreate } = props;
-  const { localizedContent: content } = useLocale(i18n);
+  const { localizedContent: content } = useLocale({
+    EN: i18n.en,
+    ZH: i18n.zh
+  });
   const [blankVisible, setBlankVisible] = useState(false);
   const templateData = useQuery<GetProjectTemplate>(GQL_GET_PROJECT_TEMPLATE, {
     variables: {
@@ -67,17 +70,13 @@ export function TemplatePreview(props: Props): NullableReactElement {
                     setTemplateDetailData(item?.node ?? undefined);
                   }}
                 >
-                  <Card.Meta
-                    description={
-                      <div className={cssModule.descriptionContainer}>
-                        <div className={cssModule.descriptionTitle}>{item?.node?.name}</div>
-                        <div className={cssModule.descriptionContent}>
-                          {content.detail}
-                          <img className={cssModule.rightIcon} alt="" src={rightArrow} />
-                        </div>
-                      </div>
-                    }
-                  />
+                  <div className={cssModule.descriptionContainer}>
+                    <div className={cssModule.descriptionTitle}>{item?.node?.name}</div>
+                    <div className={cssModule.descriptionContent}>
+                      {content.detail}
+                      <img className={cssModule.rightIcon} alt="" src={rightArrow} />
+                    </div>
+                  </div>
                 </Card>
               </Col>
             ))}

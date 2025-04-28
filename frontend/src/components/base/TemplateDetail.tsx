@@ -1,6 +1,6 @@
 import { ArrowLeftOutlined, CloseOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
-import { Divider, Modal, Image, Button, Space, Popover } from '../../zui';
+import { Modal, Button, Divider, Image, Space, Popover } from '../../zui';
 import { GetProjectTemplate_projectTemplates_edges_node } from '../../graphQL/__generated__/GetProjectTemplate';
 import { NullableReactElement, ShortId } from '../../shared/type-definition/ZTypes';
 import cssModule from './TemplateDetail.module.scss';
@@ -22,7 +22,10 @@ const PREVIEW_IMAGE_WIDTH = '315px';
 
 export function TemplateDetail(props: Props): NullableReactElement {
   const { templateData, onCancel, onProjectCreate } = props;
-  const { localizedContent: content } = useLocale(i18n);
+  const { localizedContent: content } = useLocale({
+    EN: i18n.en,
+    ZH: i18n.zh
+  });
   const [visible, setVisible] = useState(false);
 
   return (
@@ -69,7 +72,6 @@ export function TemplateDetail(props: Props): NullableReactElement {
                     <div className={cssModule.popoverDescription}>{content.wechatScan}</div>
                   </div>
                 }
-                color={ZThemedColors.PRIMARY}
                 overlayClassName={cssModule.popover}
                 placement="bottom"
                 trigger="click"
@@ -84,7 +86,7 @@ export function TemplateDetail(props: Props): NullableReactElement {
             <div className={cssModule.imageGroup}>
               <span>
                 <Space size={40}>
-                  {templateData?.previewImages.map((image: any) => (
+                  {templateData?.previewImages?.map((image: any) => (
                     <Image width={PREVIEW_IMAGE_WIDTH} key={image.url} src={image.url} />
                   ))}
                 </Space>

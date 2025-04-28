@@ -17,7 +17,6 @@
     "@emotion/memoize": "^0.7.5",
     "@emotion/stylis": "^0.8.5",
     "@emotion/unitless": "^0.7.5",
-    "@functorz/ztype": "^1.0.0",
     "@icons/material": "^0.4.1",
     "@lottiefiles/react-lottie-player": "3.4.1",
     "@react-dnd/asap": "^4.0.0",

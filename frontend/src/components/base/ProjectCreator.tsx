@@ -24,7 +24,10 @@ export function ProjectCreator(props: Props): NullableReactElement {
   const onsubmit = () => {
     utf(UserFlow.CREATE_PROJECT)(exId, projectName, setLoading, onProjectCreate);
   };
-  const { localizedContent: content } = useLocale(i18n);
+  const { localizedContent: content } = useLocale({
+    EN: i18n.en,
+    ZH: i18n.zh
+  });
   return (
     <Modal
       visible={visible}
@@ -39,7 +42,7 @@ export function ProjectCreator(props: Props): NullableReactElement {
       </div>
       <ZInput
         value={projectName}
-        onChange={(str) => setProjectName(str.target.value)}
+        onChange={(value: string) => setProjectName(value)}
         className={cssModule.input}
       />
       <div className={cssModule.buttonContainer}>
